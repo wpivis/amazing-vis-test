@@ -8,9 +8,9 @@ function VisCompnent({ parameters }: { parameters: any }) {
   const { imgName, options, correctIndex } = parameters;
 
   return (
-    <div>
-      <Group>
-        <Image src={`./${imgName}`} alt="image" width={800} />
+    <Container>
+      <Group m={5} p={5} sx={{ border: '1px solid black', borderRadius: '5px' }}>
+        <Image src={`/gpt-expert/${imgName}`} alt="image" width={700} />
         <Stack mt="xs">
           {
                         options.map((option: string, index: number) => (
@@ -25,7 +25,7 @@ function VisCompnent({ parameters }: { parameters: any }) {
                     }
         </Stack>
       </Group>
-    </div>
+    </Container>
   );
 }
 

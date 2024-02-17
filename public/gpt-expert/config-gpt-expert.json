@@ -38,7 +38,7 @@
             "type": "react-component",
             "path": "gpt-vis/VisComponent.tsx",
             "parameters": {
-                "imgName": "demo.png",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
                 "options": [
                     "Approximately 43%",
                     "Approximately 17%",
