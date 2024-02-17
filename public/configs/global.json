@@ -11,7 +11,8 @@
         "VLAT-mini-randomized",
         "MVNV",
         "brush-interactions",
-        "fairness-jnd"
+        "fairness-jnd",
+        "gpt-expert"
     ],
     "configs": {
         "fairness-jnd": {
@@ -46,6 +47,9 @@
         },
         "brush-interactions": {
             "path": "brush-interactions/config.json"
+        },
+        "gpt-expert": {
+            "path": "gpt-expert/config-gpt-expert.json"
         }
     }
 }

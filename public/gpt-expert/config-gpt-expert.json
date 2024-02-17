@@ -1,0 +1,149 @@
+{
+    "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Experiment 1 for gpt-vis project. For expert participants",
+        "version": "pilot",
+        "authors": [
+            "The reVISit Team"
+        ],
+        "date": "2024-02-16",
+        "description": "An experiment to test gpt generated visualization questions",
+        "organizations": [
+            "Northwestern University",
+            "WPI"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "yding5@wpi.edu",
+        "helpTextPath": "gpt-expert/help.md",
+        "logoPath": "assets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "gpt-expert/introduction.md",
+            "response": []
+        },
+        "demo-trial": {
+            "meta": {
+                "difficulty": 1
+            },
+            "description": "demo trial",
+            "instruction": "Please answer the following questions",
+            "nextButtonLocation": "sidebar",
+
+            "type": "react-component",
+            "path": "gpt-vis/VisComponent.tsx",
+            "parameters": {
+                "imgName": "demo.png",
+                "options": [
+                    "Approximately 43%",
+                    "Approximately 17%",
+                    "Approximately 54%",
+                    "Approximately 31%"
+                ],
+                "correctIndex": 0
+            },
+
+            "response": [
+                {
+                    "id": "q1",
+                    "prompt": "Q1. How relevant is this item to assess people’s ability to carry out the visualization task [insert task name - you can get the task name from txt file name]?",
+                    "required": true,
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "preset": 4,
+                    "rightLabel": "Not relevant",
+                    "leftLabel": "Highly relevant"
+                },
+                {
+                    "id": "q2",
+                    "prompt": "Q2. Is it clear what the question asks for?",
+                    "required": true,
+                    "location": "belowStimulus",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ]
+                },
+                {
+                    "id": "q3",
+                    "prompt": "Q3. Is it possible to find the best answer from only the visualization, question stem, and the options?",
+                    "required": true,
+                    "location": "belowStimulus",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ]
+                },
+                {
+                    "id": "q4",
+                    "prompt": "Q4. Is the correct answer indeed correct?(The correct answer marked as green) ",
+                    "required": true,
+                    "location": "belowStimulus",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ]
+                },
+                {
+                    "id": "q5",
+                    "prompt": "Q5. Only If you answered “Yes” to Question 4: Is the highlighted answer the best option out of all the options?",
+                    "required": false,
+                    "location": "belowStimulus",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ]
+                },
+                {
+                    "id": "q6",
+                    "prompt": "Q6. Any Comments?",
+                    "required": false,
+                    "location": "belowStimulus",
+                    "type": "longText",
+                    "placeholder": "You may input your comments here."
+                }
+            ]
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "demo-trial"
+
+        ]
+    }
+}
