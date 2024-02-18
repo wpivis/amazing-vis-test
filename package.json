@@ -11,7 +11,8 @@
     "postinstall": "husky install",
     "generate-schema:StudyConfig": "ts-json-schema-generator --path src/parser/types.ts --out src/parser/StudyConfigSchema.json --type StudyConfig",
     "generate-schema:GlobalConfig": "ts-json-schema-generator --path src/parser/types.ts --out src/parser/GlobalConfigSchema.json --type GlobalConfig",
-    "test": "VITE_STORAGE_ENGINE=localStorage playwright test"
+    "test": "VITE_STORAGE_ENGINE=localStorage playwright test",
+    "deploy": "gh-pages -d dist"
   },
   "lint-staged": {
     "*.{tsx,jsx,ts,js}": "yarn lint"
@@ -36,6 +37,7 @@
     "d3": "^7.8.2",
     "eslint-config-airbnb": "^19.0.4",
     "firebase": "^10.7.0",
+    "gh-pages": "^6.1.1",
     "hjson": "^3.2.2",
     "localforage": "^1.10.0",
     "lodash.debounce": "^4.0.8",
