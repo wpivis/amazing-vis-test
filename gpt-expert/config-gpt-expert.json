@@ -1902,6 +1902,7 @@
             "introduction",
             {
                 "order": "latinSquare",
+                "numSamples": 37,
                 "components": [
                     "q1",
                     "q2",
