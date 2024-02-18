@@ -10388,6 +10388,7 @@
       "introduction",
       {
         "order": "random",
+        "numSamples": 3,
         "components": [
           "s1",
           "s2",

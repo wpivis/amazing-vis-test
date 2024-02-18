@@ -21,33 +21,14 @@
         "autoDownloadStudy": false,
         "sidebar": true
     },
-    "components": {
-        "introduction": {
-            "type": "markdown",
-            "path": "gpt-expert/introduction.md",
-            "response": []
-        },
-        "demo-trial": {
-            "meta": {
-                "difficulty": 1
-            },
-            "description": "demo trial",
+    "baseComponents": {
+        "visTask": {
+            "description": "A demo trial",
             "instruction": "Please answer the following questions",
-            "nextButtonLocation": "sidebar",
-
             "type": "react-component",
             "path": "gpt-vis/VisComponent.tsx",
-            "parameters": {
-                "imgName": "100%_stacked_bar_chart-healthcare.png",
-                "options": [
-                    "Approximately 43%",
-                    "Approximately 17%",
-                    "Approximately 54%",
-                    "Approximately 31%"
-                ],
-                "correctIndex": 0
-            },
-
+            "nextButtonLocation": "sidebar",
+            "instructionLocation": "sidebar",
             "response": [
                 {
                     "id": "q1",
@@ -138,11 +119,1890 @@
             ]
         }
     },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "gpt-expert/introduction.md",
+            "response": []
+        },
+
+
+        "q1": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the range in percentage points of Healthcare Spending for 'Out-patient Care' from 2010 to 2020?",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) Approximately 43%",
+                    "B) Approximately 17%",
+                    "C) Approximately 54%",
+                    "D) Approximately 31%"
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q2": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "the question stem",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
+                "options": [
+                    "Imagine a pie chart that represents the same data for healthcare spending by category in a single year. Describe the appearance of such a pie chart.",
+                    "The option set that includes one correct answer and three incorrect answers",
+                    "A) The pie chart would have four evenly divided sections, each representing one category of healthcare spending equally.",
+                    "B) The pie chart would have four sections, each corresponding to the healthcare spending category size and one of them dominating over half of the chart.",
+                    "C) The pie chart would show one small section for 'In-patient Care', a dominant section for 'Out-patient Care', and two moderate but nearly equal sections for 'Pharmaceuticals' and 'Research'.",
+                    "D) The pie chart would contain only two sections with 'Research' taking up the majority and 'Pharmaceuticals' the remainder, representing the entire healthcare spending."
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q3": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the topic of the displayed 100% stacked bar chart?",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) The profits of pharmaceutical companies from 2010 to 2020.",
+                    "B) Distribution of healthcare spending across different categories from 2010 to 2020.",
+                    "C) The number of patients admitted to hospitals each year from 2010 to 2020.",
+                    "D) Comparison of annual research funding across various healthcare fields from 2010 to 2020."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q4": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What trend in the healthcare spending categories can be observed from 2010 to 2020?",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) In-patient care spending significantly decreased, while out-patient care spending significantly increased.",
+                    "B) Spendings on pharmaceuticals showed a consistently increasing trend throughout the years.",
+                    "C) Research spending fluctuated without a clear trend over the given period.",
+                    "D) Out-patient care consistently had the highest percentage of healthcare spending every year."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q5": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In the stacked bar chart showing healthcare spending by category from 2010 to 2020, which of the following correctly identifies the labels of the axes and the legend?",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) Y-axis: 'Year', X-axis: 'Healthcare Spending Categories', Legend: 'Spending Amount in USD'",
+                    "B) Y-axis: 'Spending Amount in USD', X-axis: 'Year', Legend: 'Healthcare Spending Categories'",
+                    "C) Y-axis: 'Percentage of Healthcare Spending', X-axis: 'Year', Legend: 'Categories'",
+                    "D) Y-axis: 'Year', X-axis: 'Percentage of Healthcare Spending', Legend: 'Currency'"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q6": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What task is supported by the design of the given 100% stacked bar chart visualization?",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) Identifying exact numeric values for each category within a year.",
+                    "B) Understanding how the relative distribution of healthcare spending categories has changed over the years.",
+                    "C) Predicting future healthcare spending trends.",
+                    "D) Comparing the total healthcare spending from year to year."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q7": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Which visualization design would best enable the viewer to compare the relative proportions of healthcare spending by category across the years from 2010 to 2020?",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) The original 100% stacked bar chart visualization without change",
+                    "B) A pie chart for each year, showing the proportion of spending in each category",
+                    "C) A single line graph with years on the X-axis and percentage of spending on the Y-axis, with each category represented by a different line",
+                    "D) A table listing absolute values of spending by year and category, without any visual representation"
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q8": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In which year did the category \"Pharmaceuticals\" hold the largest percentage of healthcare spending?",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) 2010",
+                    "B) 2015",
+                    "C) 2017",
+                    "D) 2013"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q9": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the approximate percentage of healthcare spending on Pharmaceuticals in 2018?",
+                "imgName": "100%_stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) About 10%",
+                    "B) About 20%",
+                    "C) About 30%",
+                    "D) About 50%"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q10": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Calculate the range of values (difference between the maximum and minimum values) for healthcare spending in millions from the years 2000 to 2020 as shown in the area chart.",
+                "imgName": "area_chart-healthcare.png",
+                "options": [
+                    "A) $4817 million",
+                    "B) $4797 million",
+                    "C) $5017 million",
+                    "D) $4321 million"
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q11": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Imagine the dataset representing yearly healthcare spending from 2000 to 2020, currently displayed as an area chart, is instead visualized using a bar chart. How would the characteristics of this bar chart differ from the current area chart?",
+                "imgName": "area_chart-healthcare.png",
+                "options": [
+                    "A) The bar chart would show a continuous line connecting the data points, with the area below the line filled in to emphasize volume.",
+                    "B) The bar chart would display individual vertical bars for each year, where the height of each bar is proportional to the healthcare spending for that year.",
+                    "C) The bar chart would consist of a single line with data points marked by dots for each year, without filling the area below the line.",
+                    "D) The bar chart would present horizontal bars laying side-by-side, with the width of the bars corresponding to the chronological order of the years."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q12": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the primary subject of the area chart?",
+                "imgName": "area_chart-healthcare.png",
+                "options": [
+                    "A) Distribution of population age groups over time",
+                    "B) Trends in healthcare spending over the years 2000 to 2020",
+                    "C) Annual precipitation measurements from 2000 to 2020",
+                    "D) Comparison of different countries' healthcare budgets"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q13": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What overall trend is observed in healthcare spending from the year 2000 to 2020 as depicted in the area chart?",
+                "imgName": "area_chart-healthcare.png",
+                "options": [
+                    "A) Healthcare spending steadily increased each year from 2000 to 2020.",
+                    "B) Healthcare spending showed a consistent cyclical pattern with peaks and troughs every few years.",
+                    "C) There is no clear trend in healthcare spending over the 20 year period.",
+                    "D) Healthcare spending peaked around the mid-2000s and showed a decreasing trend towards 2020."
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q14": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What does the y-axis label indicate about the data presented in the area chart?",
+                "imgName": "area_chart-healthcare.png",
+                "options": [
+                    "A) Number of healthcare facilities",
+                    "B) Healthcare Spending (in millions)",
+                    "C) Population growth percentage",
+                    "D) Annual percentage change in healthcare costs"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q15": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What task does the area chart design primarily support?",
+                "imgName": "area_chart-healthcare.png",
+                "options": [
+                    "A) Comparing healthcare spending across different countries for each year.",
+                    "B) Identifying exact healthcare spending values for individual years.",
+                    "C) Observing the trend of healthcare spending over time.",
+                    "D) Providing an analysis of healthcare spending categories, such as hospital care and pharmaceuticals."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q16": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Which visualization design most effectively communicates the trend of healthcare spending over time?",
+                "imgName": "area_chart-healthcare.png",
+                "options": [
+                    "A) The original area chart visualization without change, displaying the trend of healthcare spending from 2000 to 2020.",
+                    "B) A pie chart showing the proportion of healthcare spending for each year between 2000 and 2020.",
+                    "C) A scatter plot with individual data points representing healthcare spending for each year without connecting lines to show the trend.",
+                    "D) A bar chart with horizontal bars representing healthcare spending for each year, making it difficult to perceive the trend over time."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q17": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In which year did the highest healthcare spending occur?",
+                "imgName": "area_chart-healthcare.png",
+                "options": [
+                    "A) 2000",
+                    "B) 2010",
+                    "C) 2016",
+                    "D) 2003"
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q18": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What was the approximate healthcare spending in millions for the year 2010?",
+                "imgName": "area_chart-healthcare.png",
+                "options": [
+                    "A) About 2,500 million",
+                    "B) About 5,500 million",
+                    "C) About 4,500 million",
+                    "D) About 6,500 million"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q19": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the range, in billions of USD, of the Healthcare Expenditure over the years 2000 to 2020 as depicted in the bar chart?",
+                "imgName": "bar_chart-healthcare.png",
+                "options": [
+                    "A) 220 billion USD",
+                    "B) 395 billion USD",
+                    "C) 385 billion USD",
+                    "D) 360 billion USD"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q20": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Imagine the data from the bar chart showing Healthcare Expenditure Over Years being represented using a line chart. How would the line chart typically look with the given data?",
+                "imgName": "bar_chart-healthcare.png",
+                "options": [
+                    "A) The line chart would consist of a single line that connects individual data points representing the Healthcare Expenditure for each year, showing peaks in 2000, 2005, 2006, and 2009 with the line reaching its lowest point in 2020.",
+                    "B) The line chart would display multiple lines for each year, with the height of each line corresponding directly to the Healthcare Expenditure value, making it easy to compare the years side by side.",
+                    "C) The line chart would consist of separate pie charts for each year, with the size of each pie piece representing the Healthcare Expenditure and the whole pie representing the total expenditure over all years.",
+                    "D) The line chart would show a cumulative curve which increases every year and the area under the curve represents the total Healthcare Expenditure up to that year."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q21": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is depicted in the bar chart?",
+                "imgName": "bar_chart-healthcare.png",
+                "options": [
+                    "A) Global internet usage statistics over two decades.",
+                    "B) Annual rainfall measurements in the Amazon rainforest from 2000 to 2020.",
+                    "C) Healthcare expenditure in the United States over a span of 21 years.",
+                    "D) Population growth in various continents from the year 2000 to 2020."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q22": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What trend is observed in the healthcare expenditure over the years 2000 to 2020?",
+                "imgName": "bar_chart-healthcare.png",
+                "options": [
+                    "A) There is a consistent upward trend in healthcare expenditure every year.",
+                    "B) There is a consistent downward trend in healthcare expenditure every year.",
+                    "C) Healthcare expenditure shows a cyclical pattern with peaks roughly every five years.",
+                    "D) No clear trend can be observed in healthcare expenditure over the given time period."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q23": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the label for the vertical axis on the bar chart of Healthcare Expenditure Over Years?",
+                "imgName": "bar_chart-healthcare.png",
+                "options": [
+                    "A) Year",
+                    "B) Number of Hospitals",
+                    "C) Expenditure (Billions USD)",
+                    "D) Healthcare Facilities"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q24": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What task does the bar chart primarily support in the viewing of the healthcare expenditure over the years?",
+                "imgName": "bar_chart-healthcare.png",
+                "options": [
+                    "A) Identifying correlations between different categories of healthcare spending.",
+                    "B) Showing the distribution of healthcare expenditures across different income groups.",
+                    "C) Comparing healthcare expenditure from year to year.",
+                    "D) Projecting future healthcare expenditures based on historical trends."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q25": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Considering a task of identifying trends in healthcare expenditure over time, which design choice for a non-interactive data visualization is most appropriate?",
+                "imgName": "bar_chart-healthcare.png",
+                "options": [
+                    "A) The original bar chart visualization without change, showing yearly expenditures from 2000 to 2020.",
+                    "B) A line graph showing healthcare expenditure every five years, using interpolated values between the points for smoother transitions.",
+                    "C) A pie chart that represents each year's expenditure as a slice, organized by size to show the proportion of total expenditure over the 20-year period.",
+                    "D) A scatter plot with years on the x-axis and corresponding healthcare expenditure on the y-axis, without connecting lines between points."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q26": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In which year was the healthcare expenditure at its maximum as depicted in the bar chart?",
+                "imgName": "bar_chart-healthcare.png",
+                "options": [
+                    "A) 2005",
+                    "B) 2020",
+                    "C) 2000",
+                    "D) 2016"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q27": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What was the approximate healthcare expenditure in the year 2015?",
+                "imgName": "bar_chart-healthcare.png",
+                "options": [
+                    "A) Around 150 billion USD",
+                    "B) Around 350 billion USD",
+                    "C) Around 450 billion USD",
+                    "D) Around 250 billion USD"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q28": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the range of healthcare access scores across all states depicted in the choropleth map of the US?",
+                "imgName": "choropleth_map-healthcare.png",
+                "options": [
+                    "A) 99.92",
+                    "B) 96.22",
+                    "C) 96.29",
+                    "D) 95.92"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q29": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Imagine the healthcare access score data currently presented as a choropleth map were to be visualized instead using a bar chart. How would the bar chart be characterized?",
+                "imgName": "choropleth_map-healthcare.png",
+                "options": [
+                    "A) A pie chart with slices representing each U.S. state and varying slice sizes based on the proportion of healthcare access scores each state contributes to the total sum of all scores.",
+                    "B) A line graph with a point for each U.S. state, connected in alphabetical order, where the height of the point represents the healthcare access score of the state.",
+                    "C) A bar chart with each bar representing a U.S. state, the height of the bar indicating the state's healthcare access score, and the bars arranged in descending order of access score.",
+                    "D) A scatter plot with each dot representing a U.S. state, where the position on the x-axis corresponds to the state's alphabetical ranking, and the position on the y-axis indicates the state's healthcare access score."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q30": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the topic of the choropleth map of the United States?",
+                "imgName": "choropleth_map-healthcare.png",
+                "options": [
+                    "A) The population density of each state",
+                    "B) The healthcare access score for each state",
+                    "C) The average temperature in each state",
+                    "D) The average income level of each state"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q31": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What trend can be observed in the healthcare access score distribution among the states in the US?",
+                "imgName": "choropleth_map-healthcare.png",
+                "options": [
+                    "A) States with shorter names tend to have higher healthcare access scores.",
+                    "B) Coastal states have universally lower access scores compared to inland states.",
+                    "C) There is no clear geographical trend in the healthcare access scores by state.",
+                    "D) States in the southern region of the US have the highest access scores consistently."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q32": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What does the legend in the choropleth map indicate?",
+                "imgName": "choropleth_map-healthcare.png",
+                "options": [
+                    "A) Population density of each state",
+                    "B) Total area of each state",
+                    "C) Healthcare access score",
+                    "D) Number of hospitals per state"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q33": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What task does the choropleth map visualization of healthcare access scores by state in the US support?",
+                "imgName": "choropleth_map-healthcare.png",
+                "options": [
+                    "A) Identifying the exact number of states with access scores higher than 50.",
+                    "B) Comparing relative healthcare access scores between states visually.",
+                    "C) Forecasting future healthcare access scores based on historical data.",
+                    "D) Analyzing the correlation between healthcare access scores and state populations."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q34": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "If you wanted to compare the healthcare access score across different states quickly and effectively, which design would be most appropriate?",
+                "imgName": "choropleth_map-healthcare.png",
+                "options": [
+                    "A) The original choropleth map visualization without change.",
+                    "B) A pie chart with each state representing a slice sized by its access score.",
+                    "C) A single bar graph with each state's name on the Y-axis and its respective access score on the X-axis, arranged in alphabetical order.",
+                    "D) A scatter plot with states on the X-axis and their access score on the Y-axis, without any additional information like geographical proximity or regions."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q35": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Which state has the highest Healthcare Access Score as depicted in the choropleth map of the United States?",
+                "imgName": "choropleth_map-healthcare.png",
+                "options": [
+                    "A) California",
+                    "B) Delaware",
+                    "C) Massachusetts",
+                    "D) Texas"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q36": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the approximate healthcare access score for the state of Texas in the choropleth map?",
+                "imgName": "choropleth_map-healthcare.png",
+                "options": [
+                    "A) 40-50",
+                    "B) 80-90",
+                    "C) 20-30",
+                    "D) 60-70"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q37": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the range of ages depicted in the histogram of Age Distribution in the Healthcare Dataset?",
+                "imgName": "histogram-healthcare.png",
+                "options": [
+                    "A) 75 years",
+                    "B) 57 years",
+                    "C) 54 years",
+                    "D) 69 years"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q38": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "If the age distribution from the healthcare dataset were to be displayed using a boxplot instead of a histogram, which of the following characteristics would best describe its appearance?",
+                "imgName": "histogram-healthcare.png",
+                "options": [
+                    "A) The boxplot would feature a skewed distribution with a disproportionately long upper whisker, suggesting a significant number of older individuals well beyond the upper quartile.",
+                    "B) The boxplot would exhibit a perfectly symmetrical appearance with equal lengths of both whiskers and a median line located at the center of the box, indicating a normal distribution.",
+                    "C) The boxplot would show several discrete horizontal lines, each representing an individual age in the dataset, without any indication of central tendency or spread.",
+                    "D) The boxplot would have a central rectangle spanning the interquartile range, with \"whiskers\" indicating the variability outside the upper and lower quartiles and potential outliers represented as individual points."
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q39": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the topic of the histogram displayed in the visualization?",
+                "imgName": "histogram-healthcare.png",
+                "options": [
+                    "A) The weight distribution of adult gym members.",
+                    "B) The age distribution of patients in a healthcare dataset.",
+                    "C) The yearly income distribution of employees in a tech company.",
+                    "D) The distribution of daily hours spent exercising by college athletes."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q40": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What can be observed about the shape of the age distribution in the healthcare dataset histogram?",
+                "imgName": "histogram-healthcare.png",
+                "options": [
+                    "A) The distribution is perfectly uniform, with all age groups represented equally.",
+                    "B) The distribution shows a right-skewed trend, indicating a higher number of younger individuals.",
+                    "C) The distribution is approximately normal (bell-shaped) with most individuals centered around the mean age of 40.",
+                    "D) There is a strong bimodal trend with two distinct peaks at different age ranges."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q41": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the label for the horizontal axis of the histogram depicting the age distribution in a healthcare dataset?",
+                "imgName": "histogram-healthcare.png",
+                "options": [
+                    "A) Frequency",
+                    "B) Age",
+                    "C) Population",
+                    "D) Health Condition"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q42": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Which of the following tasks is supported by the design of the histogram?",
+                "imgName": "histogram-healthcare.png",
+                "options": [
+                    "A) Identifying the exact number of individuals aged 40 in the dataset.",
+                    "B) Determining the distribution of ages within the given healthcare dataset.",
+                    "C) Comparing the mean age against the median age of individuals in the dataset.",
+                    "D) Extracting the exact age of the oldest individual in the dataset."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q43": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Considering the age distribution data for a healthcare dataset, which of the following visual designs is most appropriate for displaying the general trend of ages within the population?",
+                "imgName": "histogram-healthcare.png",
+                "options": [
+                    "A) The original histogram visualization without change",
+                    "B) A pie chart with slices representing the proportion of each unique age",
+                    "C) A scatter plot with each person's age plotted on the x-axis, and a constant value on the y-axis",
+                    "D) A single bar graph showing the mean age without displaying the distribution"
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q44": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Which age appears most frequently in the histogram of the healthcare dataset?",
+                "imgName": "histogram-healthcare.png",
+                "options": [
+                    "A) Around 30 years old",
+                    "B) Around 40 years old",
+                    "C) Around 50 years old",
+                    "D) Around 60 years old"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q45": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the approximate most frequent age range depicted in the histogram of the Age Distribution in the Healthcare Dataset?",
+                "imgName": "histogram-healthcare.png",
+                "options": [
+                    "A) Ages 30-35",
+                    "B) Ages 35-40",
+                    "C) Ages 40-45",
+                    "D) Ages 50-55"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q46": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What was the range in the average healthcare cost between the years 2000 and 2020?",
+                "imgName": "line_chart-healthcare.png",
+                "options": [
+                    "A) $3,454",
+                    "B) $3,835",
+                    "C) $3,928",
+                    "D) $2,954"
+                ],
+                "correctIndex": -1
+            }
+        },
+        "q47": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Imagine the dataset representing the average healthcare cost over time were to be visualized using a bar chart instead of the provided line chart. How might this alternative bar chart appear with regard to the representation of the data points?",
+                "imgName": "line_chart-healthcare.png",
+                "options": [
+                    "A) The bar chart would display vertical bars for each year with equal spacing between the bars, where the height of each bar corresponds to the average healthcare cost for that respective year.",
+                    "B) The bar chart would present a single bar representing the sum of all yearly healthcare costs spread across the years.",
+                    "C) Each data point would be represented by a pie slice in the bar chart, with the size of each slice proportionate to the cost for the year it represents.",
+                    "D) The bar chart would display a horizontal bar for each year, where the length of the bar corresponds to the progression of time from left to right."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q48": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the topic of the line chart?",
+                "imgName": "line_chart-healthcare.png",
+                "options": [
+                    "A) The fluctuating patterns of global temperatures from 2000 to 2020.",
+                    "B) The average healthcare costs per year from 2000 to 2020.",
+                    "C) The yearly number of patients visiting a healthcare facility from 2000 to 2020.",
+                    "D) The annual income of healthcare professionals from 2000 to 2020."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q49": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What trend is observed in the average healthcare cost from 2000 to 2020?",
+                "imgName": "line_chart-healthcare.png",
+                "options": [
+                    "A) A steady increase in the average healthcare cost each year.",
+                    "B) A significant drop in the average healthcare cost every five years.",
+                    "C) No clear overall trend in the average healthcare cost.",
+                    "D) A consistent decrease in the average healthcare cost each year."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q50": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What does the y-axis of the line chart represent?",
+                "imgName": "line_chart-healthcare.png",
+                "options": [
+                    "A) Total population over time",
+                    "B) Average Healthcare Cost in USD",
+                    "C) Yearly healthcare events",
+                    "D) Number of healthcare facilities"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q51": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What task does the line chart depicting average healthcare costs over time best support?",
+                "imgName": "line_chart-healthcare.png",
+                "options": [
+                    "A) Comparing the exact average healthcare costs between every pair of consecutive years",
+                    "B) Identifying the trend in healthcare costs over the 20-year time span",
+                    "C) Determining the year with the highest rate of change in average healthcare costs",
+                    "D) Calculating the cumulative average cost of healthcare over the 20-year period"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q52": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Given a line chart depicting the average healthcare costs over time, which visualization design would be most suitable for emphasizing the overall trend and reducing the impact of yearly fluctuations?",
+                "imgName": "line_chart-healthcare.png",
+                "options": [
+                    "A) The original line chart with time on the x-axis and average costs on the y-axis, including markers for each year.",
+                    "B) A scatter plot using the same data points without lines connecting them to emphasize individual yearly values.",
+                    "C) A bar chart representing each year as a separate bar, making it difficult to perceive the trend over time.",
+                    "D) A smoothed line chart using a moving average to reduce the impact of yearly fluctuations and highlight the overall trend."
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q53": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In which year did the Average Healthcare Cost reach its minimum value on the line chart?",
+                "imgName": "line_chart-healthcare.png",
+                "options": [
+                    "A) 2019",
+                    "B) 2020",
+                    "C) 2005",
+                    "D) 2000"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q54": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What was the approximate average healthcare cost in the year 2020?",
+                "imgName": "line_chart-healthcare.png",
+                "options": [
+                    "A) Around \\$4500",
+                    "B) Around \\$3000",
+                    "C) Around \\$6000",
+                    "D) Around \\$5000"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q55": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the range between the largest and smallest sectors by percentage in the pie chart of healthcare sectors?",
+                "imgName": "pie_chart-healthcare.png",
+                "options": [
+                    "A) 24.47%",
+                    "B) 15.11%",
+                    "C) 28.36%",
+                    "D) 14.53%"
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q56": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "If the data depicted in the pie chart showing the relative sizes of different healthcare sectors were presented in a bar chart instead, how would the bars for each sector be arranged?",
+                "imgName": "pie_chart-healthcare.png",
+                "options": [
+                    "A) Each bar would represent a healthcare sector, arranged in ascending order of market share, with the height proportional to the count of health insurance policies.",
+                    "B) The bars would be of equal height, with the length of each bar representing the percentage share of each sector within the healthcare industry.",
+                    "C) Each bar would represent a healthcare sector, with the height of the bar corresponding to the percentage size of each sector as given, arranged on the x-axis without any implied order.",
+                    "D) Each bar would present the total number of facilities in each healthcare sector, with colors indicating whether the sector had grown or shrunk in the last fiscal year."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q57": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the main subject of the pie chart?",
+                "imgName": "pie_chart-healthcare.png",
+                "options": [
+                    "A) Distribution of internet users across different continents",
+                    "B) Market share of various smartphone operating systems",
+                    "C) Relative size of different sectors within the healthcare industry"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q58": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In the pie chart depicting the distribution of different healthcare sectors, which label indicates the size of each sector?",
+                "imgName": "pie_chart-healthcare.png",
+                "options": [
+                    "A) The color shading of each wedge",
+                    "B) The percentages in the legend",
+                    "C) The number of wedges",
+                    "D) The labels next to each pie slice"
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q59": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What task does the pie chart primarily support in analyzing the healthcare sector data?",
+                "imgName": "pie_chart-healthcare.png",
+                "options": [
+                    "A) Identifying the exact number of healthcare sectors.",
+                    "B) Comparing the relative proportions of different healthcare sectors.",
+                    "C) Predicting future trends in the healthcare sectors based on historical data.",
+                    "D) Calculating the compound annual growth rate of each healthcare sector."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q60": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Which visualization design best enables a viewer to accurately and quickly compare the relative sizes of different healthcare sectors shown in the pie chart?",
+                "imgName": "pie_chart-healthcare.png",
+                "options": [
+                    "A) The original visualization without change, showing a pie chart with labeled sectors and percentages.",
+                    "B) A scatter plot with healthcare sectors on the x-axis and their relative sizes on the y-axis, without any additional data labeling or trend lines.",
+                    "C) A bar chart with healthcare sectors on the x-axis, frequency of visits on the y-axis, and bars all colored identically without labels.",
+                    "D) A line graph with time on the x-axis and relative sizes of the healthcare sectors on the y-axis, connecting points sequentially from Hospital Services to Health Insurance."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q61": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Which healthcare sector is represented by the largest section in the pie chart?",
+                "imgName": "pie_chart-healthcare.png",
+                "options": [
+                    "A) Hospital Services",
+                    "B) Pharmaceuticals",
+                    "C) Health Insurance",
+                    "D) Outpatient Care"
+                ],
+                "correctIndex": -1
+            }
+        },
+        "q62": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the approximate percentage of the healthcare sector's relative size dedicated to Medical Supplies?",
+                "imgName": "pie_chart-healthcare.png",
+                "options": [
+                    "A) About 20%",
+                    "B) About 10%",
+                    "C) About 35%",
+                    "D) About 40%"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q63": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the range in average life expectancy (difference between the highest and lowest values) shown in the scatterplot of Healthcare Cost vs Life Expectancy?",
+                "imgName": "scatterplot-healthcare.png",
+                "options": [
+                    "A) Range of 23 years",
+                    "B) Range of 22 years",
+                    "C) Range of 19 years",
+                    "D) Range of 18 years"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q64": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "If the data for healthcare costs and life expectancy over the years was to be displayed in a line chart, which of the following best describes the characteristics of that alternative chart type?",
+                "imgName": "scatterplot-healthcare.png",
+                "options": [
+                    "A) The chart would display a single line with points plotted at the intersections of healthcare cost and life expectancy for each year, with no color or symbol differentiation between the data points.",
+                    "B) The chart would consist of two lines, with one representing the trend of healthcare costs over the years and the other representing the trend of life expectancy, each line marked with an appropriate color.",
+                    "C) The chart would display a pie chart for each year where slices represent the proportion of healthcare costs to life expectancy.",
+                    "D) The chart would show a series of bar graphs stacked on top of one another, with each year's bar representing the ratio of healthcare cost to life expectancy."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q65": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the topic of the scatterplot that displays two variables represented on the x and y axes, respectively?",
+                "imgName": "scatterplot-healthcare.png",
+                "options": [
+                    "A) The relationship between global temperature changes and sea levels over the past two decades.",
+                    "B) The correlation between average healthcare cost and average life expectancy from 2000 to 2020.",
+                    "C) The comparison of average annual rainfall to the number of umbrella sales per year from 2000 to 2020.",
+                    "D) The trend of technology device sales versus the number of software applications released annually."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q66": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What correlation is observed between the average healthcare cost and the average life expectancy?",
+                "imgName": "scatterplot-healthcare.png",
+                "options": [
+                    "A) Strong positive correlation",
+                    "B) Strong negative correlation",
+                    "C) No clear correlation",
+                    "D) Moderate positive correlation"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q67": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is labeled as the horizontal axis on the scatterplot showing the relationship between healthcare costs and life expectancy?",
+                "imgName": "scatterplot-healthcare.png",
+                "options": [
+                    "A) Total Population",
+                    "B) Average Life Expectancy (Years)",
+                    "C) Year",
+                    "D) Average Healthcare Cost ($)"
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q68": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What task does the scatterplot of healthcare costs versus life expectancy support?",
+                "imgName": "scatterplot-healthcare.png",
+                "options": [
+                    "A) Identifying the exact number of years with the highest healthcare costs.",
+                    "B) Recognizing trends or patterns over the entire range of data.",
+                    "C) Comparing the healthcare costs and life expectancy between two specific years.",
+                    "D) Determining the causality between healthcare costs and life expectancy."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q69": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Which design would be most appropriate for exploring the correlation between average healthcare costs and life expectancy?",
+                "imgName": "scatterplot-healthcare.png",
+                "options": [
+                    "A) The original scatterplot without change.",
+                    "B) A pie chart showing the distribution of healthcare costs across different years.",
+                    "C) A bar graph with years on the x-axis and healthcare costs on the y-axis, colored by life expectancy categories.",
+                    "D) A line graph showing the trend of healthcare costs over time, with no reference to life expectancy."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q70": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In the scatterplot of Healthcare Cost vs Life Expectancy, which point represents the maximum Life Expectancy observed and what is its approximate corresponding Healthcare Cost?",
+                "imgName": "scatterplot-healthcare.png",
+                "options": [
+                    "A) $4500 and 90 years",
+                    "B) $5400 and 87 years",
+                    "C) $5000 and 85 years",
+                    "D) $4800 and 89 years"
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q71": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the approximate average healthcare cost associated with an average life expectancy of 80 years?",
+                "imgName": "scatterplot-healthcare.png",
+                "options": [
+                    "A) $4500",
+                    "B) $5000",
+                    "C) $5500",
+                    "D) $6000"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q72": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the range of the total number of services used per year as illustrated on the stacked area chart?",
+                "imgName": "stacked_area_chart-healthcare.png",
+                "options": [
+                    "A) Range of 100",
+                    "B) Range of 130",
+                    "C) Range of 160",
+                    "D) Range of 190"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q73": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "If the healthcare services usage data from 2010 to 2020 were to be represented as a line chart with multiple lines, one for each service, how would this chart be characterized without considering whether it fits a specific analytical task?",
+                "imgName": "stacked_area_chart-healthcare.png",
+                "options": [
+                    "A) The chart would feature multiple bars for each year with each bar representing a different service, and the height of the bars would represent the number of services used.",
+                    "B) The chart would consist of a Pie chart for each year with slices proportional to the number of services used by each healthcare service.",
+                    "C) The chart would have a series of lines, each representing a different healthcare service, with points on the lines corresponding to the number of services used in each year.",
+                    "D) The chart would show a single line representing the sum of all healthcare services used per year, making it difficult to distinguish between the services."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q74": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the topic of the stacked area chart?",
+                "imgName": "stacked_area_chart-healthcare.png",
+                "options": [
+                    "A) The income levels in different industries over the past decade.",
+                    "B) The fluctuation of stock market indices over time.",
+                    "C) Healthcare services usage over time by dept.",
+                    "D) The growth pattern of a technology company in various sectors."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q75": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What trend is observed in the usage of General Medicine over the period from 2010 to 2020?",
+                "imgName": "stacked_area_chart-healthcare.png",
+                "options": [
+                    "A) The number of services used in General Medicine steadily increased over the years.",
+                    "B) The number of services used in General Medicine showed significant fluctuations with no clear long-term trend.",
+                    "C) The number of services used in General Medicine consistently decreased year after year.",
+                    "D) The number of services used in General Medicine remained constant throughout the period."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q76": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What are the labels used for the vertical (y) axis in the stacked area chart depicting Healthcare Services Usage Over Time?",
+                "imgName": "stacked_area_chart-healthcare.png",
+                "options": [
+                    "A) Years",
+                    "B) Number of Services Used",
+                    "C) Types of Healthcare Services",
+                    "D) Service Usage in Percentages"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q77": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What task does the stacked area chart design primarily support?",
+                "imgName": "stacked_area_chart-healthcare.png",
+                "options": [
+                    "A) Identifying exact values for individual service usage in a specific year.",
+                    "B) Comparing the total combined usage of all healthcare services year over year.",
+                    "C) Determining the correlation between the usage of two different healthcare services.",
+                    "D) Performing precise comparisons between individual healthcare service usages across multiple years."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q78": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "To examine the trends over time in the overall usage of various healthcare services, which chart design would be the most appropriate?",
+                "imgName": "stacked_area_chart-healthcare.png",
+                "options": [
+                    "A) The original visualization without change, showing a stacked area chart with services color-coded and overlapping.",
+                    "B) A pie chart showing the proportion of each service for each year side by side.",
+                    "C) A single bar chart with each bar representing a year and the height split proportionally by the number of services used.",
+                    "D) A series of line graphs for each service with multiple lines plotted on the same axes without filling the area under the lines."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q79": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In which year did Cardiology have the highest usage since 2010, as depicted in the stacked area chart for healthcare services usage over time?",
+                "imgName": "stacked_area_chart-healthcare.png",
+                "options": [
+                    "A) 2017",
+                    "B) 2018",
+                    "C) 2019",
+                    "D) 2020"
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q80": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In what range does the total number of services used for General Medicine and Surgery combined appear to fall in the year 2013?",
+                "imgName": "stacked_area_chart-healthcare.png",
+                "options": [
+                    "A) Approximately 60-70",
+                    "B) Approximately 70-80",
+                    "C) Approximately 90-100",
+                    "D) Approximately 120-130"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q81": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the average annual expenditure on Pharmaceuticals from 2010 to 2020?",
+                "imgName": "stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) $314 million",
+                    "B) $348 million",
+                    "C) $285 million",
+                    "D) $372 million"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q82": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "If the current stacked bar chart displaying healthcare expenditure by category from 2010 to 2020 were converted into a line chart, what characteristic would the alternative chart have?",
+                "imgName": "stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) The line chart would show multiple lines, each representing a different healthcare spending category, with data points connected chronologically to demonstrate trends over time.",
+                    "B) The line chart would consist of a single line, with each segment color-coded to represent a different healthcare spending category as the expenditure changes through the years.",
+                    "C) The line chart would display vertical lines for each year, with heights proportional to the total healthcare expenditure of all categories combined for that year.",
+                    "D) The line chart would overlay segments for each category on a single compounded line, where the length of each segment correlates to the ratio of the category\u2019s spending against the total for each year."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q83": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the main topic of the stacked bar chart?",
+                "imgName": "stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) Trends in global smartphone sales from 2010 to 2020.",
+                    "B) Healthcare expenditure by category from 2010 to 2020 in the United States.",
+                    "C) Comparison of different countries' military spending from 2010 to 2020.",
+                    "D) Analysis of annual CO2 emissions by sector from 2010 to 2020."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q84": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "How did the expenditure on 'Hospital Services' change over the period from 2010 to 2020?",
+                "imgName": "stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) It consistently increased every year.",
+                    "B) It demonstrated a decreasing trend over the years.",
+                    "C) There was no clear increasing or decreasing trend over the years.",
+                    "D) It peaked in 2015 and then consistently declined afterwards."
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q85": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the label of the vertical axis on the stacked bar chart representing healthcare expenditure from 2010 to 2020?",
+                "imgName": "stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) Total Population",
+                    "B) Expenditure in Millions USD",
+                    "C) Annual Growth Rate",
+                    "D) Number of Hospitals"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q86": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What task is supported by the design of the stacked bar chart?",
+                "imgName": "stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) Determining the exact values of healthcare expenditure for every category in each year",
+                    "B) Comparing the total annual healthcare expenditure over the years",
+                    "C) Identifying trends in expenditure for a specific healthcare category across multiple years",
+                    "D) Estimating the market share percentage of each healthcare category for individual years"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q87": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "When seeking to compare individual category contributions to the total healthcare expenditure over time, which design would be most appropriate?",
+                "imgName": "stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) The original stacked bar chart as it enables direct visual comparison of categories year by year and shows their contribution to the total.",
+                    "B) A pie chart for each year showing the proportion of each category, making yearly comparison difficult.",
+                    "C) A single line graph with years on the x-axis and total expenditure on the y-axis, without distinguishing categories.",
+                    "D) A set of horizontal bar charts, one for each category, with time not represented on any axis, making temporal comparison challenging."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q88": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "Which category exhibited the maximum expenditure in any single year in the healthcare expenditure stacked bar chart from 2010 to 2020?",
+                "imgName": "stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) Hospital Services in 2016",
+                    "B) Pharmaceuticals in 2014",
+                    "C) Private Insurance in 2013",
+                    "D) Out-of-Pocket in 2019"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q89": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What was the approximate total healthcare expenditure on Hospital Services in the year 2015?",
+                "imgName": "stacked_bar_chart-healthcare.png",
+                "options": [
+                    "A) About 300 million USD",
+                    "B) About 100 million USD",
+                    "C) About 400 million USD",
+                    "D) About 200 million USD"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q90": {
+            "meta": {
+                "taskDesc": "calculate_a_derived_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the range of healthcare costs across all the subcategories presented in the treemap?",
+                "imgName": "tree_map-healthcare.png",
+                "options": [
+                    "A) 200,000",
+                    "B) 280,000",
+                    "C) 300,000",
+                    "D) 500,000"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q91": {
+            "meta": {
+                "taskDesc": "describe_the_characteristics_of_an_alternative_chart_type",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "the question stem",
+                "imgName": "tree_map-healthcare.png",
+                "options": [
+                    "Imagine the dataset showing healthcare costs by category and subcategory is visualized using a bar chart instead of a tree map. How would the bar chart representing this data be characterized?",
+                    "A) Each bar represents a unique combination of category and subcategory, with the height of the bar proportionate to the costs, showing distinct categories stacked on top of each other.",
+                    "B) Bars are organized in groups based on the year, with each bar's height representing the number of occurrences of each subcategory, regardless of cost.",
+                    "C) Bars are organized in a circular fashion to represent a pie chart, with each slice's angle corresponding to its proportionate cost.",
+                    "D) The bar chart features a separate bar for each subcategory within a category along the horizontal axis, with the height of the bar proportional to the cost."
+                ],
+                "correctIndex": 4
+            }
+        },
+        "q92": {
+            "meta": {
+                "taskDesc": "describe_the_topic_of_the_visualization",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the main subject of the treemap visualization?",
+                "imgName": "tree_map-healthcare.png",
+                "options": [
+                    "A) Distribution of global temperatures over various continents.",
+                    "B) Healthcare costs categorized by medical specialties and subcategories.",
+                    "C) Market shares of different technology companies.",
+                    "D) Population growth rates in various countries."
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q93": {
+            "meta": {
+                "taskDesc": "describe_trend_or_correlation",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What trend is observed in healthcare costs across different subcategories between the years 2019 and 2020?",
+                "imgName": "tree_map-healthcare.png",
+                "options": [
+                    "A) The costs for all subcategories decreased from 2019 to 2020.",
+                    "B) The costs for all subcategories increased from 2019 to 2020.",
+                    "C) The costs for some subcategories increased and some decreased between 2019 and 2020.",
+                    "D) There is no clear trend in healthcare costs between the years 2019 and 2020."
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q94": {
+            "meta": {
+                "taskDesc": "identify_labels_of_scales",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In the tree map visualization of Healthcare Costs by Category, how are the cost values labeled on the color gradient legend?",
+                "imgName": "tree_map-healthcare.png",
+                "options": [
+                    "A) 100k, 200k, 300k, 400k",
+                    "B) 200k, 300k, 400k, 500k",
+                    "C) 250k, 350k, 450k, 550k",
+                    "D) 150k, 250k, 350k, 450k"
+                ],
+                "correctIndex": 1
+            }
+        },
+        "q95": {
+            "meta": {
+                "taskDesc": "judge_what_tasks_this_visualization_design_supports",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What tasks does the tree map of healthcare costs effectively support?",
+                "imgName": "tree_map-healthcare.png",
+                "options": [
+                    "A) Identifying which individual subcategories, such as \"Heart Surgery\" or \"General Cardiology\", had the highest costs in a given year.",
+                    "B) Comparing the exact number of different surgical procedures performed in each subcategory.",
+                    "C) Examining the changes in costs of healthcare subcategories over multiple years.",
+                    "D) Assessing the distribution of costs within and between different healthcare categories."
+                ],
+                "correctIndex": 3
+            }
+        },
+        "q96": {
+            "meta": {
+                "taskDesc": "judge_which_design_is_more_appropriate_for_a_task",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "If you want to analyze the distribution of healthcare costs across different medical categories and subcategories, which design would most appropriately display the data?",
+                "imgName": "tree_map-healthcare.png",
+                "options": [
+                    "A) The original treemap visualization without change, showing categories and subcategories with costs conveyed through area size and color shading.",
+                    "B) A bar chart with bars representing individual years, ignoring the medical categories and subcategories distinctions, showing the total costs per year.",
+                    "C) A line graph with time on the x-axis, costs on the y-axis, and separate lines representing each subcategory, not grouped by category.",
+                    "D) A pie chart with slices representing each year, not distinguishing between categories or subcategories, indicating total costs per year."
+                ],
+                "correctIndex": 0
+            }
+        },
+        "q97": {
+            "meta": {
+                "taskDesc": "locate_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "In which subcategory of healthcare does the highest cost occur, inferred from the tree map of healthcare costs by category?",
+                "imgName": "tree_map-healthcare.png",
+                "options": [
+                    "A) General Neurology",
+                    "B) General Cardiology",
+                    "C) Heart Surgery",
+                    "D) Joint Replacement"
+                ],
+                "correctIndex": 2
+            }
+        },
+        "q98": {
+            "meta": {
+                "taskDesc": "retrieve_value",
+                "category": "healthcare"
+            },
+            "baseComponent": "visTask",
+            "parameters": {
+                "question": "What is the approximate cost associated with General Orthopedics in the healthcare cost treemap?",
+                "imgName": "tree_map-healthcare.png",
+                "options": [
+                    "A) Around 300,000",
+                    "B) Around 220,000",
+                    "C) Around 500,000",
+                    "D) Around 400,000"
+                ],
+                "correctIndex": 1
+            }
+        }
+
+
+    },
     "sequence": {
         "order": "fixed",
         "components": [
             "introduction",
-            "demo-trial"
+            {
+                "order": "latinSquare",
+                "components": [
+                    "q1",
+                    "q2",
+                    "q3",
+                    "q4",
+                    "q5",
+                    "q6",
+                    "q7",
+                    "q8",
+                    "q9",
+                    "q10",
+                    "q11",
+                    "q12",
+                    "q13",
+                    "q14",
+                    "q15",
+                    "q16",
+                    "q17",
+                    "q18",
+                    "q19",
+                    "q20",
+                    "q21",
+                    "q22",
+                    "q23",
+                    "q24",
+                    "q25",
+                    "q26",
+                    "q27",
+                    "q28",
+                    "q29",
+                    "q30",
+                    "q31",
+                    "q32",
+                    "q33",
+                    "q34",
+                    "q35",
+                    "q36",
+                    "q37",
+                    "q38",
+                    "q39",
+                    "q40",
+                    "q41",
+                    "q42",
+                    "q43",
+                    "q44",
+                    "q45",
+                    "q46",
+                    "q47",
+                    "q48",
+                    "q49",
+                    "q50",
+                    "q51",
+                    "q52",
+                    "q53",
+                    "q54",
+                    "q55",
+                    "q56",
+                    "q57",
+                    "q58",
+                    "q59",
+                    "q60",
+                    "q61",
+                    "q62",
+                    "q63",
+                    "q64",
+                    "q65",
+                    "q66",
+                    "q67",
+                    "q68",
+                    "q69",
+                    "q70",
+                    "q71",
+                    "q72",
+                    "q73",
+                    "q74",
+                    "q75",
+                    "q76",
+                    "q77",
+                    "q78",
+                    "q79",
+                    "q80",
+                    "q81",
+                    "q82",
+                    "q83",
+                    "q84",
+                    "q85",
+                    "q86",
+                    "q87",
+                    "q88",
+                    "q89",
+                    "q90",
+                    "q91",
+                    "q92",
+                    "q93",
+                    "q94",
+                    "q95",
+                    "q96",
+                    "q97",
+                    "q98"
+                ]
+            }
 
         ]
     }
