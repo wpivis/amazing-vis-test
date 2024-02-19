@@ -12,7 +12,8 @@
         "MVNV",
         "brush-interactions",
         "fairness-jnd",
-        "vis-test-expert"
+        "vis-test-expert",
+        "vis-test-prolific"
     ],
     "configs": {
         "fairness-jnd": {
@@ -50,6 +51,9 @@
         },
         "vis-test-expert": {
             "path": "gpt-expert/config-gpt-expert.json"
+        },
+        "vis-test-prolific": {
+            "path": "gpt-prolific/config-gpt-prolific.json"
         }
     }
 }
