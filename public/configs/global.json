@@ -12,7 +12,7 @@
         "MVNV",
         "brush-interactions",
         "fairness-jnd",
-        "gpt-expert"
+        "vis-test-expert"
     ],
     "configs": {
         "fairness-jnd": {
@@ -48,7 +48,7 @@
         "brush-interactions": {
             "path": "brush-interactions/config.json"
         },
-        "gpt-expert": {
+        "vis-test-expert": {
             "path": "gpt-expert/config-gpt-expert.json"
         }
     }
