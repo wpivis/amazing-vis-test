@@ -7,7 +7,7 @@ function VisCompnent({ parameters }: { parameters: any }) {
   const {
     imgName, options, correctIndex, question,
   } = parameters;
-  const imgPathPrefix = import.meta.env.DEV ? '' : 'https://wpivis.github.io/gpt-vis';
+  const imgPathPrefix = import.meta.env.DEV ? '' : 'https://wpivis.github.io/amazing-vis-test';
 
   return (
     <Container>
