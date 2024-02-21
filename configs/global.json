@@ -2,7 +2,9 @@
     "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/GlobalConfigSchema.json",
     "configsList": [
         "vis-test-expert",
-        "vis-test-prolific"
+        "vis-test-prolific",
+        "VLAT-full-randomized",
+        "html-demo",
     ],
     "configs": {
         "fairness-jnd": {
