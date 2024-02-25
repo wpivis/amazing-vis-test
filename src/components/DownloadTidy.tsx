@@ -86,7 +86,7 @@ function processToRow(session: ParticipantData, studyConfig: StudyConfig, proper
         tidyRow.answer = value;
       }
       if (properties.includes('correctAnswer')) {
-        tidyRow.correctAnswer = completeComponent.correctAnswer;
+        tidyRow.correctAnswer = completeComponent.response.filter((r: { id: string; }) => r.id === key)[0]?.correctAnswer;
       }
       if (properties.includes('taskOrder')) {
         tidyRow.taskOrder = session.sequence.indexOf(trialId);
