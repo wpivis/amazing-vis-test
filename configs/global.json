@@ -3,8 +3,7 @@
     "configsList": [
         "vis-test-expert",
         "vis-test-prolific",
-        "VLAT-full-randomized",
-        "html-demo",
+        "VLAT-full"
     ],
     "configs": {
         "fairness-jnd": {
@@ -25,8 +24,8 @@
         "MVNV": {
             "path": "mvnv/config-html-MVNV.json"
         },
-        "VLAT-full-randomized": {
-            "path": "VLAT-full-randomized/config-VLAT-full-randomized.json"
+        "VLAT-full": {
+            "path": "VLAT-full/config-VLAT-full.json"
         },
         "VLAT-mini-randomized": {
             "path": "VLAT-mini-randomized/config-VLAT-mini-randomized.json"
