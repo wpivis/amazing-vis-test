@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json",
     "studyMetadata": {
-        "title": "Experiment 2 for gpt-vis project. For prolific participants",
+        "title": "Visualization literacy assessment",
         "version": "pilot",
         "authors": [
             "The reVISit Team"
@@ -3794,7 +3794,6 @@
     "sequence": {
         "order": "fixed",
         "components": [
-            "introduction",
             "consent",
             {
                 "order": "latinSquare",
