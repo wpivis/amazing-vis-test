@@ -27,7 +27,7 @@
     "components": {
         "consent": {
             "type": "markdown",
-            "path": "VLAT-full/1st_consent.md.md",
+            "path": "VLAT-full/1st_consent.md",
             "response": [
                 {
                     "id": "agreeement",
