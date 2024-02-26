@@ -36,7 +36,7 @@
 
         "consent": {
             "type": "markdown",
-            "path": "gpt-prolific/consent.md",
+            "path": "gpt-prolific/1st_consent.md",
             "response": [
                 {
                     "id": "agreeement",
@@ -2085,7 +2085,7 @@
                 "required": true,
                 "location": "sidebar",
                 "type": "radio",
-                "correctAnswer": ", which is 54.3, and rounded up to the nearest whole number, giving us a min_distance of 55. I then created three incorrect options that are at least 55 units away from the correct answer of 362. These are 200 (162 units away), 520 (158 units away), and 650 (288 units away).",
+                "correctAnswer": "362",
                 "options": [
                     {
                         "label": "200",
@@ -3073,7 +3073,7 @@
                 "required": true,
                 "location": "sidebar",
                 "type": "radio",
-                "correctAnswer": "300, 600, and 750.",
+                "correctAnswer": "449 tons",
                 "options": [
                     {
                         "label": "449 tons",
@@ -3090,38 +3090,6 @@
                     {
                         "label": "750 tons",
                         "value": "750 tons"
-                    },
-                    {
-                        "label": "generate the correct answer and the incorrect options, I followed the steps provided:",
-                        "value": "generate the correct answer and the incorrect options, I followed the steps provided:"
-                    },
-                    {
-                        "label": "Calculated the precise correct answer using the dataset: Difference between 2004 and 2017 production = 970.2 - 521 = 449.2",
-                        "value": "Calculated the precise correct answer using the dataset: Difference between 2004 and 2017 production = 970.2 - 521 = 449.2"
-                    },
-                    {
-                        "label": "Rounded the precise correct answer to one decimal place: 449.2 rounds to 449.2 (which is kept as 449 when expressed in whole tons as per the question stem).",
-                        "value": "Rounded the precise correct answer to one decimal place: 449.2 rounds to 449.2 (which is kept as 449 when expressed in whole tons as per the question stem)."
-                    },
-                    {
-                        "label": "Calculated 15% of the rounded correct answer: 15% of 449 = 67.35, which rounds up to the nearest whole number = 68 (min_distance).",
-                        "value": "Calculated 15% of the rounded correct answer: 15% of 449 = 67.35, which rounds up to the nearest whole number = 68 (min_distance)."
-                    },
-                    {
-                        "label": "Generated three incorrect options using min_distance:",
-                        "value": "Generated three incorrect options using min_distance:"
-                    },
-                    {
-                        "label": "(B) 449 - 68 = 381 (rounded to the nearest tens to avoid obviousness) = 380",
-                        "value": "(B) 449 - 68 = 381 (rounded to the nearest tens to avoid obviousness) = 380"
-                    },
-                    {
-                        "label": "(C) 449 + 68 = 517 (rounded to the nearest tens to avoid obviousness) = 520",
-                        "value": "(C) 449 + 68 = 517 (rounded to the nearest tens to avoid obviousness) = 520"
-                    },
-                    {
-                        "label": "(D) 449 + 2 * 68 = 585 (rounded to the nearest tens to avoid obviousness) = 590",
-                        "value": "(D) 449 + 2 * 68 = 585 (rounded to the nearest tens to avoid obviousness) = 590"
                     }
                 ]
             }
@@ -5575,7 +5543,7 @@
                 "required": true,
                 "location": "sidebar",
                 "type": "radio",
-                "correctAnswer": ", and another number greater than the correct answer by more than 131 units, which is 1000.",
+                "correctAnswer": "872",
                 "options": [
                     {
                         "label": "872",
@@ -5651,7 +5619,7 @@
                 "required": true,
                 "location": "sidebar",
                 "type": "radio",
-                "correctAnswer": ", rounded it up to the nearest whole number (2), and created three incorrect options that are at least 2 hours away from the correct answer of 9 hours.",
+                "correctAnswer": "9 hours",
                 "options": [
                     {
                         "label": "4 hours",
@@ -5978,6 +5946,8 @@
         ]
     },
 
+
+
         "at1": {
             "meta": {
                 "trueAnswer": 0,
@@ -6141,108 +6111,69 @@
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "line_chart-retrieve_value-economy",
-                            "line_chart-retrieve_value-food_and_agriculture",
-                            "line_chart-retrieve_value-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "line_chart-retrieve_value-economy",
+                                    "line_chart-locate_value-economy",
+                                    "line_chart-identify_range-economy",
+                                    "line_chart-describe_trend_or_correlation-economy",
+                                    "line_chart-estimate_the_difference_between_two_values_of_the_same_type-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "line_chart-retrieve_value-food_and_agriculture",
+                                    "line_chart-locate_value-food_and_agriculture",
+                                    "line_chart-identify_range-food_and_agriculture",
+                                    "line_chart-describe_trend_or_correlation-food_and_agriculture",
+                                    "line_chart-estimate_the_difference_between_two_values_of_the_same_type-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "line_chart-retrieve_value-health",
+                                    "line_chart-locate_value-health",
+                                    "line_chart-identify_range-health",
+                                    "line_chart-describe_trend_or_correlation-health",
+                                    "line_chart-estimate_the_difference_between_two_values_of_the_same_type-health"
+                                ]
+                            }
                         ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "line_chart-locate_value-economy",
-                            "line_chart-locate_value-food_and_agriculture",
-                            "line_chart-locate_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "line_chart-identify_range-economy",
-                            "line_chart-identify_range-food_and_agriculture",
-                            "line_chart-identify_range-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "line_chart-describe_trend_or_correlation-economy",
-                            "line_chart-describe_trend_or_correlation-food_and_agriculture",
-                            "line_chart-describe_trend_or_correlation-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "line_chart-estimate_the_difference_between_two_values_of_the_same_type-economy",
-                            "line_chart-estimate_the_difference_between_two_values_of_the_same_type-food_and_agriculture",
-                            "line_chart-estimate_the_difference_between_two_values_of_the_same_type-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "bar_chart-retrieve_value-economy",
-                            "bar_chart-retrieve_value-food_and_agriculture",
-                            "bar_chart-retrieve_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "bar_chart-locate_value-economy",
-                            "bar_chart-locate_value-food_and_agriculture",
-                            "bar_chart-locate_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "bar_chart-identify_range-economy",
-                            "bar_chart-identify_range-food_and_agriculture",
-                            "bar_chart-identify_range-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "bar_chart-make_comparisons-economy",
-                            "bar_chart-make_comparisons-food_and_agriculture",
-                            "bar_chart-make_comparisons-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "stacked_bar_chart-retrieve_value-economy",
-                            "stacked_bar_chart-retrieve_value-food_and_agriculture",
-                            "stacked_bar_chart-retrieve_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-economy",
-                            "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-food_and_agriculture",
-                            "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "stacked_bar_chart-locate_value-economy",
-                            "stacked_bar_chart-locate_value-food_and_agriculture",
-                            "stacked_bar_chart-locate_value-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "bar_chart-retrieve_value-economy",
+                                    "bar_chart-locate_value-economy",
+                                    "bar_chart-identify_range-economy",
+                                    "bar_chart-make_comparisons-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "bar_chart-retrieve_value-food_and_agriculture",
+                                    "bar_chart-locate_value-food_and_agriculture",
+                                    "bar_chart-identify_range-food_and_agriculture",
+                                    "bar_chart-make_comparisons-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "bar_chart-retrieve_value-health",
+                                    "bar_chart-locate_value-health",
+                                    "bar_chart-identify_range-health",
+                                    "bar_chart-make_comparisons-health"
+                                ]
+                            }
                         ]
                     },
                     "at1",
@@ -6250,108 +6181,120 @@
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "stacked_bar_chart-make_comparisons-economy",
-                            "stacked_bar_chart-make_comparisons-food_and_agriculture",
-                            "stacked_bar_chart-make_comparisons-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "stacked_bar_chart-retrieve_value-economy",
+                                    "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-economy",
+                                    "stacked_bar_chart-locate_value-economy",
+                                    "stacked_bar_chart-make_comparisons-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "stacked_bar_chart-retrieve_value-food_and_agriculture",
+                                    "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-food_and_agriculture",
+                                    "stacked_bar_chart-locate_value-food_and_agriculture",
+                                    "stacked_bar_chart-make_comparisons-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "stacked_bar_chart-retrieve_value-health",
+                                    "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health",
+                                    "stacked_bar_chart-locate_value-health",
+                                    "stacked_bar_chart-make_comparisons-health"
+                                ]
+                            }
                         ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "100_percent_stacked_bar_chart-retrieve_value-economy",
-                            "100_percent_stacked_bar_chart-retrieve_value-food_and_agriculture",
-                            "100_percent_stacked_bar_chart-retrieve_value-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "100_percent_stacked_bar_chart-retrieve_value-economy",
+                                    "100_percent_stacked_bar_chart-locate_value-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "100_percent_stacked_bar_chart-retrieve_value-food_and_agriculture",
+                                    "100_percent_stacked_bar_chart-locate_value-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "100_percent_stacked_bar_chart-retrieve_value-health",
+                                    "100_percent_stacked_bar_chart-locate_value-health"
+                                ]
+                            }
                         ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "100_percent_stacked_bar_chart-locate_value-economy",
-                            "100_percent_stacked_bar_chart-locate_value-food_and_agriculture",
-                            "100_percent_stacked_bar_chart-locate_value-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "pie_chart-retrieve_value-economy",
+                                    "pie_chart-locate_value-economy",
+                                    "pie_chart-make_comparisons-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "pie_chart-retrieve_value-food_and_agriculture",
+                                    "pie_chart-locate_value-food_and_agriculture",
+                                    "pie_chart-make_comparisons-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "pie_chart-retrieve_value-health",
+                                    "pie_chart-locate_value-health",
+                                    "pie_chart-make_comparisons-health"
+                                ]
+                            }
                         ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "pie_chart-retrieve_value-economy",
-                            "pie_chart-retrieve_value-food_and_agriculture",
-                            "pie_chart-retrieve_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "pie_chart-locate_value-economy",
-                            "pie_chart-locate_value-food_and_agriculture",
-                            "pie_chart-locate_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "pie_chart-make_comparisons-economy",
-                            "pie_chart-make_comparisons-food_and_agriculture",
-                            "pie_chart-make_comparisons-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "histogram-retrieve_value-economy",
-                            "histogram-retrieve_value-food_and_agriculture",
-                            "histogram-retrieve_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "histogram-locate_value-economy",
-                            "histogram-locate_value-food_and_agriculture",
-                            "histogram-locate_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "histogram-make_comparisons-economy",
-                            "histogram-make_comparisons-food_and_agriculture",
-                            "histogram-make_comparisons-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "scatterplot-retrieve_value-economy",
-                            "scatterplot-retrieve_value-food_and_agriculture",
-                            "scatterplot-retrieve_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "scatterplot-locate_value-economy",
-                            "scatterplot-locate_value-food_and_agriculture",
-                            "scatterplot-locate_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "scatterplot-identify_range-economy",
-                            "scatterplot-identify_range-food_and_agriculture",
-                            "scatterplot-identify_range-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "histogram-retrieve_value-economy",
+                                    "histogram-locate_value-economy",
+                                    "histogram-make_comparisons-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "histogram-retrieve_value-food_and_agriculture",
+                                    "histogram-locate_value-food_and_agriculture",
+                                    "histogram-make_comparisons-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "histogram-retrieve_value-health",
+                                    "histogram-locate_value-health",
+                                    "histogram-make_comparisons-health"
+                                ]
+                            }
                         ]
                     },
                     "at2",
@@ -6359,108 +6302,105 @@
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "scatterplot-describe_trend_or_correlation-economy",
-                            "scatterplot-describe_trend_or_correlation-food_and_agriculture",
-                            "scatterplot-describe_trend_or_correlation-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "scatterplot-retrieve_value-economy",
+                                    "scatterplot-locate_value-economy",
+                                    "scatterplot-identify_range-economy",
+                                    "scatterplot-describe_trend_or_correlation-economy",
+                                    "scatterplot-make_comparisons-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "scatterplot-retrieve_value-food_and_agriculture",
+                                    "scatterplot-locate_value-food_and_agriculture",
+                                    "scatterplot-identify_range-food_and_agriculture",
+                                    "scatterplot-describe_trend_or_correlation-food_and_agriculture",
+                                    "scatterplot-make_comparisons-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "scatterplot-retrieve_value-health",
+                                    "scatterplot-locate_value-health",
+                                    "scatterplot-identify_range-health",
+                                    "scatterplot-describe_trend_or_correlation-health",
+                                    "scatterplot-make_comparisons-health"
+                                ]
+                            }
                         ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "scatterplot-make_comparisons-economy",
-                            "scatterplot-make_comparisons-food_and_agriculture",
-                            "scatterplot-make_comparisons-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "area_chart-retrieve_value-economy",
+                                    "area_chart-locate_value-economy",
+                                    "area_chart-identify_range-economy",
+                                    "area_chart-describe_trend_or_correlation-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "area_chart-retrieve_value-food_and_agriculture",
+                                    "area_chart-locate_value-food_and_agriculture",
+                                    "area_chart-identify_range-food_and_agriculture",
+                                    "area_chart-describe_trend_or_correlation-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "area_chart-retrieve_value-health",
+                                    "area_chart-locate_value-health",
+                                    "area_chart-identify_range-health",
+                                    "area_chart-describe_trend_or_correlation-health"
+                                ]
+                            }
                         ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "area_chart-retrieve_value-economy",
-                            "area_chart-retrieve_value-food_and_agriculture",
-                            "area_chart-retrieve_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "area_chart-locate_value-economy",
-                            "area_chart-locate_value-food_and_agriculture",
-                            "area_chart-locate_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "area_chart-identify_range-economy",
-                            "area_chart-identify_range-food_and_agriculture",
-                            "area_chart-identify_range-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "area_chart-describe_trend_or_correlation-economy",
-                            "area_chart-describe_trend_or_correlation-food_and_agriculture",
-                            "area_chart-describe_trend_or_correlation-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "stacked_area_chart-retrieve_value-economy",
-                            "stacked_area_chart-retrieve_value-food_and_agriculture",
-                            "stacked_area_chart-retrieve_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-economy",
-                            "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-food_and_agriculture",
-                            "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "stacked_area_chart-locate_value-economy",
-                            "stacked_area_chart-locate_value-food_and_agriculture",
-                            "stacked_area_chart-locate_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "stacked_area_chart-describe_trend_or_correlation-economy",
-                            "stacked_area_chart-describe_trend_or_correlation-food_and_agriculture",
-                            "stacked_area_chart-describe_trend_or_correlation-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "stacked_area_chart-make_comparisons-economy",
-                            "stacked_area_chart-make_comparisons-food_and_agriculture",
-                            "stacked_area_chart-make_comparisons-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "bubble_chart-retrieve_value-economy",
-                            "bubble_chart-retrieve_value-food_and_agriculture",
-                            "bubble_chart-retrieve_value-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "stacked_area_chart-retrieve_value-economy",
+                                    "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-economy",
+                                    "stacked_area_chart-locate_value-economy",
+                                    "stacked_area_chart-describe_trend_or_correlation-economy",
+                                    "stacked_area_chart-make_comparisons-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "stacked_area_chart-retrieve_value-food_and_agriculture",
+                                    "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-food_and_agriculture",
+                                    "stacked_area_chart-locate_value-food_and_agriculture",
+                                    "stacked_area_chart-describe_trend_or_correlation-food_and_agriculture",
+                                    "stacked_area_chart-make_comparisons-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "stacked_area_chart-retrieve_value-health",
+                                    "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health",
+                                    "stacked_area_chart-locate_value-health",
+                                    "stacked_area_chart-describe_trend_or_correlation-health",
+                                    "stacked_area_chart-make_comparisons-health"
+                                ]
+                            }
                         ]
                     },
                     "at3",
@@ -6468,86 +6408,70 @@
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "bubble_chart-locate_value-economy",
-                            "bubble_chart-locate_value-food_and_agriculture",
-                            "bubble_chart-locate_value-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "bubble_chart-retrieve_value-economy",
+                                    "bubble_chart-locate_value-economy",
+                                    "bubble_chart-identify_range-economy",
+                                    "bubble_chart-describe_trend_or_correlation-economy",
+                                    "bubble_chart-make_comparisons-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "bubble_chart-retrieve_value-food_and_agriculture",
+                                    "bubble_chart-locate_value-food_and_agriculture",
+                                    "bubble_chart-identify_range-food_and_agriculture",
+                                    "bubble_chart-describe_trend_or_correlation-food_and_agriculture",
+                                    "bubble_chart-make_comparisons-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "bubble_chart-retrieve_value-health",
+                                    "bubble_chart-locate_value-health",
+                                    "bubble_chart-identify_range-health",
+                                    "bubble_chart-describe_trend_or_correlation-health",
+                                    "bubble_chart-make_comparisons-health"
+                                ]
+                            }
                         ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "bubble_chart-identify_range-economy",
-                            "bubble_chart-identify_range-food_and_agriculture",
-                            "bubble_chart-identify_range-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "bubble_chart-describe_trend_or_correlation-economy",
-                            "bubble_chart-describe_trend_or_correlation-food_and_agriculture",
-                            "bubble_chart-describe_trend_or_correlation-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "bubble_chart-make_comparisons-economy",
-                            "bubble_chart-make_comparisons-food_and_agriculture",
-                            "bubble_chart-make_comparisons-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "choropleth_map-retrieve_value-economy",
-                            "choropleth_map-retrieve_value-food_and_agriculture",
-                            "choropleth_map-retrieve_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "choropleth_map-locate_value-economy",
-                            "choropleth_map-locate_value-food_and_agriculture",
-                            "choropleth_map-locate_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "choropleth_map-make_comparisons-economy",
-                            "choropleth_map-make_comparisons-food_and_agriculture",
-                            "choropleth_map-make_comparisons-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "tree_map-locate_value-economy",
-                            "tree_map-locate_value-food_and_agriculture",
-                            "tree_map-locate_value-health"
-                        ]
-                    },
-                    {
-                        "order": "random",
-                        "numSamples": 1,
-                        "components": [
-                            "tree_map-retrieve_value-economy",
-                            "tree_map-retrieve_value-food_and_agriculture",
-                            "tree_map-retrieve_value-health"
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "choropleth_map-retrieve_value-economy",
+                                    "choropleth_map-locate_value-economy",
+                                    "choropleth_map-make_comparisons-economy"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "choropleth_map-retrieve_value-food_and_agriculture",
+                                    "choropleth_map-locate_value-food_and_agriculture",
+                                    "choropleth_map-make_comparisons-food_and_agriculture"
+                                ]
+                            },
+                            {
+                                "order": "fixed",
+                                "components": [
+                                    "choropleth_map-retrieve_value-health",
+                                    "choropleth_map-locate_value-health",
+                                    "choropleth_map-make_comparisons-health"
+                                ]
+                            }
                         ]
                     }
                 ]
             }
-
         ]
     }
 }
