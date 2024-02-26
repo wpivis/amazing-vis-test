@@ -3,7 +3,9 @@
     "configsList": [
         "vis-test-expert",
         "vis-test-prolific",
-        "VLAT-full"
+        "VLAT-full",
+        "VLAT-full-2nd",
+        "vis-test-prolific-2nd"
     ],
     "configs": {
         "fairness-jnd": {
@@ -27,6 +29,9 @@
         "VLAT-full": {
             "path": "VLAT-full/config-VLAT-full.json"
         },
+        "VLAT-full-2nd": {
+            "path": "VLAT-full-2nd/config-VLAT-full.json"
+        },
         "VLAT-mini-randomized": {
             "path": "VLAT-mini-randomized/config-VLAT-mini-randomized.json"
         },
@@ -44,6 +49,9 @@
         },
         "vis-test-prolific": {
             "path": "gpt-prolific/config-gpt-prolific.json"
+        },
+        "vis-test-prolific-2nd": {
+            "path": "gpt-prolific-2nd/config-gpt-prolific.json"
         }
     }
 }
