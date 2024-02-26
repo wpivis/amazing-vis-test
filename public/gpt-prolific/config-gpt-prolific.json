@@ -19,7 +19,9 @@
         "logoPath": "assets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "autoDownloadStudy": false,
-        "sidebar": true
+        "sidebar": true,
+        "studyEndMsg": "Thank you for completing the study. Your completion code is: C1COY6LS",
+        "urlParticipantIdParam": "PROLIFIC_ID"
     },
     "baseComponents": {
         "visTask": {

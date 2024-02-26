@@ -15,13 +15,13 @@
         ]
     },
     "uiConfig": {
-        "contactEmail": "test@test.com",
+        "contactEmail": "yding5@wpi.com",
         "helpTextPath": "VLAT-full/help.md",
         "logoPath": "assets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "autoDownloadStudy": false,
         "sidebar": true,
-        "studyEndMsg": "Thank you for completing the study. You may click this link and return to Prolific: https://app.prolific.com/submissions/complete?cc=CE96X7ST",
+        "studyEndMsg": "Thank you for completing the study. Your completion code is: C1COY6LS",
         "urlParticipantIdParam": "PROLIFIC_ID"
     },
     "components": {
