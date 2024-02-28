@@ -71,7 +71,7 @@ export default function ResponseSwitcher({
       <SliderInput response={response} disabled={isDisabled} answer={ans} />
       )}
       {response.type === 'radio' && (
-      <RadioInput response={response} disabled={isDisabled} answer={ans} />
+      <RadioInput response={response} disabled={isDisabled} answer={ans} vertical />
       )}
       {response.type === 'checkbox' && (
       <CheckBoxInput
