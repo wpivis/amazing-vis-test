@@ -59,7 +59,7 @@
             "type": "image",
             "path": "VLAT-full/VLAT1.png",
             "style": {
-                "width": "800px"
+                "width": "1000px"
             },
             "nextButtonLocation": "sidebar",
             "response": [
