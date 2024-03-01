@@ -31,6 +31,7 @@ export default function LikertInput({
       disabled={disabled}
       response={radioResponse}
       answer={answer}
+      vertical={false}
     />
   );
 }
