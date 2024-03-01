@@ -135,8 +135,6 @@
             ]
         },
 
-
-
     "area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health": {
         "meta": {
             "taskDesc": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type",
@@ -1642,6 +1640,36 @@
             "correctIndex": 0
         }
     },
+    "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-weather_and_climate": {
+        "meta": {
+            "taskDesc": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type",
+            "context": "weather_and_climate"
+        },
+        "baseComponent": "visTask",
+        "response": [
+            {
+                "id": "q1",
+                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task [estimate the ratio of one value to another value of the same type] ?",
+                "required": true,
+                "location": "belowStimulus",
+                "type": "likert",
+                "preset": 4,
+                "rightLabel": "Not relevant",
+                "leftLabel": "Highly relevant"
+            }
+        ],
+        "parameters": {
+            "question": "What is the ratio of the total Temperature values to the total WindSpeed values over the 20 days?",
+            "imgName": "stacked_area_chart-weather_and_climate.png",
+            "options": [
+                "(A) 0.8",
+                "(B) 1.8",
+                "(C) 2.8",
+                "(D) 3.8"
+            ],
+            "correctIndex": 1
+        }
+    },
     "100_percent_stacked_bar_chart-identify_labels_of_scales-weather_and_climate": {
         "meta": {
             "taskDesc": "identify_labels_of_scales",
@@ -2932,6 +2960,36 @@
             "correctIndex": 1
         }
     },
+    "choropleth_map-estimate_the_average_of_multiple_values_of_the_same_type-economy": {
+        "meta": {
+            "taskDesc": "estimate_the_average_of_multiple_values_of_the_same_type",
+            "context": "economy"
+        },
+        "baseComponent": "visTask",
+        "response": [
+            {
+                "id": "q1",
+                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task [estimate the average of multiple values of the same type] ?",
+                "required": true,
+                "location": "belowStimulus",
+                "type": "likert",
+                "preset": 4,
+                "rightLabel": "Not relevant",
+                "leftLabel": "Highly relevant"
+            }
+        ],
+        "parameters": {
+            "question": "What is the average economic value across all states as depicted in the choropleth map?",
+            "imgName": "choropleth_map-economy.png",
+            "options": [
+                "(A) $45,018",
+                "(B) $52,962",
+                "(C) $60,906",
+                "(D) $68,850"
+            ],
+            "correctIndex": 1
+        }
+    },
     "stacked_area_chart-retrieve_value-economy": {
         "meta": {
             "taskDesc": "retrieve_value",
@@ -3623,6 +3681,31 @@
                 "(D) School D"
             ],
             "correctIndex": 1
+        }
+    },
+    "histogram-estimate_the_average_of_multiple_values_of_the_same_type-education": {
+        "meta": {
+            "taskDesc": "estimate_the_average_of_multiple_values_of_the_same_type",
+            "context": "education"
+        },
+        "baseComponent": "visTask",
+        "response": [
+            {
+                "id": "q1",
+                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task [estimate the average of multiple values of the same type] ?",
+                "required": true,
+                "location": "belowStimulus",
+                "type": "likert",
+                "preset": 4,
+                "rightLabel": "Not relevant",
+                "leftLabel": "Highly relevant"
+            }
+        ],
+        "parameters": {
+            "question": "What is the average test score?",
+            "imgName": "histogram-education.png",
+            "options": [],
+            "correctIndex": -1
         }
     },
     "histogram-describe_the_topic_of_the_visualization-education": {
@@ -4672,11 +4755,15 @@
 
 
 
+
+
+
+
+
     },
     "sequence": {
         "order": "fixed",
         "components": [
-            "introduction",
             "area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health",
             "scatterplot-describe_trend_or_correlation-health",
             "stacked_area_chart-describe_the_topic_of_the_visualization-health",
@@ -4833,8 +4920,6 @@
             "area_chart-judge_which_task_this_visualization_design_best_supports-health",
             "bubble_chart-estimate_the_difference_between_two_values_of_the_same_type-population_and_demography",
             "tree_map-estimate_the_average_of_multiple_values_of_the_same_type-politics"
-
-
         ]
     }
 }
