@@ -37,8 +37,8 @@
                     "location": "belowStimulus",
                     "type": "likert",
                     "preset": 4,
-                    "rightLabel": "Not relevant",
-                    "leftLabel": "Highly relevant"
+                    "rightLabel": "Highly relevant",
+                    "leftLabel": "Not relevant"
                 },
                 {
                     "id": "q2",
@@ -47,8 +47,8 @@
                     "location": "belowStimulus",
                     "type": "likert",
                     "preset": 4,
-                    "rightLabel": "Not clear",
-                    "leftLabel": "Very clear"
+                    "rightLabel": "Very clear",
+                    "leftLabel": "Not clear"
                 },
                 {
                     "id": "q3",
