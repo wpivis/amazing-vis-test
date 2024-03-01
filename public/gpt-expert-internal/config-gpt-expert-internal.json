@@ -81,6 +81,10 @@
                         {
                             "label": "No",
                             "value": "No"
+                        },
+                        {
+                            "label": "More than one option could be considered correct",
+                            "value": "More than one option could be considered correct"
                         }
                     ]
                 },
