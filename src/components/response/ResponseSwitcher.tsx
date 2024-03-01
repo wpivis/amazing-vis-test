@@ -1,4 +1,4 @@
-import { Box } from '@mantine/core';
+import { Box, Divider } from '@mantine/core';
 import { useSearchParams } from 'react-router-dom';
 import { useMemo } from 'react';
 import { Response } from '../../parser/types';
@@ -39,50 +39,53 @@ export default function ResponseSwitcher({
   }, [disabled, response.paramCapture, searchParams]);
 
   return (
-    <Box sx={{ margin: 10, padding: 5 }}>
-      {response.type === 'numerical' && (
-      <NumericInput
-        response={response}
-        disabled={isDisabled}
-        answer={ans}
-      />
-      )}
-      {response.type === 'shortText' && (
-      <StringInput response={response} disabled={isDisabled} answer={ans} />
-      )}
-      {response.type === 'longText' && (
-      <TextAreaInput
-        response={response}
-        disabled={isDisabled}
-        answer={ans}
-      />
-      )}
-      {response.type === 'likert' && (
-      <LikertInput response={response} disabled={isDisabled} answer={ans} />
-      )}
-      {response.type === 'dropdown' && (
-      <DropdownInput
-        response={response}
-        disabled={isDisabled}
-        answer={ans}
-      />
-      )}
-      {response.type === 'slider' && (
-      <SliderInput response={response} disabled={isDisabled} answer={ans} />
-      )}
-      {response.type === 'radio' && (
-      <RadioInput response={response} disabled={isDisabled} answer={ans} vertical />
-      )}
-      {response.type === 'checkbox' && (
-      <CheckBoxInput
-        response={response}
-        disabled={isDisabled}
-        answer={ans}
-      />
-      )}
-      {response.type === 'iframe' && (
-      <IframeInput response={response} answer={ans as { value: string[] }} />
-      )}
-    </Box>
+    <>
+      <Box sx={{ margin: 10, padding: 5 }}>
+        {response.type === 'numerical' && (
+        <NumericInput
+          response={response}
+          disabled={isDisabled}
+          answer={ans}
+        />
+        )}
+        {response.type === 'shortText' && (
+        <StringInput response={response} disabled={isDisabled} answer={ans} />
+        )}
+        {response.type === 'longText' && (
+        <TextAreaInput
+          response={response}
+          disabled={isDisabled}
+          answer={ans}
+        />
+        )}
+        {response.type === 'likert' && (
+        <LikertInput response={response} disabled={isDisabled} answer={ans} />
+        )}
+        {response.type === 'dropdown' && (
+        <DropdownInput
+          response={response}
+          disabled={isDisabled}
+          answer={ans}
+        />
+        )}
+        {response.type === 'slider' && (
+        <SliderInput response={response} disabled={isDisabled} answer={ans} />
+        )}
+        {response.type === 'radio' && (
+        <RadioInput response={response} disabled={isDisabled} answer={ans} vertical />
+        )}
+        {response.type === 'checkbox' && (
+        <CheckBoxInput
+          response={response}
+          disabled={isDisabled}
+          answer={ans}
+        />
+        )}
+        {response.type === 'iframe' && (
+        <IframeInput response={response} answer={ans as { value: string[] }} />
+        )}
+      </Box>
+      <Divider />
+    </>
   );
 }
