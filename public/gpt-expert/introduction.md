@@ -50,7 +50,7 @@ We created multiple-choice items to measure people’s ability to accomplish dif
 **Below are two examples of such multiple-choice items.**
 
 ### Example 1:
-![Example 1 Img](https://i.ibb.co/pd1pSt9/line-chart-healthcare.png)
+<img src="https://i.ibb.co/pd1pSt9/line-chart-healthcare.png" alt="Example img 1" width="600"/>
 
 **Question**
 
@@ -73,7 +73,7 @@ In which year did the Average Healthcare Cost reach its minimum value on the lin
 **Visualization Task:** locate value
 
 ### Example 2:
-![Example 2 Img](https://i.ibb.co/G2zMFX8/pie-chart-healthcare.png)
+<img src="https://i.ibb.co/G2zMFX8/pie-chart-healthcare.png" alt="Example img 2" width="600"/>
 
 **Question**
 

@@ -24,7 +24,7 @@
     "baseComponents": {
         "visTask": {
             "description": "A demo trial",
-            "instruction": "Please answer the following questions",
+            "instruction": "Please answer the questions on right panel",
             "type": "react-component",
             "path": "gpt-vis/VisComponent.tsx",
             "nextButtonLocation": "sidebar",
@@ -94,7 +94,7 @@
                 {
                     "id": "q5",
                     "prompt": "Q5. Only If you answered “Yes” to Question 4: Is the highlighted answer the best option out of all the options?",
-                    "required": false,
+                    "required": true,
                     "location": "belowStimulus",
                     "type": "radio",
                     "options": [

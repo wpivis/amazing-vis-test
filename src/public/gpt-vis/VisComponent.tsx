@@ -12,7 +12,7 @@ function VisCompnent({ parameters }: { parameters: any }) {
   return (
     <Container>
       <Group m={5} p={5} sx={{ border: '1px solid black', borderRadius: '5px' }}>
-        <Image maw={700} src={`${imgPathPrefix}/gpt-expert/${imgName}`} alt="image" width="100%" />
+        <Image maw={1000} src={`${imgPathPrefix}/gpt-expert/${imgName}`} alt="image" width="100%" />
         <Stack mt="xs">
           <Text>{question}</Text>
           {
