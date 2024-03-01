@@ -48,7 +48,7 @@
         "vis-test-expert": {
             "path": "gpt-expert/config-gpt-expert.json"
         },
-        "vis-test-exper-internal": {
+        "vis-test-expert-internal": {
             "path": "gpt-expert-internal/config-gpt-expert-internal.json"
         },
         "vis-test-prolific": {
