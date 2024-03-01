@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/GlobalConfigSchema.json",
     "configsList": [
-        "vis-test-exper-internal",
+        "vis-test-expert-internal",
         "vis-test-expert",
         "vis-test-prolific",
         "VLAT-full",
