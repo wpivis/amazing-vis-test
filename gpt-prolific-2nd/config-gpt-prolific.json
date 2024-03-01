@@ -30,7 +30,7 @@
             "nextButtonLocation": "sidebar",
             "instructionLocation": "sidebar",
             "style": {
-                "width": "700px"
+                "width": "1000px"
             }
         }
     },
@@ -5949,22 +5949,16 @@
         },
 
 
-
         "at1": {
             "meta": {
-                "trueAnswer": 0,
+                "trueAnswer": 3,
                 "chartType": "attentionCheck",
                 "task": "attention_check"
 
             },
             "instruction": "This question is very simple. When we ask about the topic you spent the most time on, you must select *Rocket Science*. This is an attention check. Based on what you just read, which topic have you been asked to select?",
-            "instructionLocation": "sidebar",
-            "type": "image",
+            "baseComponent": "visTask",
             "path": "gpt-prolific/100_percent_stacked_bar_chart-economy.png",
-            "style": {
-                "width": "800px"
-            },
-            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "resAt1",
@@ -5972,7 +5966,7 @@
                     "prompt": "Your answer (do not skip more than 3 times)",
                     "required": true,
                     "location": "sidebar",
-                    "correctAnswer": "Visualizations",
+                    "correctAnswer": "Rocket Science",
                     "options": [
                         {
                             "label": "Visualizations",
@@ -5989,10 +5983,6 @@
                         {
                             "label": "Rocket Science",
                             "value": "Rocket Science"
-                        },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
                         }
                     ]
                 }
@@ -6006,12 +5996,8 @@
             },
             "instruction": "This question is about hobbies. When asked to select an interesting hobby from the list, you must select *Reading*. This is an attention check.Based on what you just read, which hobby have you been asked to select?",
             "instructionLocation": "sidebar",
-            "type": "image",
+            "baseComponent": "visTask",
             "path": "gpt-prolific/bubble_chart-food_and_agriculture.png",
-            "style": {
-                "width": "800px"
-            },
-            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "resAt2",
@@ -6036,11 +6022,8 @@
                         {
                             "label": "Photography",
                             "value": "Photography"
-                        },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
                         }
+
                     ]
                 }
             ]
@@ -6053,12 +6036,8 @@
             },
             "instruction": "This question is about a particular city. This magical city M can alter time, and, in order to accomplish more in a day, city M changed its time so there are 48 hours in a day. When asked for the number of hours in a day for city M, you must select *48*. This is an attention check.Based on what you just read, how many hours have you been asked to select?",
             "instructionLocation": "sidebar",
-            "type": "image",
+            "baseComponent": "visTask",
             "path": "gpt-prolific/bar_chart-health.png",
-            "style": {
-                "width": "800px"
-            },
-            "nextButtonLocation": "sidebar",
             "response": [
                 {
                     "id": "resAt3",
@@ -6083,11 +6062,8 @@
                         {
                             "label": "72",
                             "value": "72"
-                        },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
                         }
+
                     ]
                 }
             ]

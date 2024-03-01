@@ -1,6 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/GlobalConfigSchema.json",
     "configsList": [
+        "vis-test-expert-internal",
         "vis-test-expert",
         "vis-test-prolific",
         "VLAT-full",
@@ -46,6 +47,9 @@
         },
         "vis-test-expert": {
             "path": "gpt-expert/config-gpt-expert.json"
+        },
+        "vis-test-exper-internal": {
+            "path": "gpt-expert-internal/config-gpt-expert-internal.json"
         },
         "vis-test-prolific": {
             "path": "gpt-prolific/config-gpt-prolific.json"
