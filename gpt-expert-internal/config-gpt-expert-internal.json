@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json",
     "studyMetadata": {
-        "title": "Evaluating Data Visualization Assessment Quality",
+        "title": "Expert Evaluation of Visualization Items",
         "version": "pilot",
         "authors": [
             "The reVISit Team"
@@ -23,7 +23,7 @@
     },
     "baseComponents": {
         "visTask": {
-            "description": "A demo trial",
+            "description": "A base trial",
             "instruction": "Please answer the questions on right panel",
             "type": "react-component",
             "path": "gpt-vis/VisComponent.tsx",
@@ -37,8 +37,8 @@
                     "location": "belowStimulus",
                     "type": "likert",
                     "preset": 4,
-                    "rightLabel": "Not relevant",
-                    "leftLabel": "Highly relevant"
+                    "rightLabel": "Highly relevant",
+                    "leftLabel": "Not relevant"
                 },
                 {
                     "id": "q2",
@@ -47,8 +47,8 @@
                     "location": "belowStimulus",
                     "type": "likert",
                     "preset": 4,
-                    "rightLabel": "Not clear",
-                    "leftLabel": "Very clear"
+                    "rightLabel": "Very clear",
+                    "leftLabel": "Not clear"
                 },
                 {
                     "id": "q3",
@@ -81,6 +81,10 @@
                         {
                             "label": "No",
                             "value": "No"
+                        },
+                        {
+                            "label": "More than one option could be considered correct",
+                            "value": "More than one option could be considered correct"
                         }
                     ]
                 },
