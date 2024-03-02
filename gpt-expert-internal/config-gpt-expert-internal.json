@@ -37,8 +37,8 @@
                     "location": "belowStimulus",
                     "type": "likert",
                     "preset": 4,
-                    "rightLabel": "Highly relevant",
-                    "leftLabel": "Not relevant"
+                    "rightLabel": "Not relevant",
+                    "leftLabel": "Highly relevant"
                 },
                 {
                     "id": "q2",
@@ -47,8 +47,8 @@
                     "location": "belowStimulus",
                     "type": "likert",
                     "preset": 4,
-                    "rightLabel": "Very clear",
-                    "leftLabel": "Not clear"
+                    "rightLabel": "Not clear",
+                    "leftLabel": "Very clear"
                 },
                 {
                     "id": "q3",
@@ -81,10 +81,6 @@
                         {
                             "label": "No",
                             "value": "No"
-                        },
-                        {
-                            "label": "More than one option could be considered correct",
-                            "value": "More than one option could be considered correct"
                         }
                     ]
                 },
