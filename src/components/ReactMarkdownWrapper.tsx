@@ -6,6 +6,7 @@ import {
 } from '@mantine/core';
 import { ReactNode } from 'react';
 import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
 
 export default function ReactMarkdownWrapper({ text }: { text: string; }) {
   const components = {
@@ -25,7 +26,7 @@ export default function ReactMarkdownWrapper({ text }: { text: string; }) {
   return (
     <div style={{ display: 'inherit' }}>
       {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-      <ReactMarkdown components={components} rehypePlugins={[rehypeRaw] as any}>{text}</ReactMarkdown>
+      <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw] as any}>{text}</ReactMarkdown>
     </div>
   );
 }
