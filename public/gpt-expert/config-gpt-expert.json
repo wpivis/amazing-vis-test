@@ -4735,7 +4735,241 @@
     "sequence": {
         "order": "fixed",
         "components": [
-            "introduction"
+            "introduction",
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "choropleth_map-make_comparisons-population_and_demography",
+                    "histogram-make_comparisons-population_and_demography",
+                    "tree_map-make_comparisons-energy_and_environment",
+                    "pie_chart-make_comparisons-energy_and_environment",
+                    "scatterplot-make_comparisons-energy_and_environment",
+                    "stacked_area_chart-make_comparisons-energy_and_environment",
+                    "area_chart-make_comparisons-food_and_agriculture",
+                    "bubble_chart-make_comparisons-economy",
+                    "100_percent_stacked_bar_chart-make_comparisons-politics",
+                    "stacked_bar_chart-make_comparisons-education",
+                    "bar_chart-make_comparisons-innovation",
+                    "line_chart-make_comparisons-innovation"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "stacked_bar_chart-identify_range-health",
+                    "histogram-identify_range-health",
+                    "bubble_chart-identify_range-health",
+                    "100_percent_stacked_bar_chart-identify_range-health",
+                    "bar_chart-identify_range-energy_and_environment",
+                    "tree_map-identify_range-energy_and_environment",
+                    "line_chart-identify_range-energy_and_environment",
+                    "scatterplot-identify_range-economy",
+                    "area_chart-identify_range-politics",
+                    "choropleth_map-identify_range-innovation",
+                    "stacked_area_chart-identify_range-innovation",
+                    "pie_chart-identify_range-innovation"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "histogram-retrieve_value-health",
+                    "choropleth_map-retrieve_value-population_and_demography",
+                    "bar_chart-retrieve_value-energy_and_environment",
+                    "pie_chart-retrieve_value-energy_and_environment",
+                    "stacked_bar_chart-retrieve_value-food_and_agriculture",
+                    "stacked_area_chart-retrieve_value-economy",
+                    "tree_map-retrieve_value-politics",
+                    "bubble_chart-retrieve_value-politics",
+                    "line_chart-retrieve_value-education",
+                    "scatterplot-retrieve_value-education",
+                    "area_chart-retrieve_value-education",
+                    "100_percent_stacked_bar_chart-retrieve_value-education"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "pie_chart-locate_value-health",
+                    "bubble_chart-locate_value-population_and_demography",
+                    "scatterplot-locate_value-weather_and_climate",
+                    "line_chart-locate_value-food_and_agriculture",
+                    "100_percent_stacked_bar_chart-locate_value-food_and_agriculture",
+                    "histogram-locate_value-economy",
+                    "stacked_area_chart-locate_value-economy",
+                    "tree_map-locate_value-economy",
+                    "bar_chart-locate_value-politics",
+                    "stacked_bar_chart-locate_value-politics",
+                    "area_chart-locate_value-education",
+                    "choropleth_map-locate_value-innovation"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "line_chart-identify_labels_of_scales-health",
+                    "tree_map-identify_labels_of_scales-population_and_demography",
+                    "choropleth_map-identify_labels_of_scales-population_and_demography",
+                    "histogram-identify_labels_of_scales-population_and_demography",
+                    "pie_chart-identify_labels_of_scales-energy_and_environment",
+                    "stacked_bar_chart-identify_labels_of_scales-energy_and_environment",
+                    "100_percent_stacked_bar_chart-identify_labels_of_scales-weather_and_climate",
+                    "stacked_area_chart-identify_labels_of_scales-weather_and_climate",
+                    "area_chart-identify_labels_of_scales-food_and_agriculture",
+                    "bubble_chart-identify_labels_of_scales-food_and_agriculture",
+                    "scatterplot-identify_labels_of_scales-economy",
+                    "bar_chart-identify_labels_of_scales-education"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "stacked_area_chart-describe_the_topic_of_the_visualization-health",
+                    "line_chart-describe_the_topic_of_the_visualization-health",
+                    "100_percent_stacked_bar_chart-describe_the_topic_of_the_visualization-weather_and_climate",
+                    "choropleth_map-describe_the_topic_of_the_visualization-food_and_agriculture",
+                    "bubble_chart-describe_the_topic_of_the_visualization-food_and_agriculture",
+                    "scatterplot-describe_the_topic_of_the_visualization-food_and_agriculture",
+                    "area_chart-describe_the_topic_of_the_visualization-economy",
+                    "stacked_bar_chart-describe_the_topic_of_the_visualization-economy",
+                    "pie_chart-describe_the_topic_of_the_visualization-politics",
+                    "histogram-describe_the_topic_of_the_visualization-education",
+                    "tree_map-describe_the_topic_of_the_visualization-education",
+                    "bar_chart-describe_the_topic_of_the_visualization-innovation"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "area_chart-estimate_the_difference_between_two_values_of_the_same_type-population_and_demography",
+                    "bar_chart-estimate_the_difference_between_two_values_of_the_same_type-population_and_demography",
+                    "100_percent_stacked_bar_chart-estimate_the_difference_between_two_values_of_the_same_type-population_and_demography",
+                    "line_chart-estimate_the_difference_between_two_values_of_the_same_type-food_and_agriculture",
+                    "choropleth_map-estimate_the_difference_between_two_values_of_the_same_type-economy",
+                    "scatterplot-estimate_the_difference_between_two_values_of_the_same_type-politics",
+                    "tree_map-estimate_the_difference_between_two_values_of_the_same_type-education",
+                    "pie_chart-estimate_the_difference_between_two_values_of_the_same_type-education",
+                    "stacked_bar_chart-estimate_the_difference_between_two_values_of_the_same_type-education",
+                    "stacked_area_chart-estimate_the_difference_between_two_values_of_the_same_type-innovation",
+                    "histogram-estimate_the_difference_between_two_values_of_the_same_type-innovation",
+                    "bubble_chart-estimate_the_difference_between_two_values_of_the_same_type-population_and_demography"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health",
+                    "choropleth_map-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health",
+                    "100_percent_stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health",
+                    "line_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-energy_and_environment",
+                    "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-weather_and_climate",
+                    "bubble_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-weather_and_climate",
+                    "tree_map-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-weather_and_climate",
+                    "scatterplot-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-economy",
+                    "bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-politics",
+                    "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-education",
+                    "histogram-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-innovation",
+                    "pie_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-innovation"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "stacked_area_chart-estimate_the_average_of_multiple_values_of_the_same_type-health",
+                    "bubble_chart-estimate_the_average_of_multiple_values_of_the_same_type-population_and_demography",
+                    "bar_chart-estimate_the_average_of_multiple_values_of_the_same_type-population_and_demography",
+                    "stacked_bar_chart-estimate_the_average_of_multiple_values_of_the_same_type-population_and_demography",
+                    "line_chart-estimate_the_average_of_multiple_values_of_the_same_type-energy_and_environment",
+                    "100_percent_stacked_bar_chart-estimate_the_average_of_multiple_values_of_the_same_type-energy_and_environment",
+                    "pie_chart-estimate_the_average_of_multiple_values_of_the_same_type-food_and_agriculture",
+                    "choropleth_map-estimate_the_average_of_multiple_values_of_the_same_type-economy",
+                    "scatterplot-estimate_the_average_of_multiple_values_of_the_same_type-politics",
+                    "histogram-estimate_the_average_of_multiple_values_of_the_same_type-education",
+                    "area_chart-estimate_the_average_of_multiple_values_of_the_same_type-innovation",
+                    "tree_map-estimate_the_average_of_multiple_values_of_the_same_type-politics"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "scatterplot-describe_trend_or_correlation-health",
+                    "100_percent_stacked_bar_chart-describe_trend_or_correlation-health",
+                    "pie_chart-describe_trend_or_correlation-health",
+                    "line_chart-describe_trend_or_correlation-population_and_demography",
+                    "histogram-describe_trend_or_correlation-food_and_agriculture",
+                    "area_chart-describe_trend_or_correlation-food_and_agriculture",
+                    "bubble_chart-describe_trend_or_correlation-economy",
+                    "choropleth_map-describe_trend_or_correlation-politics",
+                    "stacked_bar_chart-describe_trend_or_correlation-politics",
+                    "stacked_area_chart-describe_trend_or_correlation-politics",
+                    "tree_map-describe_trend_or_correlation-education",
+                    "bar_chart-describe_trend_or_correlation-education"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "tree_map-describe_the_characteristics_of_an_alternative_chart_type-population_and_demography",
+                    "stacked_area_chart-describe_the_characteristics_of_an_alternative_chart_type-population_and_demography",
+                    "area_chart-describe_the_characteristics_of_an_alternative_chart_type-energy_and_environment",
+                    "stacked_bar_chart-describe_the_characteristics_of_an_alternative_chart_type-weather_and_climate",
+                    "line_chart-describe_the_characteristics_of_an_alternative_chart_type-weather_and_climate",
+                    "bubble_chart-describe_the_characteristics_of_an_alternative_chart_type-weather_and_climate",
+                    "100_percent_stacked_bar_chart-describe_the_characteristics_of_an_alternative_chart_type-food_and_agriculture",
+                    "histogram-describe_the_characteristics_of_an_alternative_chart_type-food_and_agriculture",
+                    "scatterplot-describe_the_characteristics_of_an_alternative_chart_type-economy",
+                    "bar_chart-describe_the_characteristics_of_an_alternative_chart_type-education",
+                    "choropleth_map-describe_the_characteristics_of_an_alternative_chart_type-innovation",
+                    "pie_chart-describe_the_characteristics_of_an_alternative_chart_type-innovation"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "line_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-health",
+                    "bubble_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-energy_and_environment",
+                    "tree_map-judge_which_visualization_design_is_more_appropriate_for_a_task-weather_and_climate",
+                    "choropleth_map-judge_which_visualization_design_is_more_appropriate_for_a_task-weather_and_climate",
+                    "area_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-weather_and_climate",
+                    "bar_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-weather_and_climate",
+                    "stacked_area_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-food_and_agriculture",
+                    "scatterplot-judge_which_visualization_design_is_more_appropriate_for_a_task-food_and_agriculture",
+                    "stacked_bar_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-economy",
+                    "histogram-judge_which_visualization_design_is_more_appropriate_for_a_task-politics",
+                    "pie_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-politics",
+                    "100_percent_stacked_bar_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-innovation"
+                ]
+            },
+            {
+                "order": "latinSquare",
+                "numSamples": 3,
+                "components": [
+                    "tree_map-judge_which_task_this_visualization_design_best_supports-population_and_demography",
+                    "bar_chart-judge_which_task_this_visualization_design_best_supports-energy_and_environment",
+                    "scatterplot-judge_which_task_this_visualization_design_best_supports-weather_and_climate",
+                    "histogram-judge_which_task_this_visualization_design_best_supports-weather_and_climate",
+                    "100_percent_stacked_bar_chart-judge_which_task_this_visualization_design_best_supports-weather_and_climate",
+                    "stacked_bar_chart-judge_which_task_this_visualization_design_best_supports-economy",
+                    "choropleth_map-judge_which_task_this_visualization_design_best_supports-economy",
+                    "line_chart-judge_which_task_this_visualization_design_best_supports-politics",
+                    "pie_chart-judge_which_task_this_visualization_design_best_supports-politics",
+                    "bubble_chart-judge_which_task_this_visualization_design_best_supports-innovation",
+                    "stacked_area_chart-judge_which_task_this_visualization_design_best_supports-innovation",
+                    "area_chart-judge_which_task_this_visualization_design_best_supports-health"
+                ]
+            }
 
 
 
