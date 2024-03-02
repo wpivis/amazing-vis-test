@@ -55,8 +55,7 @@ We created multiple-choice items to measure people’s ability to accomplish dif
 **Below are two examples of such multiple-choice items.**
 
 ### Example 1:
-
-![INSERT EXAMPLE 1 IMG](TODO)
+<img src="https://i.ibb.co/tmdWTNm/Screenshot-2024-03-01-at-10-01-21-PM.png" alt="exp1" width="700">
 
 **Context:** health
 
@@ -66,7 +65,7 @@ We created multiple-choice items to measure people’s ability to accomplish dif
 
 ### Example 2:
 
-![INSERT EXAMPLE 2 IMG](TODO)
+<img src="https://i.ibb.co/MGmTKfh/Screenshot-2024-03-01-at-10-09-25-PM.png" alt="exp2" width="700">
 
 **Context:** economy
 
