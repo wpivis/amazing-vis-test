@@ -39,7 +39,7 @@ export default function AppNavBar() {
     || currentConfig?.instructionLocation === undefined;
 
   const viewport = useRef<HTMLDivElement>(null);
-  const scrollUp = () => viewport.current!.scrollTo({ top: 0 });
+  const scrollUp = () => viewport.current?.scrollTo({ top: 0 });
 
   useEffect(() => {
     scrollUp();
