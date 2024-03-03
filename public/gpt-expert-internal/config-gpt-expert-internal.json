@@ -315,7 +315,7 @@
             }
         ],
         "parameters": {
-            "question": "\"What is the range of Cholesterol Level values represented in the histogram?\"",
+            "question": "What is the range of Cholesterol Level values represented in the histogram?",
             "imgName": "histogram-health.png",
             "options": [
                 "(A) [127, 256]",
@@ -3585,7 +3585,7 @@
             }
         ],
         "parameters": {
-            "question": "\"The visualization above is only a demonstration of the relevant data. Which visualization design would be most appropriate for comparing the relative proportions of political party preferences?\"",
+            "question": "The visualization above is only a demonstration of the relevant data. Which visualization design would be most appropriate for comparing the relative proportions of political party preferences?",
             "imgName": "pie_chart-politics.png",
             "options": [
                 "(A) A line graph with time on the x-axis and percentage on the y-axis.",
