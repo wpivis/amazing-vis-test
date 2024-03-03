@@ -1,12 +1,10 @@
 # Instructions
 
-Thank you for participating in the expert panel for our project! Your task is to look through a set of multiple-choice items and answer some questions about each item (e.g., how clear are the question statement and options?) using the rubric we provide.
-
-Before you start your task, please read the background information below about the multiple-choice items.
+Thank you for participating in the expert panel for our project! Your task is to look through a set of multiple-choice items and answer some questions about each item using the rubric we provide.
 
 ## Information about the Multiple-Choice Items
 
-We created multiple-choice items to measure people’s ability to accomplish different visualization tasks. Each multiple-choice item is characterized by three variables: context, chart type, and visualization task. Each item has only one best option. Below are the lists of these three variables used in our project.
+We created multiple-choice items to measure people’s ability to accomplish different visualization tasks. Each multiple-choice item is characterized by three variables: **context**, **chart type**, and **visualization task**. Each item has only one best option. Below are the lists of these three variables used in our project.
 
 **Context (9):**
 
@@ -55,7 +53,9 @@ We created multiple-choice items to measure people’s ability to accomplish dif
 **Below are two examples of such multiple-choice items.**
 
 ### Example 1:
-<img src="https://i.ibb.co/3hgyxnh/Screenshot-2024-03-02-at-8-35-21-PM.png" alt="exp1" width="700">
+
+<img src="https://i.ibb.co/3hgyxnh/Screenshot-2024-03-02-at-8-35-21-PM.png" alt="exp1" width="600">
+
 **Context:** health
 
 **Chart type:** bar chart
@@ -64,7 +64,7 @@ We created multiple-choice items to measure people’s ability to accomplish dif
 
 ### Example 2:
 
-<img src="https://i.ibb.co/MGmTKfh/Screenshot-2024-03-01-at-10-09-25-PM.png" alt="exp2" width="700">
+<img src="https://i.ibb.co/MGmTKfh/Screenshot-2024-03-01-at-10-09-25-PM.png" alt="exp2" width="600">
 
 **Context:** economy
 
@@ -76,11 +76,11 @@ We created multiple-choice items to measure people’s ability to accomplish dif
 
 You will use the rubric below to evaluate a randomly selected, representative subset of items from our bank. For each item, please answer each question on the rubric to provide your evaluation of the item. You are welcome to leave additional comments for each item as well.
 
-**Rubric:**
+### Rubric:
 
-| Rubric Item | Options | Definition |
-| ----------- | ----------- | ----------- |
-| Relevance | Scale 1-4: 1 = not relevant, 4 = highly relevant | How relevant is this item to assess people’s ability to carry out the visualization task associated with the item? |
-| Clarity | Scale 1-4: 1 = not clear, 4 = very clear | How clear are the question statement and the options? |
-| Answerable | Yes/No | Is one of the options a correct or approximately correct answer to the question? |
-| Correctness | Yes/No/More than one option could be considered correct | Is the answer marked green the correct answer? |
+| Rubric Item | Options                                                 | Definition                                                                                                         |
+| ----------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Relevance   | Scale 1-4: 1 = not relevant, 4 = highly relevant        | How relevant is this item to assess people’s ability to carry out the visualization task associated with the item? |
+| Clarity     | Scale 1-4: 1 = not clear, 4 = very clear                | How clear are the question statement and the options?                                                              |
+| Answerable  | Yes/No                                                  | Is one of the options a correct or approximately correct answer to the question?                                   |
+| Correctness | Yes/No/More than one option could be considered correct | Is the answer marked green the correct answer?                                                                     |

@@ -47,7 +47,7 @@ export default function AppNavBar() {
 
   return trialHasSideBar && currentConfig ? (
     <Navbar bg="gray.1" display="block" width={{ base: 600 }} style={{ zIndex: 0, overflowY: 'scroll' }}>
-      <ScrollArea h={700} viewportRef={viewport}>
+      <ScrollArea h="100%" viewportRef={viewport}>
         {instructionInSideBar && instruction !== '' && (
         <Navbar.Section
           bg="gray.3"

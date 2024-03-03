@@ -107,7 +107,7 @@
                     "id": "userNames",
                     "prompt": "Please enter your name below. This information will be removed when we make our data publicly available",
                     "required": true,
-                    "location": "sidebar",
+                    "location": "belowStimulus",
                     "type": "shortText",
                     "placeholder": "Your Name"
                 }
