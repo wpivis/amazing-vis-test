@@ -55,8 +55,7 @@ We created multiple-choice items to measure people’s ability to accomplish dif
 **Below are two examples of such multiple-choice items.**
 
 ### Example 1:
-<img src="https://i.ibb.co/tmdWTNm/Screenshot-2024-03-01-at-10-01-21-PM.png" alt="exp1" width="700">
-
+<img src="https://i.ibb.co/3hgyxnh/Screenshot-2024-03-02-at-8-35-21-PM.png" alt="exp1" width="700">
 **Context:** health
 
 **Chart type:** bar chart
