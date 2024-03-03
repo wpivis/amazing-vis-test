@@ -24,7 +24,7 @@
     "baseComponents": {
         "visTask": {
             "description": "A base trial",
-            "instruction": "Please answer the questions on right panel",
+            "instruction": "Please answer the  questions below",
             "type": "react-component",
             "path": "gpt-vis/VisComponent.tsx",
             "nextButtonLocation": "sidebar",
@@ -34,7 +34,7 @@
                     "id": "q1",
                     "prompt": "Q1. How relevant is this item to assess people’s ability to carry out the visualization task [insert task name - you can get the task name from txt file name]?",
                     "required": true,
-                    "location": "belowStimulus",
+                    "location": "sidebar",
                     "type": "likert",
                     "preset": 4,
                     "rightLabel": "Highly relevant",
@@ -42,9 +42,9 @@
                 },
                 {
                     "id": "q2",
-                    "prompt": "Q2. How clear are the question statement and the options?",
+                    "prompt": "**Q2. How clear are the question statement and the options?**",
                     "required": true,
-                    "location": "belowStimulus",
+                    "location": "sidebar",
                     "type": "likert",
                     "preset": 4,
                     "rightLabel": "Very clear",
@@ -52,9 +52,9 @@
                 },
                 {
                     "id": "q3",
-                    "prompt": "Q3. Is one of the options a correct or approximately correct answer to the question?",
+                    "prompt": "**Q3. Is one of the options a correct or approximately correct answer to the question?**",
                     "required": true,
-                    "location": "belowStimulus",
+                    "location": "sidebar",
                     "type": "radio",
                     "options": [
                         {
@@ -69,9 +69,9 @@
                 },
                 {
                     "id": "q4",
-                    "prompt": "Q4. Is the answer marked as green the correct answer ",
+                    "prompt": "**Q4. Is the answer marked as green the correct answer?** ",
                     "required": true,
-                    "location": "belowStimulus",
+                    "location": "sidebar",
                     "type": "radio",
                     "options": [
                         {
@@ -90,9 +90,9 @@
                 },
                 {
                     "id": "q5",
-                    "prompt": "Q5. Any Comments?",
+                    "prompt": "**Q5. Any comments?**",
                     "required": false,
-                    "location": "belowStimulus",
+                    "location": "sidebar",
                     "type": "longText",
                     "placeholder": "You may input your comments here."
                 }
@@ -107,7 +107,7 @@
                     "id": "userNames",
                     "prompt": "Please enter your name below. This information will be removed when we make our data publicly available",
                     "required": true,
-                    "location": "belowStimulus",
+                    "location": "sidebar",
                     "type": "shortText",
                     "placeholder": "Your Name"
                 }
@@ -124,9 +124,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -154,9 +154,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -184,9 +184,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -214,9 +214,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -244,9 +244,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -274,9 +274,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -286,8 +286,13 @@
         "parameters": {
             "question": "What is the range of patient counts across all health categories and clinics?",
             "imgName": "stacked_bar_chart-health.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) [47, 221]",
+                "(B) [56, 192]",
+                "(C) [38, 250]",
+                "(D) [29, 279]"
+            ],
+            "correctIndex": 1
         }
     },
     "histogram-identify_range-health": {
@@ -299,9 +304,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -329,9 +334,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -359,9 +364,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -389,9 +394,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -419,9 +424,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -449,9 +454,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -479,9 +484,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -509,9 +514,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -521,8 +526,13 @@
         "parameters": {
             "question": "Estimate the average number of cases for the Cardiovascular group over the years 2001 to 2020.",
             "imgName": "stacked_area_chart-health.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) 262.8",
+                "(B) 309.8",
+                "(C) 356.8",
+                "(D) 403.8"
+            ],
+            "correctIndex": 1
         }
     },
     "100_percent_stacked_bar_chart-identify_range-health": {
@@ -534,9 +544,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -564,9 +574,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -594,9 +604,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -624,9 +634,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -654,9 +664,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -684,9 +694,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -714,9 +724,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -726,8 +736,13 @@
         "parameters": {
             "question": "Which age group has a greater number of people, those in their early thirties or those in their late twenties?",
             "imgName": "histogram-population_and_demography.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) Early thirties",
+                "(B) Late twenties",
+                "(C) Both groups have the same number of people",
+                "(D) The visualization does not provide this information"
+            ],
+            "correctIndex": 0
         }
     },
     "tree_map-describe_the_characteristics_of_an_alternative_chart_type-population_and_demography": {
@@ -739,9 +754,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -769,9 +784,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -799,9 +814,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -829,9 +844,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -859,9 +874,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -889,9 +904,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -901,8 +916,13 @@
         "parameters": {
             "question": "Estimate the difference in population between the year 2000 and 2019.",
             "imgName": "area_chart-population_and_demography.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) 3110",
+                "(B) 3659",
+                "(C) 4208",
+                "(D) 4757"
+            ],
+            "correctIndex": 1
         }
     },
     "choropleth_map-retrieve_value-population_and_demography": {
@@ -914,9 +934,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -944,9 +964,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -974,9 +994,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1004,9 +1024,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1034,9 +1054,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1046,8 +1066,13 @@
         "parameters": {
             "question": "What is the average population size per age group represented in the bar chart?",
             "imgName": "bar_chart-population_and_demography.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) 2195.4",
+                "(B) 2583.4",
+                "(C) 2971.4",
+                "(D) 3359.4"
+            ],
+            "correctIndex": 1
         }
     },
     "tree_map-judge_which_task_this_visualization_design_best_supports-population_and_demography": {
@@ -1059,9 +1084,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1089,9 +1114,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1107,7 +1132,7 @@
                 "(C) 22879",
                 "(D) 34993"
             ],
-            "correctIndex": -1
+            "correctIndex": 0
         }
     },
     "tree_map-make_comparisons-energy_and_environment": {
@@ -1119,9 +1144,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1149,9 +1174,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1179,9 +1204,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1209,9 +1234,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1239,9 +1264,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1269,9 +1294,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1299,9 +1324,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1329,9 +1354,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1359,9 +1384,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1389,9 +1414,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1419,9 +1444,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1449,9 +1474,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1479,9 +1504,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1509,9 +1534,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1539,9 +1564,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1569,9 +1594,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1599,9 +1624,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1629,9 +1654,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1659,9 +1684,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1689,9 +1714,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1719,9 +1744,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1737,7 +1762,7 @@
                 "(C) Examining the relationship between temperature and humidity",
                 "(D) Assessing the distribution of humidity across different seasons"
             ],
-            "correctIndex": -1
+            "correctIndex": 2
         }
     },
     "stacked_bar_chart-describe_the_characteristics_of_an_alternative_chart_type-weather_and_climate": {
@@ -1749,9 +1774,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1779,9 +1804,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1809,9 +1834,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1839,9 +1864,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1869,9 +1894,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1879,16 +1904,15 @@
             }
         ],
         "parameters": {
-            "question": "the question stem of the new item",
+            "question": "Given the task of displaying the trend of average daily temperatures over a period of 20 days, which visualization design would be most appropriate? The visualization above is only a demonstration of the relevant data.",
             "imgName": "area_chart-weather_and_climate.png",
             "options": [
-                "Given the task of displaying the trend of average daily temperatures over a period of 20 days, which visualization design would be most appropriate? The visualization above is only a demonstration of the relevant data.",
                 "(A) A pie chart with slices representing the proportion of days within certain temperature ranges.",
                 "(B) A line chart with the days on the x-axis and average temperatures on the y-axis, showing the trend of temperatures over time.",
                 "(C) A scatter plot with individual days on the x-axis and corresponding temperatures on the y-axis, without connecting lines or areas.",
                 "(D) A bar chart with each bar representing a different day and its average temperature."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
         }
     },
     "line_chart-describe_the_characteristics_of_an_alternative_chart_type-weather_and_climate": {
@@ -1900,9 +1924,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1930,9 +1954,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1960,9 +1984,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -1990,9 +2014,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2020,9 +2044,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2050,9 +2074,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2080,9 +2104,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2110,9 +2134,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2140,9 +2164,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2170,9 +2194,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2200,9 +2224,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2230,9 +2254,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2243,11 +2267,12 @@
             "question": "The visualization above is only a demonstration of the relevant data. Which visualization design is most appropriate for comparing the total production of each crop over the entire period?",
             "imgName": "stacked_area_chart-food_and_agriculture.png",
             "options": [
+                "(A) A pie chart showing the proportion of each crop's production for a single year.",
                 "(B) A stacked area chart showing the cumulative production of each crop over the years.",
                 "(C) A line chart with multiple lines representing each crop's production trends over the years.",
                 "(D) A scatter plot with individual data points representing each year's production for all crops."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
         }
     },
     "stacked_bar_chart-retrieve_value-food_and_agriculture": {
@@ -2259,9 +2284,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2289,9 +2314,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2319,9 +2344,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2349,9 +2374,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2379,9 +2404,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2409,9 +2434,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2439,9 +2464,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2469,9 +2494,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2499,9 +2524,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2529,9 +2554,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2559,9 +2584,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2589,9 +2614,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2619,9 +2644,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2649,9 +2674,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2679,9 +2704,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2709,9 +2734,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2739,9 +2764,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2769,9 +2794,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2799,9 +2824,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2829,9 +2854,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2859,9 +2884,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2889,9 +2914,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2899,7 +2924,7 @@
             }
         ],
         "parameters": {
-            "question": "",
+            "question": "Which subcategory represents the smallest percentage of the economy?",
             "imgName": "tree_map-economy.png",
             "options": [
                 "(A) Crops",
@@ -2919,9 +2944,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2949,9 +2974,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -2979,9 +3004,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3009,9 +3034,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3039,9 +3064,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3055,10 +3080,9 @@
                 "(A) [400, 2300]",
                 "(B) [456, 2290]",
                 "(C) [537, 1991]",
-                "(D) [500, 2299]",
-                "(C) [537, 1991]"
+                "(D) [500, 2299]"
             ],
-            "correctIndex": -1
+            "correctIndex": 2
         }
     },
     "choropleth_map-estimate_the_difference_between_two_values_of_the_same_type-economy": {
@@ -3070,9 +3094,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3100,9 +3124,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3130,9 +3154,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3160,9 +3184,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3190,9 +3214,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3220,9 +3244,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3235,6 +3259,7 @@
             "options": [
                 "(A) Comparing the approval rating between different years",
                 "(B) Identifying the exact approval rating for a given year",
+                "(C) Showing the distribution of approval ratings across different political parties",
                 "(D) Demonstrating the correlation between approval ratings and economic indicators"
             ],
             "correctIndex": 1
@@ -3249,9 +3274,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3261,8 +3286,13 @@
         "parameters": {
             "question": "What is the ratio of votes for the Socialist party to the votes for the Libertarian party?",
             "imgName": "bar_chart-politics.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) 3.5",
+                "(B) 4.5",
+                "(C) 5.5",
+                "(D) 6.5"
+            ],
+            "correctIndex": 1
         }
     },
     "stacked_bar_chart-locate_value-politics": {
@@ -3274,9 +3304,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3304,9 +3334,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3317,11 +3347,12 @@
             "question": "What pattern can be observed in the distribution of votes for political issues across the states?",
             "imgName": "stacked_bar_chart-politics.png",
             "options": [
+                "(A) Each state has a dominant party that has the majority of votes across all issues.",
                 "(B) No single issue consistently receives the most votes across all states.",
                 "(C) The number of votes for each issue is proportional to the state's population.",
                 "(D) Defense consistently receives the least number of votes across all states."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
         }
     },
     "100_percent_stacked_bar_chart-make_comparisons-politics": {
@@ -3333,9 +3364,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3345,8 +3376,13 @@
         "parameters": {
             "question": "Which party has a greater focus on the Environment issue compared to the Economy issue?",
             "imgName": "100_percent_stacked_bar_chart-politics.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) Party A",
+                "(B) Party B",
+                "(C) Party C",
+                "(D) Party D"
+            ],
+            "correctIndex": 0
         }
     },
     "stacked_area_chart-describe_trend_or_correlation-politics": {
@@ -3358,9 +3394,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3370,8 +3406,13 @@
         "parameters": {
             "question": "What trend is observed in the political party votes over the years 2000 to 2019?",
             "imgName": "stacked_area_chart-politics.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) All parties show a consistent increase in votes over the years.",
+                "(B) No clear trend or correlation in votes is observed across the parties over the years.",
+                "(C) The Conservative party received the most votes every year.",
+                "(D) Votes for the Green party surpassed all other parties in the final year."
+            ],
+            "correctIndex": 1
         }
     },
     "pie_chart-describe_the_topic_of_the_visualization-politics": {
@@ -3383,9 +3424,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3398,9 +3439,10 @@
             "options": [
                 "(A) The distribution of land area among different climate zones",
                 "(B) The market share of various smartphone operating systems",
-                "(C) The popularity of different ice cream flavors among children"
+                "(C) The popularity of different ice cream flavors among children",
+                "(D) The distribution of support for political parties in a population"
             ],
-            "correctIndex": -1
+            "correctIndex": 3
         }
     },
     "pie_chart-judge_which_task_this_visualization_design_best_supports-politics": {
@@ -3412,9 +3454,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3426,10 +3468,11 @@
             "imgName": "pie_chart-politics.png",
             "options": [
                 "(A) Comparing the exact numerical values of different categories",
+                "(B) Showing the distribution of parts to a whole",
                 "(C) Displaying trends over time",
                 "(D) Identifying correlations between two variables"
             ],
-            "correctIndex": -1
+            "correctIndex": 1
         }
     },
     "histogram-judge_which_visualization_design_is_more_appropriate_for_a_task-politics": {
@@ -3441,9 +3484,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3454,11 +3497,12 @@
             "question": "The visualization above is only a demonstration of the relevant data. Which visualization design would be most appropriate to compare the central tendency and dispersion of the given vote counts?",
             "imgName": "histogram-politics.png",
             "options": [
+                "(A) A pie chart with sections representing different ranges of vote counts.",
                 "(B) A scatter plot with each vote count represented as a point on the horizontal axis.",
                 "(C) A box plot to visualize the median, quartiles, and potential outliers in the vote counts.",
                 "(D) A line graph showing the trend of vote counts over time."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
         }
     },
     "tree_map-retrieve_value-politics": {
@@ -3470,9 +3514,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3500,9 +3544,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3530,9 +3574,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3543,9 +3587,12 @@
             "question": "\"The visualization above is only a demonstration of the relevant data. Which visualization design would be most appropriate for comparing the relative proportions of political party preferences?\"",
             "imgName": "pie_chart-politics.png",
             "options": [
-                "(A) A line graph with time on the x-axis and percentage on the y-axis."
+                "(A) A line graph with time on the x-axis and percentage on the y-axis.",
+                "(B) A pie chart with different colors representing each political party and their respective percentages.",
+                "(C) A scatter plot with political parties on the x-axis and percentage on the y-axis.",
+                "(D) A bar chart with political parties on the x-axis and percentage on the y-axis, without any color distinction."
             ],
-            "correctIndex": -1
+            "correctIndex": 1
         }
     },
     "area_chart-identify_range-politics": {
@@ -3557,9 +3604,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3567,15 +3614,15 @@
             }
         ],
         "parameters": {
-            "question": "What is the range of votes received by the political party from 2000 to 2019 as shown in the area chart?",
+            "question": "What is the average production value (in tonnes) for the food items shown in the bar chart?",
             "imgName": "area_chart-politics.png",
             "options": [
-                "(A) [50, 600]",
-                "(B) [96, 544]",
-                "(C) [95, 545]",
-                "(D) [94, 546]"
+                "(A) 350",
+                "(B) 480",
+                "(C) 545",
+                "(D) 418"
             ],
-            "correctIndex": -1
+            "correctIndex": 3
         }
     },
     "scatterplot-estimate_the_difference_between_two_values_of_the_same_type-politics": {
@@ -3587,9 +3634,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3599,8 +3646,13 @@
         "parameters": {
             "question": "Estimate the difference in Opposition Support percentage between the highest and lowest recorded values.",
             "imgName": "scatterplot-politics.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) 39",
+                "(B) 47",
+                "(C) 55",
+                "(D) 63"
+            ],
+            "correctIndex": 1
         }
     },
     "scatterplot-estimate_the_average_of_multiple_values_of_the_same_type-politics": {
@@ -3612,9 +3664,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3630,7 +3682,7 @@
                 "(C) 39.6",
                 "(D) 29.6"
             ],
-            "correctIndex": -1
+            "correctIndex": 3
         }
     },
     "stacked_bar_chart-make_comparisons-education": {
@@ -3642,9 +3694,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3672,9 +3724,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3684,8 +3736,13 @@
         "parameters": {
             "question": "What is the average test score?",
             "imgName": "histogram-education.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) 76.1",
+                "(B) 90.1",
+                "(C) 104.1",
+                "(D) 118.1"
+            ],
+            "correctIndex": 1
         }
     },
     "histogram-describe_the_topic_of_the_visualization-education": {
@@ -3697,9 +3754,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3727,9 +3784,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3757,9 +3814,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3787,9 +3844,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3817,9 +3874,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3827,15 +3884,15 @@
             }
         ],
         "parameters": {
-            "question": "What is the difference in percentage between the High School and Undergraduate education levels?",
+            "question": "What is the difference in percentage points between the proportion of individuals with High School education and those with an Undergraduate degree?",
             "imgName": "pie_chart-education.png",
             "options": [
-                "(A) 12%",
-                "(B) 18%",
-                "(C) 9%",
-                "(D) 21%"
+                "(A) 12",
+                "(B) 15",
+                "(C) 18",
+                "(D) 21"
             ],
-            "correctIndex": -1
+            "correctIndex": 1
         }
     },
     "line_chart-retrieve_value-education": {
@@ -3847,9 +3904,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3877,9 +3934,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3907,9 +3964,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify labels of scales]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify labels of scales</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3937,9 +3994,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3967,9 +4024,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -3997,9 +4054,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4027,9 +4084,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[retrieve value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>retrieve value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4057,9 +4114,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4087,9 +4144,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe trend or correlation]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe trend or correlation</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4117,9 +4174,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4132,9 +4189,10 @@
             "options": [
                 "(A) The distribution of land area across different continents",
                 "(B) The popularity of various sports among high school students",
+                "(C) The allocation of funding to various university departments",
                 "(D) The proportion of educational content areas and their subcategories"
             ],
-            "correctIndex": 2
+            "correctIndex": 3
         }
     },
     "choropleth_map-describe_the_characteristics_of_an_alternative_chart_type-innovation": {
@@ -4146,9 +4204,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4176,9 +4234,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4206,9 +4264,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the topic of the visualization]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the topic of the visualization</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4216,7 +4274,7 @@
             }
         ],
         "parameters": {
-            "question": "",
+            "question": "What is the topic of the bar chart?",
             "imgName": "bar_chart-innovation.png",
             "options": [
                 "(A) The popularity of different programming languages",
@@ -4236,9 +4294,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4266,9 +4324,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which visualization design is more appropriate for a task]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which visualization design is more appropriate for a task</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4296,9 +4354,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[describe the characteristics of an alternative chart type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>describe the characteristics of an alternative chart type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4326,9 +4384,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4356,9 +4414,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4368,8 +4426,13 @@
         "parameters": {
             "question": "Estimate the difference between the highest and lowest Innovation Scores.",
             "imgName": "histogram-innovation.png",
-            "options": [],
-            "correctIndex": -1
+            "options": [
+                "(A) 22",
+                "(B) 26",
+                "(C) 30",
+                "(D) 34"
+            ],
+            "correctIndex": 1
         }
     },
     "choropleth_map-identify_range-innovation": {
@@ -4381,9 +4444,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4411,9 +4474,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4441,9 +4504,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4471,9 +4534,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[locate value]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>locate value</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4501,9 +4564,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4519,7 +4582,7 @@
                 "(C) [35, 245]",
                 "(D) [30, 240]"
             ],
-            "correctIndex": -1
+            "correctIndex": 1
         }
     },
     "line_chart-make_comparisons-innovation": {
@@ -4531,9 +4594,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[make comparisons]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>make comparisons</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4561,9 +4624,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[identify range]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>identify range</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4591,9 +4654,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4605,10 +4668,11 @@
             "imgName": "stacked_area_chart-innovation.png",
             "options": [
                 "(A) Comparing exact values across multiple categories at specific points in time",
+                "(B) Showing the distribution of a whole into parts over time",
                 "(C) Identifying precise trends for individual categories",
                 "(D) Displaying hierarchical relationships between categories"
             ],
-            "correctIndex": -1
+            "correctIndex": 1
         }
     },
     "pie_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-innovation": {
@@ -4620,9 +4684,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the ratio of one value to another value of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the ratio of one value to another value of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4638,7 +4702,7 @@
                 "(C) 1.4",
                 "(D) 2.3"
             ],
-            "correctIndex": -1
+            "correctIndex": 2
         }
     },
     "area_chart-judge_which_task_this_visualization_design_best_supports-health": {
@@ -4650,9 +4714,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[judge which task this visualization design best supports]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>judge which task this visualization design best supports</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4680,9 +4744,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the difference between two values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the difference between two values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4710,9 +4774,9 @@
         "response": [
             {
                 "id": "q1",
-                "prompt": "Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task **[estimate the average of multiple values of the same type]** ?",
+                "prompt": "**Q1. How relevant is this item to assess people\u2019s ability to carry out the visualization task: <ins>estimate the average of multiple values of the same type</ins>** ?",
                 "required": true,
-                "location": "belowStimulus",
+                "location": "sidebar",
                 "type": "likert",
                 "preset": 4,
                 "rightLabel": "Highly relevant",
@@ -4731,6 +4795,10 @@
             "correctIndex": 1
         }
     }
+
+
+
+
 },
     "sequence": {
         "order": "fixed",
