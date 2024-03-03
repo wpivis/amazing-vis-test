@@ -19,14 +19,12 @@
         "logoPath": "assets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "autoDownloadStudy": false,
-        "sidebar": true,
-        "urlParticipantIdParam": "pid"
-
+        "sidebar": true
     },
     "baseComponents": {
         "visTask": {
             "description": "A base trial",
-            "instruction": "Please answer the questions below (Q1-Q4 are required; Q5 is optional). Please scroll down if not all questions are visible. The \"next\" button is located at the bottom of this side bar",
+            "instruction": "Please answer the  questions below",
             "type": "react-component",
             "path": "gpt-vis/VisComponent.tsx",
             "nextButtonLocation": "sidebar",
@@ -109,7 +107,7 @@
                     "id": "userNames",
                     "prompt": "Please enter your name below. This information will be removed when we make our data publicly available",
                     "required": true,
-                    "location": "belowStimulus",
+                    "location": "sidebar",
                     "type": "shortText",
                     "placeholder": "Your Name"
                 }
@@ -316,7 +314,7 @@
             }
         ],
         "parameters": {
-            "question": "What is the range of Cholesterol Level values represented in the histogram?",
+            "question": "\"What is the range of Cholesterol Level values represented in the histogram?\"",
             "imgName": "histogram-health.png",
             "options": [
                 "(A) [127, 256]",
@@ -3586,7 +3584,7 @@
             }
         ],
         "parameters": {
-            "question": "The visualization above is only a demonstration of the relevant data. Which visualization design would be most appropriate for comparing the relative proportions of political party preferences?",
+            "question": "\"The visualization above is only a demonstration of the relevant data. Which visualization design would be most appropriate for comparing the relative proportions of political party preferences?\"",
             "imgName": "pie_chart-politics.png",
             "options": [
                 "(A) A line graph with time on the x-axis and percentage on the y-axis.",
@@ -4808,7 +4806,7 @@
             "introduction",
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "choropleth_map-make_comparisons-population_and_demography",
                     "histogram-make_comparisons-population_and_demography",
@@ -4826,7 +4824,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "stacked_bar_chart-identify_range-health",
                     "histogram-identify_range-health",
@@ -4844,7 +4842,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "histogram-retrieve_value-health",
                     "choropleth_map-retrieve_value-population_and_demography",
@@ -4862,7 +4860,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "pie_chart-locate_value-health",
                     "bubble_chart-locate_value-population_and_demography",
@@ -4880,7 +4878,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "line_chart-identify_labels_of_scales-health",
                     "tree_map-identify_labels_of_scales-population_and_demography",
@@ -4898,7 +4896,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "stacked_area_chart-describe_the_topic_of_the_visualization-health",
                     "line_chart-describe_the_topic_of_the_visualization-health",
@@ -4916,7 +4914,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "area_chart-estimate_the_difference_between_two_values_of_the_same_type-population_and_demography",
                     "bar_chart-estimate_the_difference_between_two_values_of_the_same_type-population_and_demography",
@@ -4934,7 +4932,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health",
                     "choropleth_map-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health",
@@ -4952,7 +4950,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "stacked_area_chart-estimate_the_average_of_multiple_values_of_the_same_type-health",
                     "bubble_chart-estimate_the_average_of_multiple_values_of_the_same_type-population_and_demography",
@@ -4970,7 +4968,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "scatterplot-describe_trend_or_correlation-health",
                     "100_percent_stacked_bar_chart-describe_trend_or_correlation-health",
@@ -4988,7 +4986,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "tree_map-describe_the_characteristics_of_an_alternative_chart_type-population_and_demography",
                     "stacked_area_chart-describe_the_characteristics_of_an_alternative_chart_type-population_and_demography",
@@ -5006,7 +5004,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "line_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-health",
                     "bubble_chart-judge_which_visualization_design_is_more_appropriate_for_a_task-energy_and_environment",
@@ -5024,7 +5022,7 @@
             },
             {
                 "order": "latinSquare",
-                "numSamples": 4,
+                "numSamples": 3,
                 "components": [
                     "tree_map-judge_which_task_this_visualization_design_best_supports-population_and_demography",
                     "bar_chart-judge_which_task_this_visualization_design_best_supports-energy_and_environment",
