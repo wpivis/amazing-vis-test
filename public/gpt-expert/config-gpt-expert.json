@@ -24,7 +24,7 @@
     "baseComponents": {
         "visTask": {
             "description": "A base trial",
-            "instruction": "Please answer the  questions below",
+            "instruction": "Please answer the questions below (Q1-Q4 are required; Q5 is optional). Please scroll down if not all questions are visible. The \"next\" button is located at the bottom of this side bar",
             "type": "react-component",
             "path": "gpt-vis/VisComponent.tsx",
             "nextButtonLocation": "sidebar",
