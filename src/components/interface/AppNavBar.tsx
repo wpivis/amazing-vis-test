@@ -1,6 +1,6 @@
-import { Navbar, Text } from '@mantine/core';
+import { Navbar, ScrollArea, Text } from '@mantine/core';
 import merge from 'lodash.merge';
-import { useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import ReactMarkdownWrapper from '../ReactMarkdownWrapper';
 import { useStudyConfig } from '../../store/hooks/useStudyConfig';
 import { useStoredAnswer } from '../../store/hooks/useStoredAnswer';
@@ -38,9 +38,17 @@ export default function AppNavBar() {
   const instructionInSideBar = currentConfig?.instructionLocation === 'sidebar'
     || currentConfig?.instructionLocation === undefined;
 
+  const viewport = useRef<HTMLDivElement>(null);
+  const scrollUp = () => viewport.current!.scrollTo({ top: 0 });
+
+  useEffect(() => {
+    scrollUp();
+  }, [currentStep]);
+
   return trialHasSideBar && currentConfig ? (
-    <Navbar bg="gray.1" display="block" width={{ base: 500 }} style={{ zIndex: 0, overflowY: 'scroll' }}>
-      {instructionInSideBar && instruction !== '' && (
+    <Navbar bg="gray.1" display="block" width={{ base: 550 }} style={{ zIndex: 0, overflowY: 'scroll' }}>
+      <ScrollArea h={700} viewportRef={viewport}>
+        {instructionInSideBar && instruction !== '' && (
         <Navbar.Section
           bg="gray.3"
           p="xl"
@@ -52,9 +60,9 @@ export default function AppNavBar() {
             <ReactMarkdownWrapper text={instruction} />
           </Text>
         </Navbar.Section>
-      )}
+        )}
 
-      {trialHasSideBarResponses && (
+        {trialHasSideBarResponses && (
         <Navbar.Section p="xl">
           <ResponseBlock
             key={`${currentStep}-sidebar-response-block`}
@@ -63,7 +71,9 @@ export default function AppNavBar() {
             location="sidebar"
           />
         </Navbar.Section>
-      )}
+        )}
+      </ScrollArea>
+
     </Navbar>
   ) : (
     <ResponseBlock

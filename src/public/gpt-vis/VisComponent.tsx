@@ -1,6 +1,7 @@
 import {
   Container, Group, Image, Stack, Radio, Text,
 } from '@mantine/core';
+import { useEffect } from 'react';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function VisCompnent({ parameters }: { parameters: any }) {
@@ -9,9 +10,17 @@ function VisCompnent({ parameters }: { parameters: any }) {
   } = parameters;
   const imgPathPrefix = import.meta.env.DEV ? '' : 'https://wpivis.github.io/amazing-vis-test';
 
+  const scrollUp = () => {
+    window.scrollTo(0, 0);
+  };
+
+  useEffect(() => {
+    scrollUp();
+  }, [imgName, question]);
+
   return (
     <Container>
-      <Group m={5} p={5} sx={{ border: '1px solid black', borderRadius: '5px' }}>
+      <Group p={5} sx={{ border: '1px solid black', borderRadius: '5px' }}>
         <Image maw={1000} src={`${imgPathPrefix}/gpt-expert/${imgName}`} alt="image" width="100%" />
         <Stack mt="xs">
           <Text>{question}</Text>
