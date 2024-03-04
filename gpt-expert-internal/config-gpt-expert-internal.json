@@ -115,7 +115,6 @@
             ]
         },
 
-
     "area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health": {
         "meta": {
             "taskDesc": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type",
@@ -3615,15 +3614,15 @@
             }
         ],
         "parameters": {
-            "question": "What is the average production value (in tonnes) for the food items shown in the bar chart?",
+            "question": "What is the range of votes received by the political party from 2000 to 2019 as shown in the area chart?",
             "imgName": "area_chart-politics.png",
             "options": [
-                "(A) 350",
-                "(B) 480",
-                "(C) 545",
-                "(D) 418"
+                "(A) [96, 544]",
+                "(B) [113, 473]",
+                "(C) [95, 545]",
+                "(D) [94, 546]"
             ],
-            "correctIndex": 3
+            "correctIndex": 1
         }
     },
     "scatterplot-estimate_the_difference_between_two_values_of_the_same_type-politics": {
