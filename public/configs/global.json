@@ -12,7 +12,9 @@
         "vis-test-expert-seq8",
         "vis-test-expert-seq10",
         "vis-test-expert-seq11",
-        "vis-test-expert-seq1"
+        "vis-test-expert-seq1",
+        "vis-test-expert-ak-supp",
+        "vis-test-expert-jc-supp"
 
     ],
     "configs": {
@@ -81,6 +83,12 @@
         },
         "vis-test-expert-seq1": {
             "path": "gpt-expert-seq1/config-gpt-expert-seq1.json"
+        },
+        "vis-test-expert-ak-supp": {
+            "path": "gpt-expert-ak-supp/config-gpt-expert-seq9-supp.json"
+        },
+        "vis-test-expert-jc-supp": {
+            "path": "gpt-expert-jc-supp/config-gpt-expert-seq1-supp.json"
         }
     }
 }
