@@ -4804,6 +4804,7 @@
         "order": "fixed",
         "components": [
             "introduction",
+            "tree_map-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-weather_and_climate",
             "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-education",
             "100_percent_stacked_bar_chart-estimate_the_average_of_multiple_values_of_the_same_type-energy_and_environment",
             "scatterplot-estimate_the_average_of_multiple_values_of_the_same_type-politics",
