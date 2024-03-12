@@ -6,7 +6,13 @@
         "vis-test-prolific",
         "VLAT-full",
         "VLAT-full-2nd",
-        "vis-test-prolific-2nd"
+        "vis-test-prolific-2nd",
+        "vis-test-expert-seq2",
+        "vis-test-expert-seq7",
+        "vis-test-expert-seq8",
+        "vis-test-expert-seq10",
+        "vis-test-expert-seq11"
+
     ],
     "configs": {
         "fairness-jnd": {
@@ -56,6 +62,21 @@
         },
         "vis-test-prolific-2nd": {
             "path": "gpt-prolific-2nd/config-gpt-prolific.json"
+        },
+        "vis-test-expert-seq2": {
+            "path": "gpt-expert-seq2/config-gpt-expert-seq2.json"
+        },
+        "vis-test-expert-seq7": {
+            "path": "gpt-expert-seq7/config-gpt-expert-seq7.json"
+        },
+        "vis-test-expert-seq8": {
+            "path": "gpt-expert-seq8/config-gpt-expert-seq8.json"
+        },
+        "vis-test-expert-seq10": {
+            "path": "gpt-expert-seq10/config-gpt-expert-seq10.json"
+        },
+        "vis-test-expert-seq11": {
+            "path": "gpt-expert-seq11/config-gpt-expert-seq11.json"
         }
     }
 }
