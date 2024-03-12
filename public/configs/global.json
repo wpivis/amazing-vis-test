@@ -11,7 +11,8 @@
         "vis-test-expert-seq7",
         "vis-test-expert-seq8",
         "vis-test-expert-seq10",
-        "vis-test-expert-seq11"
+        "vis-test-expert-seq11",
+        "vis-test-expert-seq1"
 
     ],
     "configs": {
@@ -77,6 +78,9 @@
         },
         "vis-test-expert-seq11": {
             "path": "gpt-expert-seq11/config-gpt-expert-seq11.json"
+        },
+        "vis-test-expert-seq1": {
+            "path": "gpt-expert-seq1/config-gpt-expert-seq1.json"
         }
     }
 }
