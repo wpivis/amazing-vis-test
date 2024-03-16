@@ -1326,6 +1326,149 @@
                 }
             ]
         },
+        "q25": {
+            "meta": {
+                "trueAnswer": 3,
+                "chartType": "scatterplot",
+                "originID": 29,
+                "task": "Determine Range",
+                "CVR": 0.6,
+                "P": 0.53,
+                "D": 0.49
+            },
+            "instruction": "What is the range in weight for the 85 males?",
+            "instructionLocation": "sidebar",
+            "type": "image",
+            "path": "VLAT-full/VLAT7.png",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "res25",
+                    "type": "radio",
+                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "required": true,
+                    "location": "sidebar",
+                    "correctAnswer": "53.9 - 123.6kg",
+                    "options": [
+                        {
+                            "label": "40 - 130kg",
+                            "value": "40 - 130kg"
+                        },
+                        {
+                            "label": "62.3 - 90.9kg",
+                            "value": "62.3 - 90.9kg"
+                        },
+                        {
+                            "label": "53.9 - 102.3kg",
+                            "value": "53.9 - 102.3kg"
+                        },
+                        {
+                            "label": "53.9 - 123.6kg",
+                            "value": "53.9 - 123.6kg"
+                        },
+                        {
+                            "label": "Skip",
+                            "value": "Skip"
+                        }
+                    ]
+                }
+            ]
+        },
+        "q26": {
+            "meta": {
+                "trueAnswer": 1,
+                "chartType": "scatterplot",
+                "originID": 31,
+                "task": "Find Anomalies",
+                "CVR": 0.6,
+                "P": 0.42,
+                "D": 0.29
+            },
+            "instruction": "What is the height for a person who lies outside the others the most?",
+            "instructionLocation": "sidebar",
+            "type": "image",
+            "path": "VLAT-full-randomized/VLAT7.png",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "res26",
+                    "type": "radio",
+                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "required": true,
+                    "location": "sidebar",
+                    "options": [
+                        {
+                            "label": "167.4cm",
+                            "value": "167.4cm"
+                        },
+                        {
+                            "label": "175.3cm",
+                            "value": "175.3cm"
+                        },
+                        {
+                            "label": "193cm",
+                            "value": "193cm"
+                        },
+                        {
+                            "label": "197.1cm",
+                            "value": "197.1cm"
+                        },
+                        {
+                            "label": "Skip",
+                            "value": "Skip"
+                        }
+                    ]
+                }
+            ]
+        },
+        "q27": {
+            "meta": {
+                "trueAnswer": 0,
+                "chartType": "scatterplot",
+                "originID": 32,
+                "task": "Find Clusters",
+                "CVR": 0.2,
+                "P": 0.9,
+                "D": 0.23
+            },
+            "instruction": "A group of males are gathered around the height of 176 cm and the weight of 70 kg.",
+            "instructionLocation": "sidebar",
+            "type": "image",
+            "path": "VLAT-full-randomized/VLAT7.png",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "res27",
+                    "type": "radio",
+                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "required": true,
+                    "location": "sidebar",
+                    "options": [
+                        {
+                            "label": "True",
+                            "value": "True"
+                        },
+                        {
+                            "label": "False",
+                            "value": "False"
+                        },
+                        {
+                            "label": "Skip",
+                            "value": "Skip"
+                        }
+                    ]
+                }
+            ]
+        },
         "q28": {
             "meta": {
                 "trueAnswer": 1,
@@ -2051,6 +2194,98 @@
                 }
             ]
         },
+        "q43": {
+            "meta": {
+                "trueAnswer": 1,
+                "chartType": "bubble",
+                "originID": 51,
+                "task": "Find Anomalies",
+                "CVR": 0.2,
+                "P": 0.53,
+                "D": 0.32
+            },
+            "instruction": "Which city's metro system does lie outside the relationship between the total system length and the number of stations most?",
+            "instructionLocation": "sidebar",
+            "type": "image",
+            "path": "VLAT-full-randomized/VLAT10.png",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "res43",
+                    "type": "radio",
+                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "required": true,
+                    "location": "sidebar",
+                    "options": [
+                        {
+                            "label": "Tokyo",
+                            "value": "Tokyo"
+                        },
+                        {
+                            "label": "New York City",
+                            "value": "New York City"
+                        },
+                        {
+                            "label": "Beijing",
+                            "value": "Beijing"
+                        },
+                        {
+                            "label": "London",
+                            "value": "London"
+                        },
+                        {
+                            "label": "Skip",
+                            "value": "Skip"
+                        }
+                    ]
+                }
+            ]
+        },
+        "q44": {
+            "meta": {
+                "trueAnswer": 1,
+                "chartType": "bubble",
+                "originID": 52,
+                "task": "Find Clusters",
+                "CVR": 0.2,
+                "P": 0.59,
+                "D": 0.5
+            },
+            "instruction": "A group of the metro systems of the world has approximately 300 stations and around a 200 km system length.",
+            "instructionLocation": "sidebar",
+            "type": "image",
+            "path": "VLAT-full-randomized/VLAT10.png",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "res44",
+                    "type": "radio",
+                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "required": true,
+                    "location": "sidebar",
+                    "options": [
+                        {
+                            "label": "True",
+                            "value": "True"
+                        },
+                        {
+                            "label": "False",
+                            "value": "False"
+                        },
+                        {
+                            "label": "Skip",
+                            "value": "Skip"
+                        }
+                    ]
+                }
+            ]
+        },
         "q45": {
             "meta": {
                 "trueAnswer": 1,
@@ -2376,6 +2611,48 @@
                 }
             ]
         },
+        "q52": {
+            "meta": {
+                "trueAnswer": 1,
+                "chartType": "treemap",
+                "originID": 61,
+                "task": "Identify the Hierarchical Structure",
+                "CVR": 1,
+                "P": 0.92,
+                "D": 0.13
+            },
+            "instruction": "Samsung is nested in the Financial category.",
+            "instructionLocation": "sidebar",
+            "type": "image",
+            "path": "VLAT-full-randomized/VLAT12.png",
+            "style": {
+                "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "res52",
+                    "type": "radio",
+                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "required": true,
+                    "location": "sidebar",
+                    "options": [
+                        {
+                            "label": "True",
+                            "value": "True"
+                        },
+                        {
+                            "label": "False",
+                            "value": "False"
+                        },
+                        {
+                            "label": "Skip",
+                            "value": "Skip"
+                        }
+                    ]
+                }
+            ]
+        },
         "at1": {
             "meta": {
                 "trueAnswer": 0,
@@ -2551,6 +2828,8 @@
             "q24",
             "at2",
             "q25",
+            "q26",
+            "q27",
             "q28",
             "q29",
             "q30",
@@ -2567,13 +2846,16 @@
             "q40",
             "q41",
             "q42",
+            "q43",
+            "q44",
             "q45",
             "q46",
             "q47",
             "q48",
             "q49",
             "q50",
-            "q51"
+            "q51",
+            "q52"
         ]
     }
 }
