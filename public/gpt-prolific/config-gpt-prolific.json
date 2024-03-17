@@ -42,7 +42,7 @@
             "response": [
                 {
                     "id": "agreeement",
-                    "prompt": "Please indicate your agreement to the consent form by clicking the checkbox below.",
+                    "prompt": "**Please indicate your agreement to the consent form by clicking the checkbox below.**",
                     "required": true,
                     "location": "belowStimulus",
                     "type": "checkbox",
@@ -64,7 +64,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which sector and year did the minimum percentage contribution to the economy occur?",
+        "instruction": "**In which sector and year did the minimum percentage contribution to the economy occur?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-economy.png",
         "response": [
             {
@@ -102,7 +102,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which school has the highest percentage of students performing in Math?",
+        "instruction": "**Which school has the highest percentage of students performing in Math?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-education.png",
         "response": [
             {
@@ -140,7 +140,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year and for which energy source was the smallest percentage contribution to the energy mix shown?",
+        "instruction": "**In which year and for which energy source was the smallest percentage contribution to the energy mix shown?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-energy_and_environment.png",
         "response": [
             {
@@ -178,7 +178,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which category and year combination is the percentage of food and agriculture distribution the lowest?",
+        "instruction": "**In which category and year combination is the percentage of food and agriculture distribution the lowest?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -216,7 +216,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which age group has the lowest percentage focus on Stress Management?",
+        "instruction": "**Which age group has the lowest percentage focus on Stress Management?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-health.png",
         "response": [
             {
@@ -254,7 +254,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which company has the smallest percentage of Service Innovation?",
+        "instruction": "**Which company has the smallest percentage of Service Innovation?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-innovation.png",
         "response": [
             {
@@ -292,7 +292,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which age group has the highest percentage of the male population?",
+        "instruction": "**Which age group has the highest percentage of the male population?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-population_and_demography.png",
         "response": [
             {
@@ -330,7 +330,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which location has the highest percentage of Snowy weather?",
+        "instruction": "**Which location has the highest percentage of Snowy weather?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -368,7 +368,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which sector had a larger share of the economy in 2020, Manufacturing or Technology?",
+        "instruction": "**Which sector had a larger share of the economy in 2020, Manufacturing or Technology?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-economy.png",
         "response": [
             {
@@ -406,7 +406,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category had a larger share in 2021, Vegetables or Dairy?",
+        "instruction": "**Which category had a larger share in 2021, Vegetables or Dairy?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -444,7 +444,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which age group has a higher percentage focus on Exercise, Young Adults or Seniors?",
+        "instruction": "**Which age group has a higher percentage focus on Exercise, Young Adults or Seniors?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-health.png",
         "response": [
             {
@@ -482,7 +482,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which company has the highest percentage of Service Innovation compared to Process Innovation?",
+        "instruction": "**Which company has the highest percentage of Service Innovation compared to Process Innovation?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-innovation.png",
         "response": [
             {
@@ -520,7 +520,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which weather type has a greater percentage in Location_A compared to Location_B?",
+        "instruction": "**Which weather type has a greater percentage in Location_A compared to Location_B?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -558,7 +558,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the economy did the Technology sector contribute in the year 2021?",
+        "instruction": "**What percentage of the economy did the Technology sector contribute in the year 2021?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-economy.png",
         "response": [
             {
@@ -596,7 +596,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of Greenwood Elementary's curriculum is dedicated to Math?",
+        "instruction": "**What percentage of Greenwood Elementary's curriculum is dedicated to Math?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-education.png",
         "response": [
             {
@@ -634,7 +634,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the energy source distribution was made up by Solar in 2021?",
+        "instruction": "**What percentage of the energy source distribution was made up by Solar in 2021?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-energy_and_environment.png",
         "response": [
             {
@@ -672,7 +672,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the food and agriculture categories did Dairy represent in the year 2020?",
+        "instruction": "**What percentage of the food and agriculture categories did Dairy represent in the year 2020?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -710,7 +710,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the health focus area for Seniors is dedicated to Stress Management?",
+        "instruction": "**What percentage of the health focus area for Seniors is dedicated to Stress Management?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-health.png",
         "response": [
             {
@@ -748,7 +748,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of Company C's innovation is dedicated to Process Innovation?",
+        "instruction": "**What percentage of Company C's innovation is dedicated to Process Innovation?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-innovation.png",
         "response": [
             {
@@ -786,7 +786,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the focus on Defense is represented by Party_C?",
+        "instruction": "**What percentage of the focus on Defense is represented by Party_C?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-politics.png",
         "response": [
             {
@@ -824,7 +824,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the male population falls within the \"55-74\" age group?",
+        "instruction": "**What percentage of the male population falls within the \"55-74\" age group?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-population_and_demography.png",
         "response": [
             {
@@ -862,7 +862,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of weather observations at Location_C were classified as Windy?",
+        "instruction": "**What percentage of weather observations at Location_C were classified as Windy?**",
         "path": "gpt-prolific/100_percent_stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -900,7 +900,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend does the area chart of GDP over the years indicate?",
+        "instruction": "**What trend does the area chart of GDP over the years indicate?**",
         "path": "gpt-prolific/area_chart-economy.png",
         "response": [
             {
@@ -938,7 +938,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "How does the number of graduates change over the years from 2000 to 2019?",
+        "instruction": "**How does the number of graduates change over the years from 2000 to 2019?**",
         "path": "gpt-prolific/area_chart-education.png",
         "response": [
             {
@@ -976,7 +976,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend does the area chart of Energy Consumption from 2000 to 2019 show?",
+        "instruction": "**What trend does the area chart of Energy Consumption from 2000 to 2019 show?**",
         "path": "gpt-prolific/area_chart-energy_and_environment.png",
         "response": [
             {
@@ -1014,7 +1014,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the agricultural production from the year 2000 to 2019?",
+        "instruction": "**What trend is observed in the agricultural production from the year 2000 to 2019?**",
         "path": "gpt-prolific/area_chart-food_and_agriculture.png",
         "response": [
             {
@@ -1052,7 +1052,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the number of patients recovered over time?",
+        "instruction": "**What trend is observed in the number of patients recovered over time?**",
         "path": "gpt-prolific/area_chart-health.png",
         "response": [
             {
@@ -1090,7 +1090,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the number of innovations over the years 2001 to 2020?",
+        "instruction": "**What trend is observed in the number of innovations over the years 2001 to 2020?**",
         "path": "gpt-prolific/area_chart-innovation.png",
         "response": [
             {
@@ -1128,7 +1128,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the political party votes from the year 2000 to 2019?",
+        "instruction": "**What trend is observed in the political party votes from the year 2000 to 2019?**",
         "path": "gpt-prolific/area_chart-politics.png",
         "response": [
             {
@@ -1166,7 +1166,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend does the area chart depicting population from 2000 to 2019 show?",
+        "instruction": "**What trend does the area chart depicting population from 2000 to 2019 show?**",
         "path": "gpt-prolific/area_chart-population_and_demography.png",
         "response": [
             {
@@ -1204,7 +1204,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend does the average daily temperature over 20 days exhibit?",
+        "instruction": "**What trend does the average daily temperature over 20 days exhibit?**",
         "path": "gpt-prolific/area_chart-weather_and_climate.png",
         "response": [
             {
@@ -1242,7 +1242,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of GDP values (in billions) displayed in the economy area chart?",
+        "instruction": "**What is the range of GDP values (in billions) displayed in the economy area chart?**",
         "path": "gpt-prolific/area_chart-economy.png",
         "response": [
             {
@@ -1280,7 +1280,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of energy consumption values depicted in the area chart?",
+        "instruction": "**What is the range of energy consumption values depicted in the area chart?**",
         "path": "gpt-prolific/area_chart-energy_and_environment.png",
         "response": [
             {
@@ -1318,7 +1318,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of agricultural production values (in tons) over the years as shown in the area chart?",
+        "instruction": "**What is the range of agricultural production values (in tons) over the years as shown in the area chart?**",
         "path": "gpt-prolific/area_chart-food_and_agriculture.png",
         "response": [
             {
@@ -1356,7 +1356,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of the total number of patients recovered over the 20-day period shown in the area chart?",
+        "instruction": "**What is the range of the total number of patients recovered over the 20-day period shown in the area chart?**",
         "path": "gpt-prolific/area_chart-health.png",
         "response": [
             {
@@ -1394,7 +1394,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of the number of innovations shown in the area chart?",
+        "instruction": "**What is the range of the number of innovations shown in the area chart?**",
         "path": "gpt-prolific/area_chart-innovation.png",
         "response": [
             {
@@ -1432,7 +1432,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of the population values depicted in the area chart?",
+        "instruction": "**What is the range of the population values depicted in the area chart?**",
         "path": "gpt-prolific/area_chart-population_and_demography.png",
         "response": [
             {
@@ -1470,7 +1470,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of average daily temperatures over the 20-day period depicted in the area chart?",
+        "instruction": "**What is the range of average daily temperatures over the 20-day period depicted in the area chart?**",
         "path": "gpt-prolific/area_chart-weather_and_climate.png",
         "response": [
             {
@@ -1508,7 +1508,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which years did the economy have the maximum GDP as shown in the area chart?",
+        "instruction": "**In which years did the economy have the maximum GDP as shown in the area chart?**",
         "path": "gpt-prolific/area_chart-economy.png",
         "response": [
             {
@@ -1546,7 +1546,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did the number of graduates reach its maximum value?",
+        "instruction": "**In which year did the number of graduates reach its maximum value?**",
         "path": "gpt-prolific/area_chart-education.png",
         "response": [
             {
@@ -1584,7 +1584,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year was the Energy Consumption at its minimum value?",
+        "instruction": "**In which year was the Energy Consumption at its minimum value?**",
         "path": "gpt-prolific/area_chart-energy_and_environment.png",
         "response": [
             {
@@ -1622,7 +1622,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did agricultural production reach its maximum?",
+        "instruction": "**In which year did agricultural production reach its maximum?**",
         "path": "gpt-prolific/area_chart-food_and_agriculture.png",
         "response": [
             {
@@ -1660,7 +1660,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the number of patients recovered on the day with the maximum recorded recovery?",
+        "instruction": "**What is the number of patients recovered on the day with the maximum recorded recovery?**",
         "path": "gpt-prolific/area_chart-health.png",
         "response": [
             {
@@ -1698,7 +1698,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did the number of innovations peak?",
+        "instruction": "**In which year did the number of innovations peak?**",
         "path": "gpt-prolific/area_chart-innovation.png",
         "response": [
             {
@@ -1736,7 +1736,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did the political party receive the maximum number of votes?",
+        "instruction": "**In which year did the political party receive the maximum number of votes?**",
         "path": "gpt-prolific/area_chart-politics.png",
         "response": [
             {
@@ -1774,7 +1774,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did the population reach its peak value?",
+        "instruction": "**In which year did the population reach its peak value?**",
         "path": "gpt-prolific/area_chart-population_and_demography.png",
         "response": [
             {
@@ -1812,7 +1812,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "On which day was the average temperature first recorded at 98\u00b0F?",
+        "instruction": "**On which day was the average temperature first recorded at 98\u00b0F?**",
         "path": "gpt-prolific/area_chart-weather_and_climate.png",
         "response": [
             {
@@ -1850,7 +1850,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the value of GDP (in billions) for the year 2011 as shown in the area chart?",
+        "instruction": "**What is the value of GDP (in billions) for the year 2011 as shown in the area chart?**",
         "path": "gpt-prolific/area_chart-economy.png",
         "response": [
             {
@@ -1888,7 +1888,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the number of graduates in the year 2010?",
+        "instruction": "**What is the number of graduates in the year 2010?**",
         "path": "gpt-prolific/area_chart-education.png",
         "response": [
             {
@@ -1926,7 +1926,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the energy consumption in the year 2010?",
+        "instruction": "**What was the energy consumption in the year 2010?**",
         "path": "gpt-prolific/area_chart-energy_and_environment.png",
         "response": [
             {
@@ -1964,7 +1964,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the agricultural production (in tons) in the year 2016?",
+        "instruction": "**What was the agricultural production (in tons) in the year 2016?**",
         "path": "gpt-prolific/area_chart-food_and_agriculture.png",
         "response": [
             {
@@ -2002,7 +2002,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How many patients had recovered by Day 10?",
+        "instruction": "**How many patients had recovered by Day 10?**",
         "path": "gpt-prolific/area_chart-health.png",
         "response": [
             {
@@ -2040,7 +2040,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the number of innovations in the year 2019?",
+        "instruction": "**What was the number of innovations in the year 2019?**",
         "path": "gpt-prolific/area_chart-innovation.png",
         "response": [
             {
@@ -2078,7 +2078,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the number of votes for the political party in the year 2006?",
+        "instruction": "**What was the number of votes for the political party in the year 2006?**",
         "path": "gpt-prolific/area_chart-politics.png",
         "response": [
             {
@@ -2116,7 +2116,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the population in the year 2010?",
+        "instruction": "**What was the population in the year 2010?**",
         "path": "gpt-prolific/area_chart-population_and_demography.png",
         "response": [
             {
@@ -2154,7 +2154,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the average temperature on Day 10?",
+        "instruction": "**What was the average temperature on Day 10?**",
         "path": "gpt-prolific/area_chart-weather_and_climate.png",
         "response": [
             {
@@ -2192,7 +2192,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of GDP Contribution values across all sectors represented in the bar chart?",
+        "instruction": "**What is the range of GDP Contribution values across all sectors represented in the bar chart?**",
         "path": "gpt-prolific/bar_chart-economy.png",
         "response": [
             {
@@ -2230,7 +2230,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of the number of graduates across all educational programs?",
+        "instruction": "**What is the range of the number of graduates across all educational programs?**",
         "path": "gpt-prolific/bar_chart-education.png",
         "response": [
             {
@@ -2268,7 +2268,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of energy production values depicted in the bar chart?",
+        "instruction": "**What is the range of energy production values depicted in the bar chart?**",
         "path": "gpt-prolific/bar_chart-energy_and_environment.png",
         "response": [
             {
@@ -2306,7 +2306,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of production values (in tonnes) for the food items displayed in the bar chart?",
+        "instruction": "**What is the range of production values (in tonnes) for the food items displayed in the bar chart?**",
         "path": "gpt-prolific/bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -2344,7 +2344,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of the number of cases by disease shown in the bar chart?",
+        "instruction": "**What is the range of the number of cases by disease shown in the bar chart?**",
         "path": "gpt-prolific/bar_chart-health.png",
         "response": [
             {
@@ -2382,7 +2382,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of investment values (in millions) across the different innovation sectors shown in the bar chart?",
+        "instruction": "**What is the range of investment values (in millions) across the different innovation sectors shown in the bar chart?**",
         "path": "gpt-prolific/bar_chart-innovation.png",
         "response": [
             {
@@ -2420,7 +2420,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of votes received by the political parties?",
+        "instruction": "**What is the range of votes received by the political parties?**",
         "path": "gpt-prolific/bar_chart-politics.png",
         "response": [
             {
@@ -2458,7 +2458,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of the population values across the different age groups in the bar chart?",
+        "instruction": "**What is the range of the population values across the different age groups in the bar chart?**",
         "path": "gpt-prolific/bar_chart-population_and_demography.png",
         "response": [
             {
@@ -2496,7 +2496,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of average temperatures across the cities represented in the bar chart?",
+        "instruction": "**What is the range of average temperatures across the cities represented in the bar chart?**",
         "path": "gpt-prolific/bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -2534,7 +2534,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which sector has the minimum GDP contribution?",
+        "instruction": "**Which sector has the minimum GDP contribution?**",
         "path": "gpt-prolific/bar_chart-economy.png",
         "response": [
             {
@@ -2572,7 +2572,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which educational programs have the highest number of graduates?",
+        "instruction": "**Which educational programs have the highest number of graduates?**",
         "path": "gpt-prolific/bar_chart-education.png",
         "response": [
             {
@@ -2610,7 +2610,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which energy source has the highest production value?",
+        "instruction": "**Which energy source has the highest production value?**",
         "path": "gpt-prolific/bar_chart-energy_and_environment.png",
         "response": [
             {
@@ -2648,7 +2648,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which food item has the highest production value?",
+        "instruction": "**Which food item has the highest production value?**",
         "path": "gpt-prolific/bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -2686,7 +2686,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which disease has the highest number of cases?",
+        "instruction": "**Which disease has the highest number of cases?**",
         "path": "gpt-prolific/bar_chart-health.png",
         "response": [
             {
@@ -2724,7 +2724,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which innovation sector received the highest investment?",
+        "instruction": "**Which innovation sector received the highest investment?**",
         "path": "gpt-prolific/bar_chart-innovation.png",
         "response": [
             {
@@ -2762,7 +2762,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which political party received the maximum number of votes?",
+        "instruction": "**Which political party received the maximum number of votes?**",
         "path": "gpt-prolific/bar_chart-politics.png",
         "response": [
             {
@@ -2800,7 +2800,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the population number for the age group with the smallest representation?",
+        "instruction": "**What is the population number for the age group with the smallest representation?**",
         "path": "gpt-prolific/bar_chart-population_and_demography.png",
         "response": [
             {
@@ -2838,7 +2838,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which two cities have the highest average temperature?",
+        "instruction": "**Which two cities have the highest average temperature?**",
         "path": "gpt-prolific/bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -2876,7 +2876,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which sector has a higher GDP contribution, Retail or Finance?",
+        "instruction": "**Which sector has a higher GDP contribution, Retail or Finance?**",
         "path": "gpt-prolific/bar_chart-economy.png",
         "response": [
             {
@@ -2914,7 +2914,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which program has more graduates, Engineering or Computer Science?",
+        "instruction": "**Which program has more graduates, Engineering or Computer Science?**",
         "path": "gpt-prolific/bar_chart-education.png",
         "response": [
             {
@@ -2952,7 +2952,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which energy source has a higher production level, Solar or Coal?",
+        "instruction": "**Which energy source has a higher production level, Solar or Coal?**",
         "path": "gpt-prolific/bar_chart-energy_and_environment.png",
         "response": [
             {
@@ -2990,7 +2990,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which food item has a higher production, Soybeans or Corn?",
+        "instruction": "**Which food item has a higher production, Soybeans or Corn?**",
         "path": "gpt-prolific/bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -3028,7 +3028,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which disease has more reported cases, Asthma or Tuberculosis?",
+        "instruction": "**Which disease has more reported cases, Asthma or Tuberculosis?**",
         "path": "gpt-prolific/bar_chart-health.png",
         "response": [
             {
@@ -3066,7 +3066,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which sector received more investment, IoT or Biotech?",
+        "instruction": "**Which sector received more investment, IoT or Biotech?**",
         "path": "gpt-prolific/bar_chart-innovation.png",
         "response": [
             {
@@ -3104,7 +3104,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which political party received more votes, the Socialist or the Libertarian?",
+        "instruction": "**Which political party received more votes, the Socialist or the Libertarian?**",
         "path": "gpt-prolific/bar_chart-politics.png",
         "response": [
             {
@@ -3142,7 +3142,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which age group has a larger population, \"0-14\" or \"45-64\"?",
+        "instruction": "**Which age group has a larger population, \"0-14\" or \"45-64\"?**",
         "path": "gpt-prolific/bar_chart-population_and_demography.png",
         "response": [
             {
@@ -3180,7 +3180,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which city has a higher average temperature, City3 or City7?",
+        "instruction": "**Which city has a higher average temperature, City3 or City7?**",
         "path": "gpt-prolific/bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -3218,7 +3218,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the GDP contribution (in billions) of the Construction sector?",
+        "instruction": "**What is the GDP contribution (in billions) of the Construction sector?**",
         "path": "gpt-prolific/bar_chart-economy.png",
         "response": [
             {
@@ -3256,7 +3256,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How many graduates are there from the Medicine program?",
+        "instruction": "**How many graduates are there from the Medicine program?**",
         "path": "gpt-prolific/bar_chart-education.png",
         "response": [
             {
@@ -3294,7 +3294,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the production value (GWh) for Biomass energy?",
+        "instruction": "**What is the production value (GWh) for Biomass energy?**",
         "path": "gpt-prolific/bar_chart-energy_and_environment.png",
         "response": [
             {
@@ -3332,7 +3332,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the production value (in tonnes) for Soybeans?",
+        "instruction": "**What is the production value (in tonnes) for Soybeans?**",
         "path": "gpt-prolific/bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -3370,7 +3370,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How many cases of Asthma are represented in the bar chart?",
+        "instruction": "**How many cases of Asthma are represented in the bar chart?**",
         "path": "gpt-prolific/bar_chart-health.png",
         "response": [
             {
@@ -3408,7 +3408,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How much investment, in millions, did the Biotech sector receive?",
+        "instruction": "**How much investment, in millions, did the Biotech sector receive?**",
         "path": "gpt-prolific/bar_chart-innovation.png",
         "response": [
             {
@@ -3446,7 +3446,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How many votes did the Socialist party receive?",
+        "instruction": "**How many votes did the Socialist party receive?**",
         "path": "gpt-prolific/bar_chart-politics.png",
         "response": [
             {
@@ -3484,7 +3484,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the population size for the age group \"25-44\"?",
+        "instruction": "**What is the population size for the age group \"25-44\"?**",
         "path": "gpt-prolific/bar_chart-population_and_demography.png",
         "response": [
             {
@@ -3522,7 +3522,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the average temperature for City3?",
+        "instruction": "**What is the average temperature for City3?**",
         "path": "gpt-prolific/bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -3560,7 +3560,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation does the bubble chart of economy indicators suggest between GDP and Unemployment Rate?",
+        "instruction": "**What trend or correlation does the bubble chart of economy indicators suggest between GDP and Unemployment Rate?**",
         "path": "gpt-prolific/bubble_chart-economy.png",
         "response": [
             {
@@ -3598,7 +3598,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation can be observed between the average test score and the number of students in the schools represented in the bubble chart?",
+        "instruction": "**What trend or correlation can be observed between the average test score and the number of students in the schools represented in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-education.png",
         "response": [
             {
@@ -3636,7 +3636,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation is observed between crop production and profit?",
+        "instruction": "**What trend or correlation is observed between crop production and profit?**",
         "path": "gpt-prolific/bubble_chart-food_and_agriculture.png",
         "response": [
             {
@@ -3674,7 +3674,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation is observed between age and systolic blood pressure in the health data bubble chart?",
+        "instruction": "**What trend or correlation is observed between age and systolic blood pressure in the health data bubble chart?**",
         "path": "gpt-prolific/bubble_chart-health.png",
         "response": [
             {
@@ -3712,7 +3712,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation is observed between the number of votes and the number of seats won by political parties?",
+        "instruction": "**What trend or correlation is observed between the number of votes and the number of seats won by political parties?**",
         "path": "gpt-prolific/bubble_chart-politics.png",
         "response": [
             {
@@ -3750,7 +3750,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation is observed between GDP Per Capita and Population in the bubble chart?",
+        "instruction": "**What trend or correlation is observed between GDP Per Capita and Population in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-population_and_demography.png",
         "response": [
             {
@@ -3788,7 +3788,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of GDP values (in billions USD) represented in the bubble chart?",
+        "instruction": "**What is the range of GDP values (in billions USD) represented in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-economy.png",
         "response": [
             {
@@ -3826,7 +3826,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of average test scores represented in the bubble chart?",
+        "instruction": "**What is the range of average test scores represented in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-education.png",
         "response": [
             {
@@ -3864,7 +3864,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of CO2 Emissions (in Million Metric Tons) across the countries represented in the bubble chart?",
+        "instruction": "**What is the range of CO2 Emissions (in Million Metric Tons) across the countries represented in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-energy_and_environment.png",
         "response": [
             {
@@ -3902,7 +3902,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Profit values represented in the bubble chart?",
+        "instruction": "**What is the range of Profit values represented in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-food_and_agriculture.png",
         "response": [
             {
@@ -3940,7 +3940,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of the Research Budget values represented in the bubble chart?",
+        "instruction": "**What is the range of the Research Budget values represented in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-innovation.png",
         "response": [
             {
@@ -3978,7 +3978,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of GDP Per Capita (USD) values represented in the bubble chart?",
+        "instruction": "**What is the range of GDP Per Capita (USD) values represented in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-population_and_demography.png",
         "response": [
             {
@@ -4016,7 +4016,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Temperature values represented in the bubble chart?",
+        "instruction": "**What is the range of Temperature values represented in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-weather_and_climate.png",
         "response": [
             {
@@ -4054,7 +4054,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which country has the smallest population size represented in the bubble chart?",
+        "instruction": "**Which country has the smallest population size represented in the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-economy.png",
         "response": [
             {
@@ -4092,7 +4092,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which school has the highest number of students?",
+        "instruction": "**Which school has the highest number of students?**",
         "path": "gpt-prolific/bubble_chart-education.png",
         "response": [
             {
@@ -4130,7 +4130,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which country has the smallest CO2 emissions value on the bubble chart?",
+        "instruction": "**Which country has the smallest CO2 emissions value on the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-energy_and_environment.png",
         "response": [
             {
@@ -4168,7 +4168,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which crop has the highest profit in thousands of dollars?",
+        "instruction": "**Which crop has the highest profit in thousands of dollars?**",
         "path": "gpt-prolific/bubble_chart-food_and_agriculture.png",
         "response": [
             {
@@ -4206,7 +4206,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which patient is represented by the largest bubble on the bubble chart?",
+        "instruction": "**Which patient is represented by the largest bubble on the bubble chart?**",
         "path": "gpt-prolific/bubble_chart-health.png",
         "response": [
             {
@@ -4244,7 +4244,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the Research Budget value for the company with the highest Innovation Score?",
+        "instruction": "**What is the Research Budget value for the company with the highest Innovation Score?**",
         "path": "gpt-prolific/bubble_chart-innovation.png",
         "response": [
             {
@@ -4282,7 +4282,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which political party received the minimum amount of funding?",
+        "instruction": "**Which political party received the minimum amount of funding?**",
         "path": "gpt-prolific/bubble_chart-politics.png",
         "response": [
             {
@@ -4320,7 +4320,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which city has the highest GDP Per Capita?",
+        "instruction": "**Which city has the highest GDP Per Capita?**",
         "path": "gpt-prolific/bubble_chart-population_and_demography.png",
         "response": [
             {
@@ -4358,7 +4358,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which location has the highest recorded humidity?",
+        "instruction": "**Which location has the highest recorded humidity?**",
         "path": "gpt-prolific/bubble_chart-weather_and_climate.png",
         "response": [
             {
@@ -4396,7 +4396,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which school has a larger bubble size, indicating higher funding, but a lower average test score: School A or School B?",
+        "instruction": "**Which school has a larger bubble size, indicating higher funding, but a lower average test score: School A or School B?**",
         "path": "gpt-prolific/bubble_chart-education.png",
         "response": [
             {
@@ -4434,7 +4434,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which country has a larger bubble size, indicating a higher percentage of renewable energy usage, Grevia or Cyprum?",
+        "instruction": "**Which country has a larger bubble size, indicating a higher percentage of renewable energy usage, Grevia or Cyprum?**",
         "path": "gpt-prolific/bubble_chart-energy_and_environment.png",
         "response": [
             {
@@ -4472,7 +4472,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which crop shows a larger bubble size, indicating higher profit, between Wheat and Barley?",
+        "instruction": "**Which crop shows a larger bubble size, indicating higher profit, between Wheat and Barley?**",
         "path": "gpt-prolific/bubble_chart-food_and_agriculture.png",
         "response": [
             {
@@ -4510,7 +4510,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which patient has a higher Systolic Blood Pressure, the one aged 33 years or the one aged 61 years?",
+        "instruction": "**Which patient has a higher Systolic Blood Pressure, the one aged 33 years or the one aged 61 years?**",
         "path": "gpt-prolific/bubble_chart-health.png",
         "response": [
             {
@@ -4548,7 +4548,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which political party has fewer seats but more funding compared to the Libertarian party?",
+        "instruction": "**Which political party has fewer seats but more funding compared to the Libertarian party?**",
         "path": "gpt-prolific/bubble_chart-politics.png",
         "response": [
             {
@@ -4586,7 +4586,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which city has a larger population, Metropolis or Gotham?",
+        "instruction": "**Which city has a larger population, Metropolis or Gotham?**",
         "path": "gpt-prolific/bubble_chart-population_and_demography.png",
         "response": [
             {
@@ -4624,7 +4624,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which location has a larger bubble size indicating more precipitation, Location A or Location B?",
+        "instruction": "**Which location has a larger bubble size indicating more precipitation, Location A or Location B?**",
         "path": "gpt-prolific/bubble_chart-weather_and_climate.png",
         "response": [
             {
@@ -4662,7 +4662,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the population size (in millions) of the country with a GDP of 398 billion USD?",
+        "instruction": "**What is the population size (in millions) of the country with a GDP of 398 billion USD?**",
         "path": "gpt-prolific/bubble_chart-economy.png",
         "response": [
             {
@@ -4700,7 +4700,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the number of students at the school with an average test score of 92?",
+        "instruction": "**What is the number of students at the school with an average test score of 92?**",
         "path": "gpt-prolific/bubble_chart-education.png",
         "response": [
             {
@@ -4738,7 +4738,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the CO2 Emissions value (in Million Metric Tons) for the country with an Energy Consumption of 113 TWh?",
+        "instruction": "**What is the CO2 Emissions value (in Million Metric Tons) for the country with an Energy Consumption of 113 TWh?**",
         "path": "gpt-prolific/bubble_chart-energy_and_environment.png",
         "response": [
             {
@@ -4776,7 +4776,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the profit in thousands of dollars for Soybean production?",
+        "instruction": "**What is the profit in thousands of dollars for Soybean production?**",
         "path": "gpt-prolific/bubble_chart-food_and_agriculture.png",
         "response": [
             {
@@ -4814,7 +4814,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the Systolic Blood Pressure (mmHg) for the patient who is 69 years old?",
+        "instruction": "**What is the Systolic Blood Pressure (mmHg) for the patient who is 69 years old?**",
         "path": "gpt-prolific/bubble_chart-health.png",
         "response": [
             {
@@ -4852,7 +4852,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the GDP Per Capita (USD) for Gotham?",
+        "instruction": "**What is the GDP Per Capita (USD) for Gotham?**",
         "path": "gpt-prolific/bubble_chart-population_and_demography.png",
         "response": [
             {
@@ -4890,7 +4890,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the size of the bubble representing precipitation in millimeters for Location D?",
+        "instruction": "**What is the size of the bubble representing precipitation in millimeters for Location D?**",
         "path": "gpt-prolific/bubble_chart-weather_and_climate.png",
         "response": [
             {
@@ -4928,7 +4928,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Which group of companies forms a cluster on the bubble chart with their data points close together in terms of Innovation Index and Research Spending?",
+        "instruction": "**Which group of companies forms a cluster on the bubble chart with their data points close together in terms of Innovation Index and Research Spending?**",
         "path": "gpt-prolific/bubble_chart_with_cluster-innovation.png",
         "response": [
             {
@@ -4966,7 +4966,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Which group of cities forms a cluster on the bubble chart with similar Population and Birth Rate values?",
+        "instruction": "**Which group of cities forms a cluster on the bubble chart with similar Population and Birth Rate values?**",
         "path": "gpt-prolific/bubble_chart_with_cluster-population_and_demography.png",
         "response": [
             {
@@ -5004,7 +5004,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which country's data point is an outlier in the bubble chart of economic indicators?",
+        "instruction": "**Which country's data point is an outlier in the bubble chart of economic indicators?**",
         "path": "gpt-prolific/bubble_chart_with_outlier-economy.png",
         "response": [
             {
@@ -5042,7 +5042,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which data point on the bubble chart represents an outlier in terms of Enrollment, Graduation Rate, and Funding?",
+        "instruction": "**Which data point on the bubble chart represents an outlier in terms of Enrollment, Graduation Rate, and Funding?**",
         "path": "gpt-prolific/bubble_chart_with_outlier-education.png",
         "response": [
             {
@@ -5080,7 +5080,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which country is represented as an outlier in the bubble chart for energy consumption and CO2 emissions?",
+        "instruction": "**Which country is represented as an outlier in the bubble chart for energy consumption and CO2 emissions?**",
         "path": "gpt-prolific/bubble_chart_with_outlier-energy_and_environment.png",
         "response": [
             {
@@ -5118,7 +5118,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which crop shows an outlier in both production and yield on the bubble chart?",
+        "instruction": "**Which crop shows an outlier in both production and yield on the bubble chart?**",
         "path": "gpt-prolific/bubble_chart_with_outlier-food_and_agriculture.png",
         "response": [
             {
@@ -5156,7 +5156,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which company's data point is the outlier in the bubble chart for patent applications?",
+        "instruction": "**Which company's data point is the outlier in the bubble chart for patent applications?**",
         "path": "gpt-prolific/bubble_chart_with_outlier-innovation.png",
         "response": [
             {
@@ -5194,7 +5194,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which region represents an outlier in terms of population size on the bubble chart?",
+        "instruction": "**Which region represents an outlier in terms of population size on the bubble chart?**",
         "path": "gpt-prolific/bubble_chart_with_outlier-population_and_demography.png",
         "response": [
             {
@@ -5232,7 +5232,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which city's weather data is represented as an outlier in the bubble chart of Temperature vs Humidity with Precipitation?",
+        "instruction": "**Which city's weather data is represented as an outlier in the bubble chart of Temperature vs Humidity with Precipitation?**",
         "path": "gpt-prolific/bubble_chart_with_outlier-weather_and_climate.png",
         "response": [
             {
@@ -5270,7 +5270,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state has the highest education value?",
+        "instruction": "**Which state has the highest education value?**",
         "path": "gpt-prolific/choropleth_map-education.png",
         "response": [
             {
@@ -5308,7 +5308,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state has the lowest energy consumption value?",
+        "instruction": "**Which state has the lowest energy consumption value?**",
         "path": "gpt-prolific/choropleth_map-energy_and_environment.png",
         "response": [
             {
@@ -5346,7 +5346,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state has the highest value of Food and Agriculture Production?",
+        "instruction": "**Which state has the highest value of Food and Agriculture Production?**",
         "path": "gpt-prolific/choropleth_map-food_and_agriculture.png",
         "response": [
             {
@@ -5384,7 +5384,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state is represented with the highest Health Index value on the map?",
+        "instruction": "**Which state is represented with the highest Health Index value on the map?**",
         "path": "gpt-prolific/choropleth_map-health.png",
         "response": [
             {
@@ -5422,7 +5422,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state is represented with the highest value on the choropleth map?",
+        "instruction": "**Which state is represented with the highest value on the choropleth map?**",
         "path": "gpt-prolific/choropleth_map-politics.png",
         "response": [
             {
@@ -5460,7 +5460,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state is shown to have the highest average temperature?",
+        "instruction": "**Which state is shown to have the highest average temperature?**",
         "path": "gpt-prolific/choropleth_map-weather_and_climate.png",
         "response": [
             {
@@ -5498,7 +5498,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state has a higher economic value, Texas or Florida?",
+        "instruction": "**Which state has a higher economic value, Texas or Florida?**",
         "path": "gpt-prolific/choropleth_map-economy.png",
         "response": [
             {
@@ -5536,7 +5536,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state has a higher education value, Colorado or Texas?",
+        "instruction": "**Which state has a higher education value, Colorado or Texas?**",
         "path": "gpt-prolific/choropleth_map-education.png",
         "response": [
             {
@@ -5574,7 +5574,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state shows a higher energy consumption, Texas or California?",
+        "instruction": "**Which state shows a higher energy consumption, Texas or California?**",
         "path": "gpt-prolific/choropleth_map-energy_and_environment.png",
         "response": [
             {
@@ -5612,7 +5612,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state has a higher Health Index, Colorado or Michigan?",
+        "instruction": "**Which state has a higher Health Index, Colorado or Michigan?**",
         "path": "gpt-prolific/choropleth_map-health.png",
         "response": [
             {
@@ -5650,7 +5650,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state has a higher innovation score, Texas or Florida?",
+        "instruction": "**Which state has a higher innovation score, Texas or Florida?**",
         "path": "gpt-prolific/choropleth_map-innovation.png",
         "response": [
             {
@@ -5688,7 +5688,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state has a higher value, Michigan or Texas?",
+        "instruction": "**Which state has a higher value, Michigan or Texas?**",
         "path": "gpt-prolific/choropleth_map-politics.png",
         "response": [
             {
@@ -5726,7 +5726,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state has a higher average temperature, Florida or New York?",
+        "instruction": "**Which state has a higher average temperature, Florida or New York?**",
         "path": "gpt-prolific/choropleth_map-weather_and_climate.png",
         "response": [
             {
@@ -5764,7 +5764,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the economic value indicator for the state of Kansas?",
+        "instruction": "**What is the economic value indicator for the state of Kansas?**",
         "path": "gpt-prolific/choropleth_map-economy.png",
         "response": [
             {
@@ -5802,7 +5802,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the education value for the state of California?",
+        "instruction": "**What is the education value for the state of California?**",
         "path": "gpt-prolific/choropleth_map-education.png",
         "response": [
             {
@@ -5840,7 +5840,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the value associated with the state of Michigan in the choropleth map of Food and Agriculture Production by State?",
+        "instruction": "**What is the value associated with the state of Michigan in the choropleth map of Food and Agriculture Production by State?**",
         "path": "gpt-prolific/choropleth_map-food_and_agriculture.png",
         "response": [
             {
@@ -5878,7 +5878,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the Health Index value for the state of Oregon?",
+        "instruction": "**What is the Health Index value for the state of Oregon?**",
         "path": "gpt-prolific/choropleth_map-health.png",
         "response": [
             {
@@ -5916,7 +5916,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the innovation score for the state of California?",
+        "instruction": "**What is the innovation score for the state of California?**",
         "path": "gpt-prolific/choropleth_map-innovation.png",
         "response": [
             {
@@ -5954,7 +5954,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the value associated with the state of Michigan in the choropleth map?",
+        "instruction": "**What is the value associated with the state of Michigan in the choropleth map?**",
         "path": "gpt-prolific/choropleth_map-politics.png",
         "response": [
             {
@@ -5992,7 +5992,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the average temperature value for Arizona as shown on the choropleth map?",
+        "instruction": "**What is the average temperature value for Arizona as shown on the choropleth map?**",
         "path": "gpt-prolific/choropleth_map-weather_and_climate.png",
         "response": [
             {
@@ -6030,7 +6030,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the maximum income value represented in the histogram?",
+        "instruction": "**What is the maximum income value represented in the histogram?**",
         "path": "gpt-prolific/histogram-economy.png",
         "response": [
             {
@@ -6068,7 +6068,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the maximum test score observed in the dataset?",
+        "instruction": "**What is the maximum test score observed in the dataset?**",
         "path": "gpt-prolific/histogram-education.png",
         "response": [
             {
@@ -6106,7 +6106,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the maximum value of Energy Consumption (MWh) depicted in the histogram?",
+        "instruction": "**What is the maximum value of Energy Consumption (MWh) depicted in the histogram?**",
         "path": "gpt-prolific/histogram-energy_and_environment.png",
         "response": [
             {
@@ -6144,7 +6144,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the maximum number of votes received by a candidate in the histogram of votes in a hypothetical primary election?",
+        "instruction": "**What is the maximum number of votes received by a candidate in the histogram of votes in a hypothetical primary election?**",
         "path": "gpt-prolific/histogram-politics.png",
         "response": [
             {
@@ -6182,7 +6182,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the maximum age value represented in the population age distribution histogram?",
+        "instruction": "**What is the maximum age value represented in the population age distribution histogram?**",
         "path": "gpt-prolific/histogram-population_and_demography.png",
         "response": [
             {
@@ -6220,7 +6220,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the maximum Daily Average Temperature recorded in the dataset?",
+        "instruction": "**What is the maximum Daily Average Temperature recorded in the dataset?**",
         "path": "gpt-prolific/histogram-weather_and_climate.png",
         "response": [
             {
@@ -6258,7 +6258,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which income bracket has more individuals, those earning around $50,000 or those earning around $60,000?",
+        "instruction": "**Which income bracket has more individuals, those earning around $50,000 or those earning around $60,000?**",
         "path": "gpt-prolific/histogram-economy.png",
         "response": [
             {
@@ -6296,7 +6296,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which range of test scores contains more students, 80-84 or 95-99?",
+        "instruction": "**Which range of test scores contains more students, 80-84 or 95-99?**",
         "path": "gpt-prolific/histogram-education.png",
         "response": [
             {
@@ -6334,7 +6334,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which range of Energy Consumption (MWh) has a higher frequency, 0-10 MWh or 40-50 MWh?",
+        "instruction": "**Which range of Energy Consumption (MWh) has a higher frequency, 0-10 MWh or 40-50 MWh?**",
         "path": "gpt-prolific/histogram-energy_and_environment.png",
         "response": [
             {
@@ -6372,7 +6372,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which range of 'Yield per Acre' contains more data points, 0-9 or 10-19?",
+        "instruction": "**Which range of 'Yield per Acre' contains more data points, 0-9 or 10-19?**",
         "path": "gpt-prolific/histogram-food_and_agriculture.png",
         "response": [
             {
@@ -6410,7 +6410,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which range of cholesterol levels contains more people, 150-159 or 160-169?",
+        "instruction": "**Which range of cholesterol levels contains more people, 150-159 or 160-169?**",
         "path": "gpt-prolific/histogram-health.png",
         "response": [
             {
@@ -6448,7 +6448,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which range of innovation scores contains more observations, 5-10 or 15-20?",
+        "instruction": "**Which range of innovation scores contains more observations, 5-10 or 15-20?**",
         "path": "gpt-prolific/histogram-innovation.png",
         "response": [
             {
@@ -6486,7 +6486,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which age group has a greater number of people, those in their early thirties or those in their late twenties?",
+        "instruction": "**Which age group has a greater number of people, those in their early thirties or those in their late twenties?**",
         "path": "gpt-prolific/histogram-population_and_demography.png",
         "response": [
             {
@@ -6524,7 +6524,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which temperature range has a higher frequency in the dataset, 60-70\u00b0F or 80-90\u00b0F?",
+        "instruction": "**Which temperature range has a higher frequency in the dataset, 60-70\u00b0F or 80-90\u00b0F?**",
         "path": "gpt-prolific/histogram-weather_and_climate.png",
         "response": [
             {
@@ -6562,7 +6562,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the highest Cholesterol Level recorded in the dataset?",
+        "instruction": "**What is the highest Cholesterol Level recorded in the dataset?**",
         "path": "gpt-prolific/histogram-health.png",
         "response": [
             {
@@ -6600,7 +6600,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What pattern does the line chart of annual GDP growth rates from 2000 to 2019 depict?",
+        "instruction": "**What pattern does the line chart of annual GDP growth rates from 2000 to 2019 depict?**",
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
@@ -6638,7 +6638,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the enrollment numbers over the academic years from 2001 to 2020?",
+        "instruction": "**What trend is observed in the enrollment numbers over the academic years from 2001 to 2020?**",
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
@@ -6676,7 +6676,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend can be observed in the energy consumption over time?",
+        "instruction": "**What trend can be observed in the energy consumption over time?**",
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
@@ -6714,7 +6714,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend does the line chart of Agricultural Production Over Years show?",
+        "instruction": "**What trend does the line chart of Agricultural Production Over Years show?**",
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
@@ -6752,7 +6752,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What pattern does the line chart of daily heart rate measurements over a 20-day period most clearly show?",
+        "instruction": "**What pattern does the line chart of daily heart rate measurements over a 20-day period most clearly show?**",
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
@@ -6790,7 +6790,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend does the line chart depicting Innovation Scores from 2000 to 2019 show?",
+        "instruction": "**What trend does the line chart depicting Innovation Scores from 2000 to 2019 show?**",
         "path": "gpt-prolific/line_chart-innovation.png",
         "response": [
             {
@@ -6828,7 +6828,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "How does the approval rating change over the years from 2000 to 2019?",
+        "instruction": "**How does the approval rating change over the years from 2000 to 2019?**",
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
@@ -6866,7 +6866,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend does the line chart depicting population from 2000 to 2019 show?",
+        "instruction": "**What trend does the line chart depicting population from 2000 to 2019 show?**",
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
@@ -6904,7 +6904,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What pattern does the line chart of daily average temperatures over 20 days primarily display?",
+        "instruction": "**What pattern does the line chart of daily average temperatures over 20 days primarily display?**",
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
@@ -6942,7 +6942,7 @@
             "task": "estimate_the_difference_between_two_values_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the difference in GDP Growth (%) between the years 2005 and 2013?",
+        "instruction": "**What is the difference in GDP Growth (%) between the years 2005 and 2013?**",
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
@@ -6980,7 +6980,7 @@
             "task": "estimate_the_difference_between_two_values_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the difference in enrollment between the years 2019 and 2003?",
+        "instruction": "**What is the difference in enrollment between the years 2019 and 2003?**",
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
@@ -7018,7 +7018,7 @@
             "task": "estimate_the_difference_between_two_values_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "Estimate the difference in Energy Consumption (GWh) between Time 5 and Time 15.",
+        "instruction": "**Estimate the difference in Energy Consumption (GWh) between Time 5 and Time 15.**",
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
@@ -7056,7 +7056,7 @@
             "task": "estimate_the_difference_between_two_values_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the difference in agricultural production (in tons) between the years 2000 and 2019?",
+        "instruction": "**What is the difference in agricultural production (in tons) between the years 2000 and 2019?**",
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
@@ -7094,7 +7094,7 @@
             "task": "estimate_the_difference_between_two_values_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the difference in heart rate (bpm) between Day 5 and Day 10?",
+        "instruction": "**What is the difference in heart rate (bpm) between Day 5 and Day 10?**",
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
@@ -7132,7 +7132,7 @@
             "task": "estimate_the_difference_between_two_values_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "Estimate the difference in Innovation Score between the years 2000 and 2019.",
+        "instruction": "**Estimate the difference in Innovation Score between the years 2000 and 2019.**",
         "path": "gpt-prolific/line_chart-innovation.png",
         "response": [
             {
@@ -7170,7 +7170,7 @@
             "task": "estimate_the_difference_between_two_values_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the difference in the Approval Rating between the years 2000 and 2019?",
+        "instruction": "**What is the difference in the Approval Rating between the years 2000 and 2019?**",
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
@@ -7208,7 +7208,7 @@
             "task": "estimate_the_difference_between_two_values_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "Estimate the difference in population between the years 2010 and 2015.",
+        "instruction": "**Estimate the difference in population between the years 2010 and 2015.**",
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
@@ -7246,7 +7246,7 @@
             "task": "estimate_the_difference_between_two_values_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "Estimate the difference in temperature (\u00b0F) between Day 5 and Day 20.",
+        "instruction": "**Estimate the difference in temperature (\u00b0F) between Day 5 and Day 20.**",
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
@@ -7284,7 +7284,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of GDP Growth (%) values shown in the line chart for the annual GDP growth rates?",
+        "instruction": "**What is the range of GDP Growth (%) values shown in the line chart for the annual GDP growth rates?**",
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
@@ -7322,7 +7322,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of student enrollments over the academic years depicted in the line chart?",
+        "instruction": "**What is the range of student enrollments over the academic years depicted in the line chart?**",
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
@@ -7360,7 +7360,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Energy Consumption values shown in the line chart?",
+        "instruction": "**What is the range of Energy Consumption values shown in the line chart?**",
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
@@ -7398,7 +7398,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of agricultural production values (in tons) from 2000 to 2019?",
+        "instruction": "**What is the range of agricultural production values (in tons) from 2000 to 2019?**",
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
@@ -7436,7 +7436,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of heart rate values depicted in the daily measurements?",
+        "instruction": "**What is the range of heart rate values depicted in the daily measurements?**",
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
@@ -7474,7 +7474,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Innovation Scores over the years shown in the line chart?",
+        "instruction": "**What is the range of Innovation Scores over the years shown in the line chart?**",
         "path": "gpt-prolific/line_chart-innovation.png",
         "response": [
             {
@@ -7512,7 +7512,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of approval ratings over the years shown in the line chart?",
+        "instruction": "**What is the range of approval ratings over the years shown in the line chart?**",
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
@@ -7550,7 +7550,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of the population values depicted in the line chart?",
+        "instruction": "**What is the range of the population values depicted in the line chart?**",
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
@@ -7588,7 +7588,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of the daily average temperature over the 20-day period shown in the line chart?",
+        "instruction": "**What is the range of the daily average temperature over the 20-day period shown in the line chart?**",
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
@@ -7626,7 +7626,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did the economy experience the lowest GDP growth rate?",
+        "instruction": "**In which year did the economy experience the lowest GDP growth rate?**",
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
@@ -7664,7 +7664,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which academic year did the enrollment reach its maximum value?",
+        "instruction": "**In which academic year did the enrollment reach its maximum value?**",
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
@@ -7702,7 +7702,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the time point at which the Energy Consumption reaches its maximum value?",
+        "instruction": "**What is the time point at which the Energy Consumption reaches its maximum value?**",
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
@@ -7740,7 +7740,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year was the agricultural production exactly 508 tons?",
+        "instruction": "**In which year was the agricultural production exactly 508 tons?**",
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
@@ -7778,7 +7778,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What day corresponds to the highest recorded heart rate?",
+        "instruction": "**What day corresponds to the highest recorded heart rate?**",
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
@@ -7816,7 +7816,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What year had the highest approval rating?",
+        "instruction": "**What year had the highest approval rating?**",
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
@@ -7854,7 +7854,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did the population first exceed 100 million?",
+        "instruction": "**In which year did the population first exceed 100 million?**",
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
@@ -7892,7 +7892,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What days had the highest recorded temperature?",
+        "instruction": "**What days had the highest recorded temperature?**",
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
@@ -7930,7 +7930,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the GDP growth rate (%) in 2005?",
+        "instruction": "**What was the GDP growth rate (%) in 2005?**",
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
@@ -7968,7 +7968,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the enrollment number in the academic year 2019?",
+        "instruction": "**What was the enrollment number in the academic year 2019?**",
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
@@ -8006,7 +8006,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the Energy Consumption (GWh) at Time 10?",
+        "instruction": "**What is the Energy Consumption (GWh) at Time 10?**",
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
@@ -8044,7 +8044,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the agricultural production (in tons) in the year 2007?",
+        "instruction": "**What was the agricultural production (in tons) in the year 2007?**",
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
@@ -8082,7 +8082,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the heart rate measurement (in bpm) for Day 10?",
+        "instruction": "**What is the heart rate measurement (in bpm) for Day 10?**",
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
@@ -8120,7 +8120,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the Innovation Score in the year 2007?",
+        "instruction": "**What was the Innovation Score in the year 2007?**",
         "path": "gpt-prolific/line_chart-innovation.png",
         "response": [
             {
@@ -8158,7 +8158,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the approval rating in the year 2007?",
+        "instruction": "**What was the approval rating in the year 2007?**",
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
@@ -8196,7 +8196,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the population in the year 2010?",
+        "instruction": "**What was the population in the year 2010?**",
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
@@ -8234,7 +8234,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the temperature on Day 10?",
+        "instruction": "**What was the temperature on Day 10?**",
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
@@ -8272,7 +8272,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which economic sector, excluding Technology, has the smallest share of the distribution?",
+        "instruction": "**Which economic sector, excluding Technology, has the smallest share of the distribution?**",
         "path": "gpt-prolific/pie_chart-economy.png",
         "response": [
             {
@@ -8310,7 +8310,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which education level has the smallest percentage of individuals?",
+        "instruction": "**Which education level has the smallest percentage of individuals?**",
         "path": "gpt-prolific/pie_chart-education.png",
         "response": [
             {
@@ -8348,7 +8348,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which energy source has the highest percentage in the pie chart?",
+        "instruction": "**Which energy source has the highest percentage in the pie chart?**",
         "path": "gpt-prolific/pie_chart-energy_and_environment.png",
         "response": [
             {
@@ -8386,7 +8386,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category has the smallest percentage share in the food and agriculture sectors?",
+        "instruction": "**Which category has the smallest percentage share in the food and agriculture sectors?**",
         "path": "gpt-prolific/pie_chart-food_and_agriculture.png",
         "response": [
             {
@@ -8424,7 +8424,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category has the highest percentage of health-related activities?",
+        "instruction": "**Which category has the highest percentage of health-related activities?**",
         "path": "gpt-prolific/pie_chart-health.png",
         "response": [
             {
@@ -8462,7 +8462,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category has the highest percentage of innovation?",
+        "instruction": "**Which category has the highest percentage of innovation?**",
         "path": "gpt-prolific/pie_chart-innovation.png",
         "response": [
             {
@@ -8500,7 +8500,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which political party has the smallest percentage of representation in the pie chart?",
+        "instruction": "**Which political party has the smallest percentage of representation in the pie chart?**",
         "path": "gpt-prolific/pie_chart-politics.png",
         "response": [
             {
@@ -8538,7 +8538,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category represents the largest percentage of the population distribution?",
+        "instruction": "**Which category represents the largest percentage of the population distribution?**",
         "path": "gpt-prolific/pie_chart-population_and_demography.png",
         "response": [
             {
@@ -8576,7 +8576,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which climate category occupies the largest percentage in the pie chart?",
+        "instruction": "**Which climate category occupies the largest percentage in the pie chart?**",
         "path": "gpt-prolific/pie_chart-weather_and_climate.png",
         "response": [
             {
@@ -8614,7 +8614,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which sector has a larger share of the economy, Agriculture or Construction?",
+        "instruction": "**Which sector has a larger share of the economy, Agriculture or Construction?**",
         "path": "gpt-prolific/pie_chart-economy.png",
         "response": [
             {
@@ -8652,7 +8652,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which education level has a larger share in the distribution, Middle School or Undergraduate?",
+        "instruction": "**Which education level has a larger share in the distribution, Middle School or Undergraduate?**",
         "path": "gpt-prolific/pie_chart-education.png",
         "response": [
             {
@@ -8690,7 +8690,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which energy source has a larger share in the distribution, Solar or Nuclear?",
+        "instruction": "**Which energy source has a larger share in the distribution, Solar or Nuclear?**",
         "path": "gpt-prolific/pie_chart-energy_and_environment.png",
         "response": [
             {
@@ -8728,7 +8728,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category has a larger share in the food and agriculture sectors, Grains or Meats?",
+        "instruction": "**Which category has a larger share in the food and agriculture sectors, Grains or Meats?**",
         "path": "gpt-prolific/pie_chart-food_and_agriculture.png",
         "response": [
             {
@@ -8766,7 +8766,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which health-related activity has a greater percentage allocation, Diet or Hydration?",
+        "instruction": "**Which health-related activity has a greater percentage allocation, Diet or Hydration?**",
         "path": "gpt-prolific/pie_chart-health.png",
         "response": [
             {
@@ -8804,7 +8804,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category of innovation has a larger share, Product Innovation or Marketing Innovation?",
+        "instruction": "**Which category of innovation has a larger share, Product Innovation or Marketing Innovation?**",
         "path": "gpt-prolific/pie_chart-innovation.png",
         "response": [
             {
@@ -8842,7 +8842,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which political party has a larger percentage share, the Socialist or the Green party?",
+        "instruction": "**Which political party has a larger percentage share, the Socialist or the Green party?**",
         "path": "gpt-prolific/pie_chart-politics.png",
         "response": [
             {
@@ -8880,7 +8880,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category constitutes a larger portion of the population, Youth or Seniors?",
+        "instruction": "**Which category constitutes a larger portion of the population, Youth or Seniors?**",
         "path": "gpt-prolific/pie_chart-population_and_demography.png",
         "response": [
             {
@@ -8918,7 +8918,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which climate category has a larger percentage, Tropical or Polar?",
+        "instruction": "**Which climate category has a larger percentage, Tropical or Polar?**",
         "path": "gpt-prolific/pie_chart-weather_and_climate.png",
         "response": [
             {
@@ -8956,7 +8956,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the economy is represented by the Services sector?",
+        "instruction": "**What percentage of the economy is represented by the Services sector?**",
         "path": "gpt-prolific/pie_chart-economy.png",
         "response": [
             {
@@ -8994,7 +8994,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the education levels is represented by High School?",
+        "instruction": "**What percentage of the education levels is represented by High School?**",
         "path": "gpt-prolific/pie_chart-education.png",
         "response": [
             {
@@ -9032,7 +9032,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the energy distribution is represented by Solar power?",
+        "instruction": "**What percentage of the energy distribution is represented by Solar power?**",
         "path": "gpt-prolific/pie_chart-energy_and_environment.png",
         "response": [
             {
@@ -9070,7 +9070,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the food and agriculture sectors is made up by Dairy?",
+        "instruction": "**What percentage of the food and agriculture sectors is made up by Dairy?**",
         "path": "gpt-prolific/pie_chart-food_and_agriculture.png",
         "response": [
             {
@@ -9108,7 +9108,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of health-related activities does \"Diet\" represent?",
+        "instruction": "**What percentage of health-related activities does \"Diet\" represent?**",
         "path": "gpt-prolific/pie_chart-health.png",
         "response": [
             {
@@ -9146,7 +9146,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the total does Product Innovation represent in the Innovation Categories Distribution?",
+        "instruction": "**What percentage of the total does Product Innovation represent in the Innovation Categories Distribution?**",
         "path": "gpt-prolific/pie_chart-innovation.png",
         "response": [
             {
@@ -9184,7 +9184,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the political distribution does the Socialist party represent?",
+        "instruction": "**What percentage of the political distribution does the Socialist party represent?**",
         "path": "gpt-prolific/pie_chart-politics.png",
         "response": [
             {
@@ -9222,7 +9222,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the population is categorized as \"Seniors\"?",
+        "instruction": "**What percentage of the population is categorized as \"Seniors\"?**",
         "path": "gpt-prolific/pie_chart-population_and_demography.png",
         "response": [
             {
@@ -9260,7 +9260,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the climate categories does the \"Temperate\" region represent?",
+        "instruction": "**What percentage of the climate categories does the \"Temperate\" region represent?**",
         "path": "gpt-prolific/pie_chart-weather_and_climate.png",
         "response": [
             {
@@ -9298,7 +9298,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the trend between GDP and Unemployment Rate as shown in the scatterplot?",
+        "instruction": "**What is the trend between GDP and Unemployment Rate as shown in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
@@ -9336,7 +9336,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation does the scatterplot of Study Hours per Week and Average Grade of Students show?",
+        "instruction": "**What trend or correlation does the scatterplot of Study Hours per Week and Average Grade of Students show?**",
         "path": "gpt-prolific/scatterplot-education.png",
         "response": [
             {
@@ -9374,7 +9374,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation is observed between Energy Consumption and Carbon Emission based on the dataset provided?",
+        "instruction": "**What trend or correlation is observed between Energy Consumption and Carbon Emission based on the dataset provided?**",
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
@@ -9412,7 +9412,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation does the scatterplot suggest between Crop Yield and Fertilizer Use?",
+        "instruction": "**What trend or correlation does the scatterplot suggest between Crop Yield and Fertilizer Use?**",
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
@@ -9450,7 +9450,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the trend or correlation between Weight and Height as depicted in the scatterplot?",
+        "instruction": "**What is the trend or correlation between Weight and Height as depicted in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
@@ -9488,7 +9488,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend or correlation is observed between Research Investment and Innovation Scores in the scatterplot?",
+        "instruction": "**What trend or correlation is observed between Research Investment and Innovation Scores in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-innovation.png",
         "response": [
             {
@@ -9526,7 +9526,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What pattern does the scatterplot show between Voter Turnout and Opposition Support?",
+        "instruction": "**What pattern does the scatterplot show between Voter Turnout and Opposition Support?**",
         "path": "gpt-prolific/scatterplot-politics.png",
         "response": [
             {
@@ -9564,7 +9564,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What pattern does the scatterplot of Temperature vs Humidity show?",
+        "instruction": "**What pattern does the scatterplot of Temperature vs Humidity show?**",
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
@@ -9602,7 +9602,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of GDP values in billions shown in the scatterplot?",
+        "instruction": "**What is the range of GDP values in billions shown in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
@@ -9640,7 +9640,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Study Hours per week for the students?",
+        "instruction": "**What is the range of Study Hours per week for the students?**",
         "path": "gpt-prolific/scatterplot-education.png",
         "response": [
             {
@@ -9678,7 +9678,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Energy Consumption (MWh) values in the scatterplot?",
+        "instruction": "**What is the range of Energy Consumption (MWh) values in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
@@ -9716,7 +9716,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Crop Yield values (in kg/ha) shown in the scatterplot?",
+        "instruction": "**What is the range of Crop Yield values (in kg/ha) shown in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
@@ -9754,7 +9754,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Weight values in the scatterplot?",
+        "instruction": "**What is the range of Weight values in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
@@ -9792,7 +9792,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Innovation Scores depicted in the scatterplot?",
+        "instruction": "**What is the range of Innovation Scores depicted in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-innovation.png",
         "response": [
             {
@@ -9830,7 +9830,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Voter Turnout percentages represented in the scatterplot?",
+        "instruction": "**What is the range of Voter Turnout percentages represented in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-politics.png",
         "response": [
             {
@@ -9868,7 +9868,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Median Age values represented in the scatterplot?",
+        "instruction": "**What is the range of Median Age values represented in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-population_and_demography.png",
         "response": [
             {
@@ -9906,7 +9906,7 @@
             "task": "identify_range"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the range of Temperature values in the scatterplot?",
+        "instruction": "**What is the range of Temperature values in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
@@ -9944,7 +9944,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the highest GDP value and its corresponding Unemployment Rate in the scatterplot?",
+        "instruction": "**What is the highest GDP value and its corresponding Unemployment Rate in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
@@ -9982,7 +9982,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the study hours per week for the student with the highest average grade?",
+        "instruction": "**What is the study hours per week for the student with the highest average grade?**",
         "path": "gpt-prolific/scatterplot-education.png",
         "response": [
             {
@@ -10020,7 +10020,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the value of Energy Consumption (MWh) at the point with the maximum Carbon Emission (metric tons)?",
+        "instruction": "**What is the value of Energy Consumption (MWh) at the point with the maximum Carbon Emission (metric tons)?**",
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
@@ -10058,7 +10058,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the value of Fertilizer Use (kg/ha) for the lowest Crop Yield (kg/ha) observed in the scatterplot?",
+        "instruction": "**What is the value of Fertilizer Use (kg/ha) for the lowest Crop Yield (kg/ha) observed in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
@@ -10096,7 +10096,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the weight of the lightest individual represented in the scatterplot?",
+        "instruction": "**What is the weight of the lightest individual represented in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
@@ -10134,7 +10134,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the Research Investment (in millions) for the highest Innovation Score?",
+        "instruction": "**What is the Research Investment (in millions) for the highest Innovation Score?**",
         "path": "gpt-prolific/scatterplot-innovation.png",
         "response": [
             {
@@ -10172,7 +10172,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the voter turnout percentage for the data point with the highest opposition support?",
+        "instruction": "**What is the voter turnout percentage for the data point with the highest opposition support?**",
         "path": "gpt-prolific/scatterplot-politics.png",
         "response": [
             {
@@ -10210,7 +10210,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the population size of the city with the highest median age?",
+        "instruction": "**What is the population size of the city with the highest median age?**",
         "path": "gpt-prolific/scatterplot-population_and_demography.png",
         "response": [
             {
@@ -10248,7 +10248,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the temperature and humidity level at the highest humidity point in the scatterplot?",
+        "instruction": "**What is the temperature and humidity level at the highest humidity point in the scatterplot?**",
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
@@ -10286,7 +10286,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which is higher, the Unemployment Rate at a GDP of 1500 billion or at a GDP of 1900 billion?",
+        "instruction": "**Which is higher, the Unemployment Rate at a GDP of 1500 billion or at a GDP of 1900 billion?**",
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
@@ -10324,7 +10324,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which is greater, the number of data points with Energy Consumption over 400 MWh or the number of data points with Carbon Emission over 900 metric tons?",
+        "instruction": "**Which is greater, the number of data points with Energy Consumption over 400 MWh or the number of data points with Carbon Emission over 900 metric tons?**",
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
@@ -10362,7 +10362,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which is greater, the average fertilizer use for crops yielding between 2100 and 2200 kg/ha or for crops yielding between 4600 and 4700 kg/ha?",
+        "instruction": "**Which is greater, the average fertilizer use for crops yielding between 2100 and 2200 kg/ha or for crops yielding between 4600 and 4700 kg/ha?**",
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
@@ -10400,7 +10400,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which weight category has generally taller individuals, those weighing between 50-60 kg or those weighing between 90-100 kg?",
+        "instruction": "**Which weight category has generally taller individuals, those weighing between 50-60 kg or those weighing between 90-100 kg?**",
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
@@ -10438,7 +10438,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which is greater, the average opposition support for voter turnout percentages below 60% or for voter turnout percentages above 80%?",
+        "instruction": "**Which is greater, the average opposition support for voter turnout percentages below 60% or for voter turnout percentages above 80%?**",
         "path": "gpt-prolific/scatterplot-politics.png",
         "response": [
             {
@@ -10476,7 +10476,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which temperature range has a higher average humidity, 60-70\u00b0F or 90-100\u00b0F?",
+        "instruction": "**Which temperature range has a higher average humidity, 60-70\u00b0F or 90-100\u00b0F?**",
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
@@ -10514,7 +10514,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the Unemployment Rate when the GDP is 1911 billion?",
+        "instruction": "**What is the Unemployment Rate when the GDP is 1911 billion?**",
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
@@ -10552,7 +10552,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the carbon emission value (in metric tons) for an energy consumption of 405 MWh?",
+        "instruction": "**What is the carbon emission value (in metric tons) for an energy consumption of 405 MWh?**",
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
@@ -10590,7 +10590,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the fertilizer use in kilograms per hectare for a crop yield of 4864 kg/ha?",
+        "instruction": "**What is the fertilizer use in kilograms per hectare for a crop yield of 4864 kg/ha?**",
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
@@ -10628,7 +10628,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the height in cm of an individual weighing 85 kg?",
+        "instruction": "**What is the height in cm of an individual weighing 85 kg?**",
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
@@ -10666,7 +10666,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the median age for the population size closest to 3000?",
+        "instruction": "**What is the median age for the population size closest to 3000?**",
         "path": "gpt-prolific/scatterplot-population_and_demography.png",
         "response": [
             {
@@ -10704,7 +10704,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the humidity percentage when the temperature is 100\u00b0F?",
+        "instruction": "**What is the humidity percentage when the temperature is 100\u00b0F?**",
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
@@ -10742,7 +10742,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the scatterplot of GDP versus Unemployment Rate?",
+        "instruction": "**Where is the cluster of data points located on the scatterplot of GDP versus Unemployment Rate?**",
         "path": "gpt-prolific/scatterplot_with_cluster-economy.png",
         "response": [
             {
@@ -10780,7 +10780,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the scatterplot of Test Scores versus Study Hours?",
+        "instruction": "**Where is the cluster of data points located on the scatterplot of Test Scores versus Study Hours?**",
         "path": "gpt-prolific/scatterplot_with_cluster-education.png",
         "response": [
             {
@@ -10818,7 +10818,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the scatterplot of Crop Yield versus Fertilizer Use?",
+        "instruction": "**Where is the cluster of data points located on the scatterplot of Crop Yield versus Fertilizer Use?**",
         "path": "gpt-prolific/scatterplot_with_cluster-food_and_agriculture.png",
         "response": [
             {
@@ -10856,7 +10856,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the scatterplot of Weight vs. Height?",
+        "instruction": "**Where is the cluster of data points located on the scatterplot of Weight vs. Height?**",
         "path": "gpt-prolific/scatterplot_with_cluster-health.png",
         "response": [
             {
@@ -10894,7 +10894,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the scatterplot of Innovation Score versus Success Rate?",
+        "instruction": "**Where is the cluster of data points located on the scatterplot of Innovation Score versus Success Rate?**",
         "path": "gpt-prolific/scatterplot_with_cluster-innovation.png",
         "response": [
             {
@@ -10932,7 +10932,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the scatterplot of Political Support vs Opposition Rates?",
+        "instruction": "**Where is the cluster of data points located on the scatterplot of Political Support vs Opposition Rates?**",
         "path": "gpt-prolific/scatterplot_with_cluster-politics.png",
         "response": [
             {
@@ -10970,7 +10970,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the Population vs Median Age Scatterplot?",
+        "instruction": "**Where is the cluster of data points located on the Population vs Median Age Scatterplot?**",
         "path": "gpt-prolific/scatterplot_with_cluster-population_and_demography.png",
         "response": [
             {
@@ -11008,7 +11008,7 @@
             "task": "identify_clusters"
         },
         "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the scatterplot of temperature versus humidity?",
+        "instruction": "**Where is the cluster of data points located on the scatterplot of temperature versus humidity?**",
         "path": "gpt-prolific/scatterplot_with_cluster-weather_and_climate.png",
         "response": [
             {
@@ -11046,7 +11046,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which data point on the scatterplot represents an outlier in the relationship between Energy Consumption and CO2 Emissions?",
+        "instruction": "**Which data point on the scatterplot represents an outlier in the relationship between Energy Consumption and CO2 Emissions?**",
         "path": "gpt-prolific/scatterplot_with_outlier-energy_and_environment.png",
         "response": [
             {
@@ -11084,7 +11084,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Identify the outlier in the scatterplot showing the relationship between Fertilizer Use and Crop Yield.",
+        "instruction": "**Identify the outlier in the scatterplot showing the relationship between Fertilizer Use and Crop Yield.**",
         "path": "gpt-prolific/scatterplot_with_outlier-food_and_agriculture.png",
         "response": [
             {
@@ -11122,7 +11122,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which data point is an outlier in the scatterplot of Innovation Index vs. Patent Count?",
+        "instruction": "**Which data point is an outlier in the scatterplot of Innovation Index vs. Patent Count?**",
         "path": "gpt-prolific/scatterplot_with_outlier-innovation.png",
         "response": [
             {
@@ -11160,7 +11160,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which data point on the scatterplot represents an outlier in the relationship between Political Support and Opposition?",
+        "instruction": "**Which data point on the scatterplot represents an outlier in the relationship between Political Support and Opposition?**",
         "path": "gpt-prolific/scatterplot_with_outlier-politics.png",
         "response": [
             {
@@ -11198,7 +11198,7 @@
             "task": "identify_anomalies"
         },
         "baseComponent": "visTask",
-        "instruction": "Which data point on the scatterplot represents an outlier in the relationship between temperature and humidity?",
+        "instruction": "**Which data point on the scatterplot represents an outlier in the relationship between temperature and humidity?**",
         "path": "gpt-prolific/scatterplot_with_outlier-weather_and_climate.png",
         "response": [
             {
@@ -11236,7 +11236,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the enrollment numbers across different education levels from 2000 to 2019?",
+        "instruction": "**What trend is observed in the enrollment numbers across different education levels from 2000 to 2019?**",
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
@@ -11274,7 +11274,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "Which energy source shows a consistently increasing trend in production over the years 2000 to 2019?",
+        "instruction": "**Which energy source shows a consistently increasing trend in production over the years 2000 to 2019?**",
         "path": "gpt-prolific/stacked_area_chart-energy_and_environment.png",
         "response": [
             {
@@ -11312,7 +11312,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What pattern does the stacked area chart of food and agriculture production over the years 2000 to 2019 reveal?",
+        "instruction": "**What pattern does the stacked area chart of food and agriculture production over the years 2000 to 2019 reveal?**",
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
@@ -11350,7 +11350,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the number of cases for the different health conditions over the years?",
+        "instruction": "**What trend is observed in the number of cases for the different health conditions over the years?**",
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
@@ -11388,7 +11388,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the number of innovations across the categories from 2000 to 2019?",
+        "instruction": "**What trend is observed in the number of innovations across the categories from 2000 to 2019?**",
         "path": "gpt-prolific/stacked_area_chart-innovation.png",
         "response": [
             {
@@ -11426,7 +11426,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the political party votes over the years 2000 to 2019?",
+        "instruction": "**What trend is observed in the political party votes over the years 2000 to 2019?**",
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
@@ -11464,7 +11464,7 @@
             "task": "describe_trend_or_correlation"
         },
         "baseComponent": "visTask",
-        "instruction": "What trend is observed in the population distribution by age group over the years 2000 to 2019?",
+        "instruction": "**What trend is observed in the population distribution by age group over the years 2000 to 2019?**",
         "path": "gpt-prolific/stacked_area_chart-population_and_demography.png",
         "response": [
             {
@@ -11502,7 +11502,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of the Agriculture sector's value in 2000 to its value in 2019?",
+        "instruction": "**What is the ratio of the Agriculture sector's value in 2000 to its value in 2019?**",
         "path": "gpt-prolific/stacked_area_chart-economy.png",
         "response": [
             {
@@ -11540,7 +11540,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of Elementary to Middle School enrollment in the year 2000?",
+        "instruction": "**What is the ratio of Elementary to Middle School enrollment in the year 2000?**",
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
@@ -11578,7 +11578,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of energy production from Solar to Wind in the year 2000?",
+        "instruction": "**What is the ratio of energy production from Solar to Wind in the year 2000?**",
         "path": "gpt-prolific/stacked_area_chart-energy_and_environment.png",
         "response": [
             {
@@ -11616,7 +11616,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of Wheat production in 2019 to that in 2000?",
+        "instruction": "**What is the ratio of Wheat production in 2019 to that in 2000?**",
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
@@ -11654,7 +11654,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of the total number of Cardiovascular cases to Respiratory cases in 2019?",
+        "instruction": "**What is the ratio of the total number of Cardiovascular cases to Respiratory cases in 2019?**",
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
@@ -11692,7 +11692,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of the number of Tech Advancements to Research Development innovations in 2019?",
+        "instruction": "**What is the ratio of the number of Tech Advancements to Research Development innovations in 2019?**",
         "path": "gpt-prolific/stacked_area_chart-innovation.png",
         "response": [
             {
@@ -11730,7 +11730,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of Conservative Party votes to Green Party votes in the year 2000?",
+        "instruction": "**What is the ratio of Conservative Party votes to Green Party votes in the year 2000?**",
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
@@ -11768,7 +11768,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of the population in the \"0-14\" age group to the \"65+\" age group in the year 2000?",
+        "instruction": "**What is the ratio of the population in the \"0-14\" age group to the \"65+\" age group in the year 2000?**",
         "path": "gpt-prolific/stacked_area_chart-population_and_demography.png",
         "response": [
             {
@@ -11806,7 +11806,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the enrollment number for Middle School in the year with the lowest enrollment across all education levels?",
+        "instruction": "**What is the enrollment number for Middle School in the year with the lowest enrollment across all education levels?**",
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
@@ -11844,7 +11844,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did Hydro energy production reach its maximum value?",
+        "instruction": "**In which year did Hydro energy production reach its maximum value?**",
         "path": "gpt-prolific/stacked_area_chart-energy_and_environment.png",
         "response": [
             {
@@ -11882,7 +11882,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What year did soybeans reach their maximum production?",
+        "instruction": "**What year did soybeans reach their maximum production?**",
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
@@ -11920,7 +11920,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did Neurological conditions have the highest number of cases?",
+        "instruction": "**In which year did Neurological conditions have the highest number of cases?**",
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
@@ -11958,7 +11958,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "In which year did the Libertarian party receive the maximum number of votes?",
+        "instruction": "**In which year did the Libertarian party receive the maximum number of votes?**",
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
@@ -11996,7 +11996,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which sector showed a larger increase in value from 2000 to 2019, Agriculture or Manufacturing?",
+        "instruction": "**Which sector showed a larger increase in value from 2000 to 2019, Agriculture or Manufacturing?**",
         "path": "gpt-prolific/stacked_area_chart-economy.png",
         "response": [
             {
@@ -12034,7 +12034,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which education level had a higher enrollment in 2000, Elementary or College?",
+        "instruction": "**Which education level had a higher enrollment in 2000, Elementary or College?**",
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
@@ -12072,7 +12072,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which crop's production was consistently higher over the years, Wheat or Rice?",
+        "instruction": "**Which crop's production was consistently higher over the years, Wheat or Rice?**",
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
@@ -12110,7 +12110,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which condition showed a greater number of cases in 2019, Cardiovascular or Neurological?",
+        "instruction": "**Which condition showed a greater number of cases in 2019, Cardiovascular or Neurological?**",
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
@@ -12148,7 +12148,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which political party had a higher total number of votes in 2003, the Green Party or the Libertarian Party?",
+        "instruction": "**Which political party had a higher total number of votes in 2003, the Green Party or the Libertarian Party?**",
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
@@ -12186,7 +12186,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which age group had a larger population in the year 2000, \"0-14\" or \"65+\"?",
+        "instruction": "**Which age group had a larger population in the year 2000, \"0-14\" or \"65+\"?**",
         "path": "gpt-prolific/stacked_area_chart-population_and_demography.png",
         "response": [
             {
@@ -12224,7 +12224,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the value (in millions) for the Services sector in the year 2011?",
+        "instruction": "**What was the value (in millions) for the Services sector in the year 2011?**",
         "path": "gpt-prolific/stacked_area_chart-economy.png",
         "response": [
             {
@@ -12262,7 +12262,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the enrollment number for Middle School in the year 2010?",
+        "instruction": "**What was the enrollment number for Middle School in the year 2010?**",
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
@@ -12300,7 +12300,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the energy production (GWh) from Wind sources in the year 2019?",
+        "instruction": "**What was the energy production (GWh) from Wind sources in the year 2019?**",
         "path": "gpt-prolific/stacked_area_chart-energy_and_environment.png",
         "response": [
             {
@@ -12338,7 +12338,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the production of Corn in the year 2016?",
+        "instruction": "**What was the production of Corn in the year 2016?**",
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
@@ -12376,7 +12376,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the number of Neurological cases reported in the year 2010?",
+        "instruction": "**What was the number of Neurological cases reported in the year 2010?**",
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
@@ -12414,7 +12414,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the number of innovations for New Startups in the year 2010?",
+        "instruction": "**What was the number of innovations for New Startups in the year 2010?**",
         "path": "gpt-prolific/stacked_area_chart-innovation.png",
         "response": [
             {
@@ -12452,7 +12452,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How many votes did the Green Party receive in the year 2019?",
+        "instruction": "**How many votes did the Green Party receive in the year 2019?**",
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
@@ -12490,7 +12490,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of the Technology sector's income to the Agriculture sector's income in 2021?",
+        "instruction": "**What is the ratio of the Technology sector's income to the Agriculture sector's income in 2021?**",
         "path": "gpt-prolific/stacked_bar_chart-economy.png",
         "response": [
             {
@@ -12528,7 +12528,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of Grade 9 to Grade 12 students at School A?",
+        "instruction": "**What is the ratio of Grade 9 to Grade 12 students at School A?**",
         "path": "gpt-prolific/stacked_bar_chart-education.png",
         "response": [
             {
@@ -12566,7 +12566,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of energy production from Solar to Wind for Country A?",
+        "instruction": "**What is the ratio of energy production from Solar to Wind for Country A?**",
         "path": "gpt-prolific/stacked_bar_chart-energy_and_environment.png",
         "response": [
             {
@@ -12604,7 +12604,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of Wheat production in the East region to that in the South region?",
+        "instruction": "**What is the ratio of Wheat production in the East region to that in the South region?**",
         "path": "gpt-prolific/stacked_bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -12642,7 +12642,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of the number of patients in the \"Cardio\" category to the number of patients in the \"Strength\" category at \"Clinic 3\"?",
+        "instruction": "**What is the ratio of the number of patients in the \"Cardio\" category to the number of patients in the \"Strength\" category at \"Clinic 3\"?**",
         "path": "gpt-prolific/stacked_bar_chart-health.png",
         "response": [
             {
@@ -12680,7 +12680,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of the number of Startups to the number of Patents in the Tech sector?",
+        "instruction": "**What is the ratio of the number of Startups to the number of Patents in the Tech sector?**",
         "path": "gpt-prolific/stacked_bar_chart-innovation.png",
         "response": [
             {
@@ -12718,7 +12718,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of the population aged \"0-14\" to the population aged \"75+\" in Region D?",
+        "instruction": "**What is the ratio of the population aged \"0-14\" to the population aged \"75+\" in Region D?**",
         "path": "gpt-prolific/stacked_bar_chart-population_and_demography.png",
         "response": [
             {
@@ -12756,7 +12756,7 @@
             "task": "estimate_the_ratio_of_one_value_to_another_value_of_the_same_type"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the ratio of the Humidity value for CityA to that of CityB?",
+        "instruction": "**What is the ratio of the Humidity value for CityA to that of CityB?**",
         "path": "gpt-prolific/stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -12794,7 +12794,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the maximum annual income reported for any sector in the given years, and which sector does it belong to?",
+        "instruction": "**What is the maximum annual income reported for any sector in the given years, and which sector does it belong to?**",
         "path": "gpt-prolific/stacked_bar_chart-economy.png",
         "response": [
             {
@@ -12832,7 +12832,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which school and grade combination has the maximum number of students?",
+        "instruction": "**Which school and grade combination has the maximum number of students?**",
         "path": "gpt-prolific/stacked_bar_chart-education.png",
         "response": [
             {
@@ -12870,7 +12870,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which country and energy source combination has the highest energy production?",
+        "instruction": "**Which country and energy source combination has the highest energy production?**",
         "path": "gpt-prolific/stacked_bar_chart-energy_and_environment.png",
         "response": [
             {
@@ -12908,7 +12908,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the maximum production value for any product and region combination?",
+        "instruction": "**What is the maximum production value for any product and region combination?**",
         "path": "gpt-prolific/stacked_bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -12946,7 +12946,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which clinic has the highest number of patients for the Flexibility category?",
+        "instruction": "**Which clinic has the highest number of patients for the Flexibility category?**",
         "path": "gpt-prolific/stacked_bar_chart-health.png",
         "response": [
             {
@@ -12984,7 +12984,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which state received the highest number of votes for the issue of Healthcare?",
+        "instruction": "**Which state received the highest number of votes for the issue of Healthcare?**",
         "path": "gpt-prolific/stacked_bar_chart-politics.png",
         "response": [
             {
@@ -13022,7 +13022,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which region and age group combination has the smallest population size?",
+        "instruction": "**Which region and age group combination has the smallest population size?**",
         "path": "gpt-prolific/stacked_bar_chart-population_and_demography.png",
         "response": [
             {
@@ -13060,7 +13060,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which city has the highest recorded temperature value?",
+        "instruction": "**Which city has the highest recorded temperature value?**",
         "path": "gpt-prolific/stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -13098,7 +13098,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which sector had a higher total income over the years, Agriculture or Technology?",
+        "instruction": "**Which sector had a higher total income over the years, Agriculture or Technology?**",
         "path": "gpt-prolific/stacked_bar_chart-economy.png",
         "response": [
             {
@@ -13136,7 +13136,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which school has a greater number of students in Grade 9 compared to Grade 12?",
+        "instruction": "**Which school has a greater number of students in Grade 9 compared to Grade 12?**",
         "path": "gpt-prolific/stacked_bar_chart-education.png",
         "response": [
             {
@@ -13174,7 +13174,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which region has a larger population in the \"55-74\" age group, Region C or Region F?",
+        "instruction": "**Which region has a larger population in the \"55-74\" age group, Region C or Region F?**",
         "path": "gpt-prolific/stacked_bar_chart-population_and_demography.png",
         "response": [
             {
@@ -13212,7 +13212,7 @@
             "task": "make_comparisons"
         },
         "baseComponent": "visTask",
-        "instruction": "Which city has a higher combined value for 'Humidity' and 'Sunshine' factors, CityA or CityD?",
+        "instruction": "**Which city has a higher combined value for 'Humidity' and 'Sunshine' factors, CityA or CityD?**",
         "path": "gpt-prolific/stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -13250,7 +13250,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What was the income (in millions) for the Technology sector in 2018?",
+        "instruction": "**What was the income (in millions) for the Technology sector in 2018?**",
         "path": "gpt-prolific/stacked_bar_chart-economy.png",
         "response": [
             {
@@ -13288,7 +13288,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How many students are there in Grade 11 at School G?",
+        "instruction": "**How many students are there in Grade 11 at School G?**",
         "path": "gpt-prolific/stacked_bar_chart-education.png",
         "response": [
             {
@@ -13326,7 +13326,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the energy production from wind sources in Country F?",
+        "instruction": "**What is the energy production from wind sources in Country F?**",
         "path": "gpt-prolific/stacked_bar_chart-energy_and_environment.png",
         "response": [
             {
@@ -13364,7 +13364,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the production quantity (in tons) for Soybeans in the West region?",
+        "instruction": "**What is the production quantity (in tons) for Soybeans in the West region?**",
         "path": "gpt-prolific/stacked_bar_chart-food_and_agriculture.png",
         "response": [
             {
@@ -13402,7 +13402,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How many patients are there in the \"Strength\" category at \"Clinic 4\"?",
+        "instruction": "**How many patients are there in the \"Strength\" category at \"Clinic 4\"?**",
         "path": "gpt-prolific/stacked_bar_chart-health.png",
         "response": [
             {
@@ -13440,7 +13440,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How many innovations in the \"Energy\" sector are categorized as \"Startups\"?",
+        "instruction": "**How many innovations in the \"Energy\" sector are categorized as \"Startups\"?**",
         "path": "gpt-prolific/stacked_bar_chart-innovation.png",
         "response": [
             {
@@ -13478,7 +13478,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "How many votes did Party B receive for the issue of Healthcare in State 5?",
+        "instruction": "**How many votes did Party B receive for the issue of Healthcare in State 5?**",
         "path": "gpt-prolific/stacked_bar_chart-politics.png",
         "response": [
             {
@@ -13516,7 +13516,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the population of the age group \"55-74\" in \"Region D\"?",
+        "instruction": "**What is the population of the age group \"55-74\" in \"Region D\"?**",
         "path": "gpt-prolific/stacked_bar_chart-population_and_demography.png",
         "response": [
             {
@@ -13554,7 +13554,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What is the value for Sunshine in CityE?",
+        "instruction": "**What is the value for Sunshine in CityE?**",
         "path": "gpt-prolific/stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
@@ -13592,7 +13592,7 @@
             "task": "identify_the_hierarchical_structure"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category does the subcategory \"Textiles\" belong to in the tree map?",
+        "instruction": "**Which category does the subcategory \"Textiles\" belong to in the tree map?**",
         "path": "gpt-prolific/tree_map-economy.png",
         "response": [
             {
@@ -13630,7 +13630,7 @@
             "task": "identify_the_hierarchical_structure"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category does the subcategory \"Geometry\" belong to in the tree map?",
+        "instruction": "**Which category does the subcategory \"Geometry\" belong to in the tree map?**",
         "path": "gpt-prolific/tree_map-education.png",
         "response": [
             {
@@ -13668,7 +13668,7 @@
             "task": "identify_the_hierarchical_structure"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category does the subcategory 'Bananas' belong to in the tree map?",
+        "instruction": "**Which category does the subcategory 'Bananas' belong to in the tree map?**",
         "path": "gpt-prolific/tree_map-food_and_agriculture.png",
         "response": [
             {
@@ -13706,7 +13706,7 @@
             "task": "identify_the_hierarchical_structure"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category does the subcategory \"Stroke\" belong to in the tree map?",
+        "instruction": "**Which category does the subcategory \"Stroke\" belong to in the tree map?**",
         "path": "gpt-prolific/tree_map-health.png",
         "response": [
             {
@@ -13744,7 +13744,7 @@
             "task": "identify_the_hierarchical_structure"
         },
         "baseComponent": "visTask",
-        "instruction": "Which category does the subcategory \"Biotech\" belong to in the tree map?",
+        "instruction": "**Which category does the subcategory \"Biotech\" belong to in the tree map?**",
         "path": "gpt-prolific/tree_map-innovation.png",
         "response": [
             {
@@ -13782,7 +13782,7 @@
             "task": "identify_the_hierarchical_structure"
         },
         "baseComponent": "visTask",
-        "instruction": "Which policy area contains the subcategory \"Trade\"?",
+        "instruction": "**Which policy area contains the subcategory \"Trade\"?**",
         "path": "gpt-prolific/tree_map-politics.png",
         "response": [
             {
@@ -13820,7 +13820,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which subcategory represents the smallest percentage of the economy?",
+        "instruction": "**Which subcategory represents the smallest percentage of the economy?**",
         "path": "gpt-prolific/tree_map-economy.png",
         "response": [
             {
@@ -13858,7 +13858,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which subcategory represents the largest percentage of educational content?",
+        "instruction": "**Which subcategory represents the largest percentage of educational content?**",
         "path": "gpt-prolific/tree_map-education.png",
         "response": [
             {
@@ -13896,7 +13896,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which subcategory has the smallest percentage share in the tree map of Food and Agriculture Categories?",
+        "instruction": "**Which subcategory has the smallest percentage share in the tree map of Food and Agriculture Categories?**",
         "path": "gpt-prolific/tree_map-food_and_agriculture.png",
         "response": [
             {
@@ -13934,7 +13934,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which health subcategory has the highest percentage allocation in the tree map?",
+        "instruction": "**Which health subcategory has the highest percentage allocation in the tree map?**",
         "path": "gpt-prolific/tree_map-health.png",
         "response": [
             {
@@ -13972,7 +13972,7 @@
             "task": "locate_value"
         },
         "baseComponent": "visTask",
-        "instruction": "Which subsector has the smallest percentage allocation in the innovation sectors tree map?",
+        "instruction": "**Which subsector has the smallest percentage allocation in the innovation sectors tree map?**",
         "path": "gpt-prolific/tree_map-innovation.png",
         "response": [
             {
@@ -14010,7 +14010,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the economy is attributed to the Finance subcategory within the Services sector?",
+        "instruction": "**What percentage of the economy is attributed to the Finance subcategory within the Services sector?**",
         "path": "gpt-prolific/tree_map-economy.png",
         "response": [
             {
@@ -14048,7 +14048,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the educational categories is allocated to Biology?",
+        "instruction": "**What percentage of the educational categories is allocated to Biology?**",
         "path": "gpt-prolific/tree_map-education.png",
         "response": [
             {
@@ -14086,7 +14086,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the food and agriculture categories does \"Carrots\" represent?",
+        "instruction": "**What percentage of the food and agriculture categories does \"Carrots\" represent?**",
         "path": "gpt-prolific/tree_map-food_and_agriculture.png",
         "response": [
             {
@@ -14124,7 +14124,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the health subcategories distribution is attributed to Stroke within Neurology?",
+        "instruction": "**What percentage of the health subcategories distribution is attributed to Stroke within Neurology?**",
         "path": "gpt-prolific/tree_map-health.png",
         "response": [
             {
@@ -14162,7 +14162,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the innovation sectors is represented by the \"Biotech\" subcategory?",
+        "instruction": "**What percentage of the innovation sectors is represented by the \"Biotech\" subcategory?**",
         "path": "gpt-prolific/tree_map-innovation.png",
         "response": [
             {
@@ -14200,7 +14200,7 @@
             "task": "retrieve_value"
         },
         "baseComponent": "visTask",
-        "instruction": "What percentage of the political policy distribution is allocated to Defense?",
+        "instruction": "**What percentage of the political policy distribution is allocated to Defense?**",
         "path": "gpt-prolific/tree_map-politics.png",
         "response": [
             {
@@ -14240,14 +14240,14 @@
                 "task": "attention_check"
 
             },
-            "instruction": "This question is very simple. When we ask about the topic you spent the most time on, you must select *Rocket Science*. This is an attention check. Based on what you just read, which topic have you been asked to select?",
+            "instruction": "**This question is very simple. When we ask about the topic you spent the most time on, you must select *Rocket Science*. This is an attention check. Based on what you just read, which topic have you been asked to select?**",
             "baseComponent": "visTask",
             "path": "gpt-prolific/100_percent_stacked_bar_chart-economy.png",
             "response": [
                 {
                     "id": "resAt1",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Rocket Science",
@@ -14278,7 +14278,7 @@
                 "chartType": "attentionCheck",
                 "task": "attention_check"
             },
-            "instruction": "This question is about hobbies. When asked to select an interesting hobby from the list, you must select *Reading*. This is an attention check.Based on what you just read, which hobby have you been asked to select?",
+            "instruction": "**This question is about hobbies. When asked to select an interesting hobby from the list, you must select *Reading*. This is an attention check.Based on what you just read, which hobby have you been asked to select?**",
             "instructionLocation": "sidebar",
             "baseComponent": "visTask",
             "path": "gpt-prolific/bubble_chart-food_and_agriculture.png",
@@ -14286,7 +14286,7 @@
                 {
                     "id": "resAt2",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Reading",
@@ -14318,7 +14318,7 @@
                 "chartType": "attentionCheck",
                 "task": "attention_check"
             },
-            "instruction": "This question is about a particular city. This magical city M can alter time, and, in order to accomplish more in a day, city M changed its time so there are 48 hours in a day. When asked for the number of hours in a day for city M, you must select *48*. This is an attention check.Based on what you just read, how many hours have you been asked to select?",
+            "instruction": "**This question is about a particular city. This magical city M can alter time, and, in order to accomplish more in a day, city M changed its time so there are 48 hours in a day. When asked for the number of hours in a day for city M, you must select *48*. This is an attention check.Based on what you just read, how many hours have you been asked to select?**",
             "instructionLocation": "sidebar",
             "baseComponent": "visTask",
             "path": "gpt-prolific/bar_chart-health.png",
@@ -14326,7 +14326,7 @@
                 {
                     "id": "resAt3",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "48",
