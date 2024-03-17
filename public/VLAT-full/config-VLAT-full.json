@@ -65,7 +65,7 @@
             "response": [
                 {
                     "id": "res0",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer",
                     "required": true,
                     "location": "sidebar",
                     "type": "radio",
@@ -87,10 +87,7 @@
                             "label": "$39.72",
                             "value": "$39.72"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -117,7 +114,7 @@
                 {
                     "id": "res1",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "December",
@@ -138,10 +135,7 @@
                             "label": "December",
                             "value": "December"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -168,7 +162,7 @@
                 {
                     "id": "res2",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "$37.04 - $60.95",
@@ -189,10 +183,7 @@
                             "label": "$37.04 - $60.95",
                             "value": "$37.04 - $60.95"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -219,7 +210,7 @@
                 {
                     "id": "res3",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Falling",
@@ -236,10 +227,7 @@
                             "label": "Staying",
                             "value": "Staying"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -266,7 +254,7 @@
                 {
                     "id": "res4",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "$15",
@@ -287,10 +275,7 @@
                             "label": "$45",
                             "value": "$45"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -317,7 +302,7 @@
                 {
                     "id": "res5",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "15 Mbps",
@@ -338,10 +323,7 @@
                             "label": "16 Mbps",
                             "value": "16 Mbps"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -368,7 +350,7 @@
                 {
                     "id": "res6",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "South Korea",
@@ -389,10 +371,7 @@
                             "label": "Vietnam",
                             "value": "Vietnam"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -419,7 +398,7 @@
                 {
                     "id": "res7",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "2 - 20.5 Mbps",
@@ -440,10 +419,7 @@
                             "label": "3.4 - 7.8 Mbps",
                             "value": "3.4 - 7.8 Mbps"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -470,7 +446,7 @@
                 {
                     "id": "res8",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "7 Countries",
@@ -491,10 +467,7 @@
                             "label": "8 Countries",
                             "value": "8 Countries"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -521,7 +494,7 @@
                 {
                     "id": "res9",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "$12",
@@ -542,10 +515,7 @@
                             "label": "$35.4",
                             "value": "$35.4"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -572,7 +542,7 @@
                 {
                     "id": "res10",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "4 to 10",
@@ -593,10 +563,7 @@
                             "label": "6 to 10",
                             "value": "6 to 10"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -623,7 +590,7 @@
                 {
                     "id": "res11",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Washington D.C.",
@@ -644,10 +611,7 @@
                             "label": "Washington D.C.",
                             "value": "Washington D.C."
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -674,7 +638,7 @@
                 {
                     "id": "res12",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "True",
@@ -687,10 +651,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -717,7 +678,7 @@
                 {
                     "id": "res13",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "False",
@@ -730,10 +691,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -760,10 +718,10 @@
                 {
                     "id": "res14",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
-                    "correctAnswer": "38",
+                    "correctAnswer": "38%",
                     "options": [
                         {
                             "label": "38%",
@@ -781,10 +739,7 @@
                             "label": "62%",
                             "value": "62%"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -811,7 +766,7 @@
                 {
                     "id": "res15",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "College Graduate",
@@ -832,10 +787,7 @@
                             "label": "Postgraduate study",
                             "value": "Postgraduate study"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -862,7 +814,7 @@
                 {
                     "id": "res16",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "False",
@@ -875,10 +827,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -905,7 +854,7 @@
                 {
                     "id": "res17",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "25%",
@@ -926,10 +875,7 @@
                             "label": "50%",
                             "value": "50%"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -956,7 +902,7 @@
                 {
                     "id": "res18",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Lenovo",
@@ -977,10 +923,7 @@
                             "label": "Others",
                             "value": "Others"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1007,7 +950,7 @@
                 {
                     "id": "res19",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "True",
@@ -1020,10 +963,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1050,7 +990,7 @@
                 {
                     "id": "res20",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "153",
@@ -1071,10 +1011,7 @@
                             "label": "240",
                             "value": "240"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1101,7 +1038,7 @@
                 {
                     "id": "res21",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "4.4-4.6",
@@ -1122,10 +1059,7 @@
                             "label": "4.8-5.0",
                             "value": "4.8-5.0"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1152,7 +1086,7 @@
                 {
                     "id": "res22",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "True",
@@ -1165,10 +1099,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1195,7 +1126,7 @@
                 {
                     "id": "res23",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "70.5kg",
@@ -1216,10 +1147,7 @@
                             "label": "82.7kg",
                             "value": "82.7kg"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1246,7 +1174,7 @@
                 {
                     "id": "res24",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "197.1cm",
@@ -1267,10 +1195,7 @@
                             "label": "200cm",
                             "value": "200cm"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1297,7 +1222,7 @@
                 {
                     "id": "res25",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "53.9 - 123.6kg",
@@ -1318,10 +1243,7 @@
                             "label": "53.9 - 123.6kg",
                             "value": "53.9 - 123.6kg"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1348,7 +1270,7 @@
                 {
                     "id": "res25",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "53.9 - 123.6kg",
@@ -1369,10 +1291,7 @@
                             "label": "53.9 - 123.6kg",
                             "value": "53.9 - 123.6kg"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1399,7 +1318,7 @@
                 {
                     "id": "res26",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "options": [
@@ -1419,10 +1338,7 @@
                             "label": "197.1cm",
                             "value": "197.1cm"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1449,7 +1365,7 @@
                 {
                     "id": "res27",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "options": [
@@ -1461,10 +1377,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1491,7 +1404,7 @@
                 {
                     "id": "res28",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "False",
@@ -1504,10 +1417,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1534,7 +1444,7 @@
                 {
                     "id": "res29",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "False",
@@ -1547,10 +1457,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1577,7 +1484,7 @@
                 {
                     "id": "res30",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "$5.1",
@@ -1598,10 +1505,7 @@
                             "label": "$5.2",
                             "value": "$5.2"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1628,7 +1532,7 @@
                 {
                     "id": "res31",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "December 2014",
@@ -1649,10 +1553,7 @@
                             "label": "December 2014",
                             "value": "December 2014"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1679,7 +1580,7 @@
                 {
                     "id": "res32",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "$4.6 - $6.0",
@@ -1700,10 +1601,7 @@
                             "label": "$4.6 - $6.1",
                             "value": "$4.6 - $6.1"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1730,7 +1628,7 @@
                 {
                     "id": "res33",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Falling",
@@ -1747,10 +1645,7 @@
                             "label": "Staying",
                             "value": "Staying"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1777,7 +1672,7 @@
                 {
                     "id": "res34",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "4200",
@@ -1798,10 +1693,7 @@
                             "label": "8000",
                             "value": "8000"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1828,7 +1720,7 @@
                 {
                     "id": "res35",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "1 to 1",
@@ -1849,10 +1741,7 @@
                             "label": "1 to 4",
                             "value": "1 to 4"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1879,7 +1768,7 @@
                 {
                     "id": "res36",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "2012",
@@ -1900,10 +1789,7 @@
                             "label": "2014",
                             "value": "2014"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1930,7 +1816,7 @@
                 {
                     "id": "res37",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Rising",
@@ -1947,10 +1833,7 @@
                             "label": "Staying",
                             "value": "Staying"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -1977,7 +1860,7 @@
                 {
                     "id": "res38",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "False",
@@ -1990,10 +1873,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2020,7 +1900,7 @@
                 {
                     "id": "res39",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "False",
@@ -2033,10 +1913,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2063,7 +1940,7 @@
                 {
                     "id": "res40",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "530km",
@@ -2084,10 +1961,7 @@
                             "label": "560km",
                             "value": "560km"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2114,7 +1988,7 @@
                 {
                     "id": "res41",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "New York City",
@@ -2135,10 +2009,7 @@
                             "label": "Shanghai",
                             "value": "Shanghai"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2165,7 +2036,7 @@
                 {
                     "id": "res42",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "180 - 560 km",
@@ -2186,10 +2057,7 @@
                             "label": "180 - 560 km",
                             "value": "180 - 560 km"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2216,7 +2084,7 @@
                 {
                     "id": "res43",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "options": [
@@ -2236,10 +2104,7 @@
                             "label": "London",
                             "value": "London"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2266,7 +2131,7 @@
                 {
                     "id": "res44",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "options": [
@@ -2278,10 +2143,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2308,7 +2170,7 @@
                 {
                     "id": "res45",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "False",
@@ -2321,10 +2183,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2351,7 +2210,7 @@
                 {
                     "id": "res46",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "False",
@@ -2364,10 +2223,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2394,7 +2250,7 @@
                 {
                     "id": "res47",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "3.4 - 4.6%",
@@ -2415,10 +2271,7 @@
                             "label": "4.6 - 5.7%",
                             "value": "4.6 - 5.7%"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2445,7 +2298,7 @@
                 {
                     "id": "res48",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "New Mexico (NM)",
@@ -2466,10 +2319,7 @@
                             "label": "New York (NY)",
                             "value": "New York (NY)"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2496,7 +2346,7 @@
                 {
                     "id": "res49",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "True",
@@ -2509,10 +2359,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2539,7 +2386,7 @@
                 {
                     "id": "res50",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Google",
@@ -2560,10 +2407,7 @@
                             "label": "Google",
                             "value": "Google"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2590,7 +2434,7 @@
                 {
                     "id": "res51",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "False",
@@ -2603,10 +2447,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2633,7 +2474,7 @@
                 {
                     "id": "res52",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "options": [
@@ -2645,10 +2486,7 @@
                             "label": "False",
                             "value": "False"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2672,7 +2510,7 @@
                 {
                     "id": "resAt1",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Visualizations",
@@ -2693,10 +2531,7 @@
                             "label": "Rocket Science",
                             "value": "Rocket Science"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2719,7 +2554,7 @@
                 {
                     "id": "resAt2",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "Reading",
@@ -2740,10 +2575,7 @@
                             "label": "Photography",
                             "value": "Photography"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
@@ -2766,7 +2598,7 @@
                 {
                     "id": "resAt3",
                     "type": "radio",
-                    "prompt": "Your answer (do not skip more than 3 times)",
+                    "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
                     "correctAnswer": "48",
@@ -2787,17 +2619,14 @@
                             "label": "72",
                             "value": "72"
                         },
-                        {
-                            "label": "Skip",
-                            "value": "Skip"
-                        }
+                         
                     ]
                 }
             ]
         }
     },
     "sequence": {
-        "order": "fixed",
+        "order": "random",
         "components": [
             "consent",
             "q0",
