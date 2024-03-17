@@ -4921,196 +4921,6 @@
             }
         ]
     },
-    "bubble_chart_with_cluster-identify_clusters-economy": {
-        "meta": {
-            "chartName": "bubble_chart_with_cluster",
-            "context": "economy",
-            "task": "identify_clusters"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Which group of countries forms a cluster on the bubble chart based on their GDP and Inflation rates?",
-        "path": "gpt-prolific/bubble_chart_with_cluster-economy.png",
-        "response": [
-            {
-                "id": "response129",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(B) Countries 1, 2, 3, and 4",
-                "options": [
-                    {
-                        "label": "Countries 5, 6, 7, and 8",
-                        "value": "Countries 5, 6, 7, and 8"
-                    },
-                    {
-                        "label": "Countries 1, 2, 3, and 4",
-                        "value": "Countries 1, 2, 3, and 4"
-                    },
-                    {
-                        "label": "Countries 2, 3, 4, and 5",
-                        "value": "Countries 2, 3, 4, and 5"
-                    },
-                    {
-                        "label": "No visible cluster",
-                        "value": "No visible cluster"
-                    }
-                ]
-            }
-        ]
-    },
-    "bubble_chart_with_cluster-identify_clusters-education": {
-        "meta": {
-            "chartName": "bubble_chart_with_cluster",
-            "context": "education",
-            "task": "identify_clusters"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Which School ID(s) represent a cluster of data points on the education bubble chart?",
-        "path": "gpt-prolific/bubble_chart_with_cluster-education.png",
-        "response": [
-            {
-                "id": "response130",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(C) School ID 14",
-                "options": [
-                    {
-                        "label": "School ID 5",
-                        "value": "School ID 5"
-                    },
-                    {
-                        "label": "School ID 8",
-                        "value": "School ID 8"
-                    },
-                    {
-                        "label": "School ID 14",
-                        "value": "School ID 14"
-                    },
-                    {
-                        "label": "No visible cluster",
-                        "value": "No visible cluster"
-                    }
-                ]
-            }
-        ]
-    },
-    "bubble_chart_with_cluster-identify_clusters-energy_and_environment": {
-        "meta": {
-            "chartName": "bubble_chart_with_cluster",
-            "context": "energy_and_environment",
-            "task": "identify_clusters"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the bubble chart comparing Energy Consumption to CO2 Emissions?",
-        "path": "gpt-prolific/bubble_chart_with_cluster-energy_and_environment.png",
-        "response": [
-            {
-                "id": "response131",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(B) In the upper right quadrant with high Energy Consumption and high CO2 Emissions",
-                "options": [
-                    {
-                        "label": "In the lower left quadrant with low Energy Consumption and low CO2 Emissions",
-                        "value": "In the lower left quadrant with low Energy Consumption and low CO2 Emissions"
-                    },
-                    {
-                        "label": "In the upper right quadrant with high Energy Consumption and high CO2 Emissions",
-                        "value": "In the upper right quadrant with high Energy Consumption and high CO2 Emissions"
-                    },
-                    {
-                        "label": "In the center of the chart with moderate Energy Consumption and CO2 Emissions",
-                        "value": "In the center of the chart with moderate Energy Consumption and CO2 Emissions"
-                    },
-                    {
-                        "label": "There is no visible cluster of data points on the chart",
-                        "value": "There is no visible cluster of data points on the chart"
-                    }
-                ]
-            }
-        ]
-    },
-    "bubble_chart_with_cluster-identify_clusters-food_and_agriculture": {
-        "meta": {
-            "chartName": "bubble_chart_with_cluster",
-            "context": "food_and_agriculture",
-            "task": "identify_clusters"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Which cluster of crops shows data points close together in terms of production, yield, and profit on the bubble chart?",
-        "path": "gpt-prolific/bubble_chart_with_cluster-food_and_agriculture.png",
-        "response": [
-            {
-                "id": "response132",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(A) Wheat, Rice, Corn, and Barley",
-                "options": [
-                    {
-                        "label": "Wheat, Rice, Corn, and Barley",
-                        "value": "Wheat, Rice, Corn, and Barley"
-                    },
-                    {
-                        "label": "Soybean, Oats, Rye, and Millet",
-                        "value": "Soybean, Oats, Rye, and Millet"
-                    },
-                    {
-                        "label": "Wheat, Soybean, Oats, and Rye",
-                        "value": "Wheat, Soybean, Oats, and Rye"
-                    },
-                    {
-                        "label": "There is no visible cluster of data points",
-                        "value": "There is no visible cluster of data points"
-                    }
-                ]
-            }
-        ]
-    },
-    "bubble_chart_with_cluster-identify_clusters-health": {
-        "meta": {
-            "chartName": "bubble_chart_with_cluster",
-            "context": "health",
-            "task": "identify_clusters"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the Health Index vs. Recovery Rate bubble chart?",
-        "path": "gpt-prolific/bubble_chart_with_cluster-health.png",
-        "response": [
-            {
-                "id": "response133",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(A) Around Health Index 50-100 and Recovery Rate 50-100",
-                "options": [
-                    {
-                        "label": "Around Health Index 50-100 and Recovery Rate 50-100",
-                        "value": "Around Health Index 50-100 and Recovery Rate 50-100"
-                    },
-                    {
-                        "label": "Around Health Index 10-50 and Recovery Rate 10-50",
-                        "value": "Around Health Index 10-50 and Recovery Rate 10-50"
-                    },
-                    {
-                        "label": "Around Health Index 150-200 and Recovery Rate 150-200",
-                        "value": "Around Health Index 150-200 and Recovery Rate 150-200"
-                    },
-                    {
-                        "label": "No visible cluster",
-                        "value": "No visible cluster"
-                    }
-                ]
-            }
-        ]
-    },
     "bubble_chart_with_cluster-identify_clusters-innovation": {
         "meta": {
             "chartName": "bubble_chart_with_cluster",
@@ -5122,7 +4932,7 @@
         "path": "gpt-prolific/bubble_chart_with_cluster-innovation.png",
         "response": [
             {
-                "id": "response134",
+                "id": "response129",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5149,44 +4959,6 @@
             }
         ]
     },
-    "bubble_chart_with_cluster-identify_clusters-politics": {
-        "meta": {
-            "chartName": "bubble_chart_with_cluster",
-            "context": "politics",
-            "task": "identify_clusters"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Which political party or parties form a cluster with similar levels of funding and votes?",
-        "path": "gpt-prolific/bubble_chart_with_cluster-politics.png",
-        "response": [
-            {
-                "id": "response135",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(B) Conservative, Green, and Libertarian",
-                "options": [
-                    {
-                        "label": "Liberal and Progressive",
-                        "value": "Liberal and Progressive"
-                    },
-                    {
-                        "label": "Conservative, Green, and Libertarian",
-                        "value": "Conservative, Green, and Libertarian"
-                    },
-                    {
-                        "label": "Green and Libertarian",
-                        "value": "Green and Libertarian"
-                    },
-                    {
-                        "label": "All parties are evenly distributed, with no clusters",
-                        "value": "All parties are evenly distributed, with no clusters"
-                    }
-                ]
-            }
-        ]
-    },
     "bubble_chart_with_cluster-identify_clusters-population_and_demography": {
         "meta": {
             "chartName": "bubble_chart_with_cluster",
@@ -5198,7 +4970,7 @@
         "path": "gpt-prolific/bubble_chart_with_cluster-population_and_demography.png",
         "response": [
             {
-                "id": "response136",
+                "id": "response130",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5225,44 +4997,6 @@
             }
         ]
     },
-    "bubble_chart_with_cluster-identify_clusters-weather_and_climate": {
-        "meta": {
-            "chartName": "bubble_chart_with_cluster",
-            "context": "weather_and_climate",
-            "task": "identify_clusters"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Which range of temperature and humidity values contains a cluster of data points?",
-        "path": "gpt-prolific/bubble_chart_with_cluster-weather_and_climate.png",
-        "response": [
-            {
-                "id": "response137",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(B) Temperature: 60-70\u00b0F, Humidity: 40-50%",
-                "options": [
-                    {
-                        "label": "Temperature: 50-60\u00b0F, Humidity: 20-30%",
-                        "value": "Temperature: 50-60\u00b0F, Humidity: 20-30%"
-                    },
-                    {
-                        "label": "Temperature: 60-70\u00b0F, Humidity: 40-50%",
-                        "value": "Temperature: 60-70\u00b0F, Humidity: 40-50%"
-                    },
-                    {
-                        "label": "Temperature: 90-100\u00b0F, Humidity: 70-80%",
-                        "value": "Temperature: 90-100\u00b0F, Humidity: 70-80%"
-                    },
-                    {
-                        "label": "Temperature: 70-80\u00b0F, Humidity: 50-60%",
-                        "value": "Temperature: 70-80\u00b0F, Humidity: 50-60%"
-                    }
-                ]
-            }
-        ]
-    },
     "bubble_chart_with_outlier-identify_anomalies-economy": {
         "meta": {
             "chartName": "bubble_chart_with_outlier",
@@ -5274,7 +5008,7 @@
         "path": "gpt-prolific/bubble_chart_with_outlier-economy.png",
         "response": [
             {
-                "id": "response138",
+                "id": "response131",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5312,7 +5046,7 @@
         "path": "gpt-prolific/bubble_chart_with_outlier-education.png",
         "response": [
             {
-                "id": "response139",
+                "id": "response132",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5350,7 +5084,7 @@
         "path": "gpt-prolific/bubble_chart_with_outlier-energy_and_environment.png",
         "response": [
             {
-                "id": "response140",
+                "id": "response133",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5388,7 +5122,7 @@
         "path": "gpt-prolific/bubble_chart_with_outlier-food_and_agriculture.png",
         "response": [
             {
-                "id": "response141",
+                "id": "response134",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5415,44 +5149,6 @@
             }
         ]
     },
-    "bubble_chart_with_outlier-identify_anomalies-health": {
-        "meta": {
-            "chartName": "bubble_chart_with_outlier",
-            "context": "health",
-            "task": "identify_anomalies"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Which data point on the bubble chart represents an outlier in terms of Cholesterol Level?",
-        "path": "gpt-prolific/bubble_chart_with_outlier-health.png",
-        "response": [
-            {
-                "id": "response142",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(C) PatientID 4",
-                "options": [
-                    {
-                        "label": "PatientID 1",
-                        "value": "PatientID 1"
-                    },
-                    {
-                        "label": "PatientID 3",
-                        "value": "PatientID 3"
-                    },
-                    {
-                        "label": "PatientID 4",
-                        "value": "PatientID 4"
-                    },
-                    {
-                        "label": "PatientID 7",
-                        "value": "PatientID 7"
-                    }
-                ]
-            }
-        ]
-    },
     "bubble_chart_with_outlier-identify_anomalies-innovation": {
         "meta": {
             "chartName": "bubble_chart_with_outlier",
@@ -5464,7 +5160,7 @@
         "path": "gpt-prolific/bubble_chart_with_outlier-innovation.png",
         "response": [
             {
-                "id": "response143",
+                "id": "response135",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5491,44 +5187,6 @@
             }
         ]
     },
-    "bubble_chart_with_outlier-identify_anomalies-politics": {
-        "meta": {
-            "chartName": "bubble_chart_with_outlier",
-            "context": "politics",
-            "task": "identify_anomalies"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Which political party is represented as an outlier in the bubble chart visualization of performance?",
-        "path": "gpt-prolific/bubble_chart_with_outlier-politics.png",
-        "response": [
-            {
-                "id": "response144",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(D) Socialist",
-                "options": [
-                    {
-                        "label": "Liberal",
-                        "value": "Liberal"
-                    },
-                    {
-                        "label": "Conservative",
-                        "value": "Conservative"
-                    },
-                    {
-                        "label": "Green",
-                        "value": "Green"
-                    },
-                    {
-                        "label": "Socialist",
-                        "value": "Socialist"
-                    }
-                ]
-            }
-        ]
-    },
     "bubble_chart_with_outlier-identify_anomalies-population_and_demography": {
         "meta": {
             "chartName": "bubble_chart_with_outlier",
@@ -5540,7 +5198,7 @@
         "path": "gpt-prolific/bubble_chart_with_outlier-population_and_demography.png",
         "response": [
             {
-                "id": "response145",
+                "id": "response136",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5578,7 +5236,7 @@
         "path": "gpt-prolific/bubble_chart_with_outlier-weather_and_climate.png",
         "response": [
             {
-                "id": "response146",
+                "id": "response137",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5616,7 +5274,7 @@
         "path": "gpt-prolific/choropleth_map-education.png",
         "response": [
             {
-                "id": "response147",
+                "id": "response138",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5654,7 +5312,7 @@
         "path": "gpt-prolific/choropleth_map-energy_and_environment.png",
         "response": [
             {
-                "id": "response148",
+                "id": "response139",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5692,7 +5350,7 @@
         "path": "gpt-prolific/choropleth_map-food_and_agriculture.png",
         "response": [
             {
-                "id": "response149",
+                "id": "response140",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5730,7 +5388,7 @@
         "path": "gpt-prolific/choropleth_map-health.png",
         "response": [
             {
-                "id": "response150",
+                "id": "response141",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5768,7 +5426,7 @@
         "path": "gpt-prolific/choropleth_map-politics.png",
         "response": [
             {
-                "id": "response151",
+                "id": "response142",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5806,7 +5464,7 @@
         "path": "gpt-prolific/choropleth_map-weather_and_climate.png",
         "response": [
             {
-                "id": "response152",
+                "id": "response143",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5844,7 +5502,7 @@
         "path": "gpt-prolific/choropleth_map-economy.png",
         "response": [
             {
-                "id": "response153",
+                "id": "response144",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5882,7 +5540,7 @@
         "path": "gpt-prolific/choropleth_map-education.png",
         "response": [
             {
-                "id": "response154",
+                "id": "response145",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5920,7 +5578,7 @@
         "path": "gpt-prolific/choropleth_map-energy_and_environment.png",
         "response": [
             {
-                "id": "response155",
+                "id": "response146",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5958,7 +5616,7 @@
         "path": "gpt-prolific/choropleth_map-health.png",
         "response": [
             {
-                "id": "response156",
+                "id": "response147",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -5996,7 +5654,7 @@
         "path": "gpt-prolific/choropleth_map-innovation.png",
         "response": [
             {
-                "id": "response157",
+                "id": "response148",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6034,7 +5692,7 @@
         "path": "gpt-prolific/choropleth_map-politics.png",
         "response": [
             {
-                "id": "response158",
+                "id": "response149",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6072,7 +5730,7 @@
         "path": "gpt-prolific/choropleth_map-weather_and_climate.png",
         "response": [
             {
-                "id": "response159",
+                "id": "response150",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6110,7 +5768,7 @@
         "path": "gpt-prolific/choropleth_map-economy.png",
         "response": [
             {
-                "id": "response160",
+                "id": "response151",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6148,7 +5806,7 @@
         "path": "gpt-prolific/choropleth_map-education.png",
         "response": [
             {
-                "id": "response161",
+                "id": "response152",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6186,7 +5844,7 @@
         "path": "gpt-prolific/choropleth_map-food_and_agriculture.png",
         "response": [
             {
-                "id": "response162",
+                "id": "response153",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6224,7 +5882,7 @@
         "path": "gpt-prolific/choropleth_map-health.png",
         "response": [
             {
-                "id": "response163",
+                "id": "response154",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6262,7 +5920,7 @@
         "path": "gpt-prolific/choropleth_map-innovation.png",
         "response": [
             {
-                "id": "response164",
+                "id": "response155",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6300,7 +5958,7 @@
         "path": "gpt-prolific/choropleth_map-politics.png",
         "response": [
             {
-                "id": "response165",
+                "id": "response156",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6338,7 +5996,7 @@
         "path": "gpt-prolific/choropleth_map-weather_and_climate.png",
         "response": [
             {
-                "id": "response166",
+                "id": "response157",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6376,7 +6034,7 @@
         "path": "gpt-prolific/histogram-economy.png",
         "response": [
             {
-                "id": "response167",
+                "id": "response158",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6414,7 +6072,7 @@
         "path": "gpt-prolific/histogram-education.png",
         "response": [
             {
-                "id": "response168",
+                "id": "response159",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6452,7 +6110,7 @@
         "path": "gpt-prolific/histogram-energy_and_environment.png",
         "response": [
             {
-                "id": "response169",
+                "id": "response160",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6490,7 +6148,7 @@
         "path": "gpt-prolific/histogram-politics.png",
         "response": [
             {
-                "id": "response170",
+                "id": "response161",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6528,7 +6186,7 @@
         "path": "gpt-prolific/histogram-population_and_demography.png",
         "response": [
             {
-                "id": "response171",
+                "id": "response162",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6566,7 +6224,7 @@
         "path": "gpt-prolific/histogram-weather_and_climate.png",
         "response": [
             {
-                "id": "response172",
+                "id": "response163",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6604,7 +6262,7 @@
         "path": "gpt-prolific/histogram-economy.png",
         "response": [
             {
-                "id": "response173",
+                "id": "response164",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6642,7 +6300,7 @@
         "path": "gpt-prolific/histogram-education.png",
         "response": [
             {
-                "id": "response174",
+                "id": "response165",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6680,7 +6338,7 @@
         "path": "gpt-prolific/histogram-energy_and_environment.png",
         "response": [
             {
-                "id": "response175",
+                "id": "response166",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6718,7 +6376,7 @@
         "path": "gpt-prolific/histogram-food_and_agriculture.png",
         "response": [
             {
-                "id": "response176",
+                "id": "response167",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6756,7 +6414,7 @@
         "path": "gpt-prolific/histogram-health.png",
         "response": [
             {
-                "id": "response177",
+                "id": "response168",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6794,7 +6452,7 @@
         "path": "gpt-prolific/histogram-innovation.png",
         "response": [
             {
-                "id": "response178",
+                "id": "response169",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6832,7 +6490,7 @@
         "path": "gpt-prolific/histogram-population_and_demography.png",
         "response": [
             {
-                "id": "response179",
+                "id": "response170",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6870,7 +6528,7 @@
         "path": "gpt-prolific/histogram-weather_and_climate.png",
         "response": [
             {
-                "id": "response180",
+                "id": "response171",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6908,7 +6566,7 @@
         "path": "gpt-prolific/histogram-health.png",
         "response": [
             {
-                "id": "response181",
+                "id": "response172",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6946,7 +6604,7 @@
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
-                "id": "response182",
+                "id": "response173",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -6984,7 +6642,7 @@
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
-                "id": "response183",
+                "id": "response174",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7022,7 +6680,7 @@
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response184",
+                "id": "response175",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7060,7 +6718,7 @@
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response185",
+                "id": "response176",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7098,7 +6756,7 @@
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
-                "id": "response186",
+                "id": "response177",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7136,7 +6794,7 @@
         "path": "gpt-prolific/line_chart-innovation.png",
         "response": [
             {
-                "id": "response187",
+                "id": "response178",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7174,7 +6832,7 @@
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
-                "id": "response188",
+                "id": "response179",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7212,7 +6870,7 @@
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response189",
+                "id": "response180",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7250,7 +6908,7 @@
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response190",
+                "id": "response181",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7288,7 +6946,7 @@
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
-                "id": "response191",
+                "id": "response182",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7326,7 +6984,7 @@
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
-                "id": "response192",
+                "id": "response183",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7364,7 +7022,7 @@
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response193",
+                "id": "response184",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7402,7 +7060,7 @@
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response194",
+                "id": "response185",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7440,7 +7098,7 @@
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
-                "id": "response195",
+                "id": "response186",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7478,7 +7136,7 @@
         "path": "gpt-prolific/line_chart-innovation.png",
         "response": [
             {
-                "id": "response196",
+                "id": "response187",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7516,7 +7174,7 @@
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
-                "id": "response197",
+                "id": "response188",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7554,7 +7212,7 @@
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response198",
+                "id": "response189",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7592,7 +7250,7 @@
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response199",
+                "id": "response190",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7630,7 +7288,7 @@
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
-                "id": "response200",
+                "id": "response191",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7668,7 +7326,7 @@
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
-                "id": "response201",
+                "id": "response192",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7706,7 +7364,7 @@
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response202",
+                "id": "response193",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7744,7 +7402,7 @@
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response203",
+                "id": "response194",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7782,7 +7440,7 @@
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
-                "id": "response204",
+                "id": "response195",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7820,7 +7478,7 @@
         "path": "gpt-prolific/line_chart-innovation.png",
         "response": [
             {
-                "id": "response205",
+                "id": "response196",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7858,7 +7516,7 @@
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
-                "id": "response206",
+                "id": "response197",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7896,7 +7554,7 @@
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response207",
+                "id": "response198",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7934,7 +7592,7 @@
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response208",
+                "id": "response199",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -7972,7 +7630,7 @@
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
-                "id": "response209",
+                "id": "response200",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8010,7 +7668,7 @@
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
-                "id": "response210",
+                "id": "response201",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8048,7 +7706,7 @@
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response211",
+                "id": "response202",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8086,7 +7744,7 @@
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response212",
+                "id": "response203",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8124,7 +7782,7 @@
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
-                "id": "response213",
+                "id": "response204",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8162,7 +7820,7 @@
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
-                "id": "response214",
+                "id": "response205",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8200,7 +7858,7 @@
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response215",
+                "id": "response206",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8238,7 +7896,7 @@
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response216",
+                "id": "response207",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8276,7 +7934,7 @@
         "path": "gpt-prolific/line_chart-economy.png",
         "response": [
             {
-                "id": "response217",
+                "id": "response208",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8314,7 +7972,7 @@
         "path": "gpt-prolific/line_chart-education.png",
         "response": [
             {
-                "id": "response218",
+                "id": "response209",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8352,7 +8010,7 @@
         "path": "gpt-prolific/line_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response219",
+                "id": "response210",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8390,7 +8048,7 @@
         "path": "gpt-prolific/line_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response220",
+                "id": "response211",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8428,7 +8086,7 @@
         "path": "gpt-prolific/line_chart-health.png",
         "response": [
             {
-                "id": "response221",
+                "id": "response212",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8466,7 +8124,7 @@
         "path": "gpt-prolific/line_chart-innovation.png",
         "response": [
             {
-                "id": "response222",
+                "id": "response213",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8504,7 +8162,7 @@
         "path": "gpt-prolific/line_chart-politics.png",
         "response": [
             {
-                "id": "response223",
+                "id": "response214",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8542,7 +8200,7 @@
         "path": "gpt-prolific/line_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response224",
+                "id": "response215",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8580,7 +8238,7 @@
         "path": "gpt-prolific/line_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response225",
+                "id": "response216",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8618,7 +8276,7 @@
         "path": "gpt-prolific/pie_chart-economy.png",
         "response": [
             {
-                "id": "response226",
+                "id": "response217",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8656,7 +8314,7 @@
         "path": "gpt-prolific/pie_chart-education.png",
         "response": [
             {
-                "id": "response227",
+                "id": "response218",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8694,7 +8352,7 @@
         "path": "gpt-prolific/pie_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response228",
+                "id": "response219",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8732,7 +8390,7 @@
         "path": "gpt-prolific/pie_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response229",
+                "id": "response220",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8770,7 +8428,7 @@
         "path": "gpt-prolific/pie_chart-health.png",
         "response": [
             {
-                "id": "response230",
+                "id": "response221",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8808,7 +8466,7 @@
         "path": "gpt-prolific/pie_chart-innovation.png",
         "response": [
             {
-                "id": "response231",
+                "id": "response222",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8846,7 +8504,7 @@
         "path": "gpt-prolific/pie_chart-politics.png",
         "response": [
             {
-                "id": "response232",
+                "id": "response223",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8884,7 +8542,7 @@
         "path": "gpt-prolific/pie_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response233",
+                "id": "response224",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8922,7 +8580,7 @@
         "path": "gpt-prolific/pie_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response234",
+                "id": "response225",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8960,7 +8618,7 @@
         "path": "gpt-prolific/pie_chart-economy.png",
         "response": [
             {
-                "id": "response235",
+                "id": "response226",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -8998,7 +8656,7 @@
         "path": "gpt-prolific/pie_chart-education.png",
         "response": [
             {
-                "id": "response236",
+                "id": "response227",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9036,7 +8694,7 @@
         "path": "gpt-prolific/pie_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response237",
+                "id": "response228",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9074,7 +8732,7 @@
         "path": "gpt-prolific/pie_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response238",
+                "id": "response229",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9112,7 +8770,7 @@
         "path": "gpt-prolific/pie_chart-health.png",
         "response": [
             {
-                "id": "response239",
+                "id": "response230",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9150,7 +8808,7 @@
         "path": "gpt-prolific/pie_chart-innovation.png",
         "response": [
             {
-                "id": "response240",
+                "id": "response231",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9188,7 +8846,7 @@
         "path": "gpt-prolific/pie_chart-politics.png",
         "response": [
             {
-                "id": "response241",
+                "id": "response232",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9226,7 +8884,7 @@
         "path": "gpt-prolific/pie_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response242",
+                "id": "response233",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9264,7 +8922,7 @@
         "path": "gpt-prolific/pie_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response243",
+                "id": "response234",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9302,7 +8960,7 @@
         "path": "gpt-prolific/pie_chart-economy.png",
         "response": [
             {
-                "id": "response244",
+                "id": "response235",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9340,7 +8998,7 @@
         "path": "gpt-prolific/pie_chart-education.png",
         "response": [
             {
-                "id": "response245",
+                "id": "response236",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9378,7 +9036,7 @@
         "path": "gpt-prolific/pie_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response246",
+                "id": "response237",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9416,7 +9074,7 @@
         "path": "gpt-prolific/pie_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response247",
+                "id": "response238",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9454,7 +9112,7 @@
         "path": "gpt-prolific/pie_chart-health.png",
         "response": [
             {
-                "id": "response248",
+                "id": "response239",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9492,7 +9150,7 @@
         "path": "gpt-prolific/pie_chart-innovation.png",
         "response": [
             {
-                "id": "response249",
+                "id": "response240",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9530,7 +9188,7 @@
         "path": "gpt-prolific/pie_chart-politics.png",
         "response": [
             {
-                "id": "response250",
+                "id": "response241",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9568,7 +9226,7 @@
         "path": "gpt-prolific/pie_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response251",
+                "id": "response242",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9606,7 +9264,7 @@
         "path": "gpt-prolific/pie_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response252",
+                "id": "response243",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9644,7 +9302,7 @@
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
-                "id": "response253",
+                "id": "response244",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9682,7 +9340,7 @@
         "path": "gpt-prolific/scatterplot-education.png",
         "response": [
             {
-                "id": "response254",
+                "id": "response245",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9720,7 +9378,7 @@
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
-                "id": "response255",
+                "id": "response246",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9758,7 +9416,7 @@
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
-                "id": "response256",
+                "id": "response247",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9796,7 +9454,7 @@
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
-                "id": "response257",
+                "id": "response248",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9834,7 +9492,7 @@
         "path": "gpt-prolific/scatterplot-innovation.png",
         "response": [
             {
-                "id": "response258",
+                "id": "response249",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9872,7 +9530,7 @@
         "path": "gpt-prolific/scatterplot-politics.png",
         "response": [
             {
-                "id": "response259",
+                "id": "response250",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9910,7 +9568,7 @@
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
-                "id": "response260",
+                "id": "response251",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9948,7 +9606,7 @@
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
-                "id": "response261",
+                "id": "response252",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -9986,7 +9644,7 @@
         "path": "gpt-prolific/scatterplot-education.png",
         "response": [
             {
-                "id": "response262",
+                "id": "response253",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10024,7 +9682,7 @@
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
-                "id": "response263",
+                "id": "response254",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10062,7 +9720,7 @@
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
-                "id": "response264",
+                "id": "response255",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10100,7 +9758,7 @@
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
-                "id": "response265",
+                "id": "response256",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10138,7 +9796,7 @@
         "path": "gpt-prolific/scatterplot-innovation.png",
         "response": [
             {
-                "id": "response266",
+                "id": "response257",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10176,7 +9834,7 @@
         "path": "gpt-prolific/scatterplot-politics.png",
         "response": [
             {
-                "id": "response267",
+                "id": "response258",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10214,7 +9872,7 @@
         "path": "gpt-prolific/scatterplot-population_and_demography.png",
         "response": [
             {
-                "id": "response268",
+                "id": "response259",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10252,7 +9910,7 @@
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
-                "id": "response269",
+                "id": "response260",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10290,7 +9948,7 @@
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
-                "id": "response270",
+                "id": "response261",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10328,7 +9986,7 @@
         "path": "gpt-prolific/scatterplot-education.png",
         "response": [
             {
-                "id": "response271",
+                "id": "response262",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10366,7 +10024,7 @@
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
-                "id": "response272",
+                "id": "response263",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10404,7 +10062,7 @@
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
-                "id": "response273",
+                "id": "response264",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10442,7 +10100,7 @@
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
-                "id": "response274",
+                "id": "response265",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10480,7 +10138,7 @@
         "path": "gpt-prolific/scatterplot-innovation.png",
         "response": [
             {
-                "id": "response275",
+                "id": "response266",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10518,7 +10176,7 @@
         "path": "gpt-prolific/scatterplot-politics.png",
         "response": [
             {
-                "id": "response276",
+                "id": "response267",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10556,7 +10214,7 @@
         "path": "gpt-prolific/scatterplot-population_and_demography.png",
         "response": [
             {
-                "id": "response277",
+                "id": "response268",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10594,7 +10252,7 @@
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
-                "id": "response278",
+                "id": "response269",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10632,7 +10290,7 @@
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
-                "id": "response279",
+                "id": "response270",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10670,7 +10328,7 @@
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
-                "id": "response280",
+                "id": "response271",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10708,7 +10366,7 @@
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
-                "id": "response281",
+                "id": "response272",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10746,7 +10404,7 @@
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
-                "id": "response282",
+                "id": "response273",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10784,7 +10442,7 @@
         "path": "gpt-prolific/scatterplot-politics.png",
         "response": [
             {
-                "id": "response283",
+                "id": "response274",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10822,7 +10480,7 @@
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
-                "id": "response284",
+                "id": "response275",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10860,7 +10518,7 @@
         "path": "gpt-prolific/scatterplot-economy.png",
         "response": [
             {
-                "id": "response285",
+                "id": "response276",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10898,7 +10556,7 @@
         "path": "gpt-prolific/scatterplot-energy_and_environment.png",
         "response": [
             {
-                "id": "response286",
+                "id": "response277",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10936,7 +10594,7 @@
         "path": "gpt-prolific/scatterplot-food_and_agriculture.png",
         "response": [
             {
-                "id": "response287",
+                "id": "response278",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -10974,7 +10632,7 @@
         "path": "gpt-prolific/scatterplot-health.png",
         "response": [
             {
-                "id": "response288",
+                "id": "response279",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11012,7 +10670,7 @@
         "path": "gpt-prolific/scatterplot-population_and_demography.png",
         "response": [
             {
-                "id": "response289",
+                "id": "response280",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11050,7 +10708,7 @@
         "path": "gpt-prolific/scatterplot-weather_and_climate.png",
         "response": [
             {
-                "id": "response290",
+                "id": "response281",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11088,7 +10746,7 @@
         "path": "gpt-prolific/scatterplot_with_cluster-economy.png",
         "response": [
             {
-                "id": "response291",
+                "id": "response282",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11126,7 +10784,7 @@
         "path": "gpt-prolific/scatterplot_with_cluster-education.png",
         "response": [
             {
-                "id": "response292",
+                "id": "response283",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11153,44 +10811,6 @@
             }
         ]
     },
-    "scatterplot_with_cluster-identify_clusters-energy_and_environment": {
-        "meta": {
-            "chartName": "scatterplot_with_cluster",
-            "context": "energy_and_environment",
-            "task": "identify_clusters"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Where is the cluster of data points located on the scatterplot of Energy Consumption vs CO2 Emissions?",
-        "path": "gpt-prolific/scatterplot_with_cluster-energy_and_environment.png",
-        "response": [
-            {
-                "id": "response293",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(A) Around (250 EnergyConsumption, 600 CO2Emissions)",
-                "options": [
-                    {
-                        "label": "Around (250 EnergyConsumption, 600 CO2Emissions)",
-                        "value": "Around (250 EnergyConsumption, 600 CO2Emissions)"
-                    },
-                    {
-                        "label": "Around (100 EnergyConsumption, 200 CO2Emissions)",
-                        "value": "Around (100 EnergyConsumption, 200 CO2Emissions)"
-                    },
-                    {
-                        "label": "Around (500 EnergyConsumption, 1000 CO2Emissions)",
-                        "value": "Around (500 EnergyConsumption, 1000 CO2Emissions)"
-                    },
-                    {
-                        "label": "No visible cluster",
-                        "value": "No visible cluster"
-                    }
-                ]
-            }
-        ]
-    },
     "scatterplot_with_cluster-identify_clusters-food_and_agriculture": {
         "meta": {
             "chartName": "scatterplot_with_cluster",
@@ -11202,7 +10822,7 @@
         "path": "gpt-prolific/scatterplot_with_cluster-food_and_agriculture.png",
         "response": [
             {
-                "id": "response294",
+                "id": "response284",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11240,7 +10860,7 @@
         "path": "gpt-prolific/scatterplot_with_cluster-health.png",
         "response": [
             {
-                "id": "response295",
+                "id": "response285",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11278,7 +10898,7 @@
         "path": "gpt-prolific/scatterplot_with_cluster-innovation.png",
         "response": [
             {
-                "id": "response296",
+                "id": "response286",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11316,7 +10936,7 @@
         "path": "gpt-prolific/scatterplot_with_cluster-politics.png",
         "response": [
             {
-                "id": "response297",
+                "id": "response287",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11354,7 +10974,7 @@
         "path": "gpt-prolific/scatterplot_with_cluster-population_and_demography.png",
         "response": [
             {
-                "id": "response298",
+                "id": "response288",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11392,7 +11012,7 @@
         "path": "gpt-prolific/scatterplot_with_cluster-weather_and_climate.png",
         "response": [
             {
-                "id": "response299",
+                "id": "response289",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11419,82 +11039,6 @@
             }
         ]
     },
-    "scatterplot_with_outlier-identify_anomalies-economy": {
-        "meta": {
-            "chartName": "scatterplot_with_outlier",
-            "context": "economy",
-            "task": "identify_anomalies"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Identify the outlier in the scatterplot of Interest Rate vs GDP.",
-        "path": "gpt-prolific/scatterplot_with_outlier-economy.png",
-        "response": [
-            {
-                "id": "response300",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(B) GDP of 2500 with an Interest Rate of 5%",
-                "options": [
-                    {
-                        "label": "GDP of 1113 with an Interest Rate of 14%",
-                        "value": "GDP of 1113 with an Interest Rate of 14%"
-                    },
-                    {
-                        "label": "GDP of 2500 with an Interest Rate of 5%",
-                        "value": "GDP of 2500 with an Interest Rate of 5%"
-                    },
-                    {
-                        "label": "GDP of 1911 with an Interest Rate of 12%",
-                        "value": "GDP of 1911 with an Interest Rate of 12%"
-                    },
-                    {
-                        "label": "GDP of 563 with an Interest Rate of 17%",
-                        "value": "GDP of 563 with an Interest Rate of 17%"
-                    }
-                ]
-            }
-        ]
-    },
-    "scatterplot_with_outlier-identify_anomalies-education": {
-        "meta": {
-            "chartName": "scatterplot_with_outlier",
-            "context": "education",
-            "task": "identify_anomalies"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Identify the outlier in the scatterplot of Grades vs Study Hours.",
-        "path": "gpt-prolific/scatterplot_with_outlier-education.png",
-        "response": [
-            {
-                "id": "response301",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(B) (Grades: 64, StudyHours: 50)",
-                "options": [
-                    {
-                        "label": "(Grades: 100, StudyHours: 13)",
-                        "value": "(Grades: 100, StudyHours: 13)"
-                    },
-                    {
-                        "label": "(Grades: 64, StudyHours: 50)",
-                        "value": "(Grades: 64, StudyHours: 50)"
-                    },
-                    {
-                        "label": "(Grades: 52, StudyHours: 1)",
-                        "value": "(Grades: 52, StudyHours: 1)"
-                    },
-                    {
-                        "label": "(Grades: 91, StudyHours: 19)",
-                        "value": "(Grades: 91, StudyHours: 19)"
-                    }
-                ]
-            }
-        ]
-    },
     "scatterplot_with_outlier-identify_anomalies-energy_and_environment": {
         "meta": {
             "chartName": "scatterplot_with_outlier",
@@ -11506,7 +11050,7 @@
         "path": "gpt-prolific/scatterplot_with_outlier-energy_and_environment.png",
         "response": [
             {
-                "id": "response302",
+                "id": "response290",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11544,7 +11088,7 @@
         "path": "gpt-prolific/scatterplot_with_outlier-food_and_agriculture.png",
         "response": [
             {
-                "id": "response303",
+                "id": "response291",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11571,44 +11115,6 @@
             }
         ]
     },
-    "scatterplot_with_outlier-identify_anomalies-health": {
-        "meta": {
-            "chartName": "scatterplot_with_outlier",
-            "context": "health",
-            "task": "identify_anomalies"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Which data point in the scatterplot of Blood Pressure vs. Cholesterol Level is an outlier?",
-        "path": "gpt-prolific/scatterplot_with_outlier-health.png",
-        "response": [
-            {
-                "id": "response304",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(B) Blood Pressure at 130 with Cholesterol Level at 400",
-                "options": [
-                    {
-                        "label": "Blood Pressure at 150 with Cholesterol Level at 125",
-                        "value": "Blood Pressure at 150 with Cholesterol Level at 125"
-                    },
-                    {
-                        "label": "Blood Pressure at 130 with Cholesterol Level at 400",
-                        "value": "Blood Pressure at 130 with Cholesterol Level at 400"
-                    },
-                    {
-                        "label": "Blood Pressure at 93 with Cholesterol Level at 213.5",
-                        "value": "Blood Pressure at 93 with Cholesterol Level at 213.5"
-                    },
-                    {
-                        "label": "Blood Pressure at 144 with Cholesterol Level at 195",
-                        "value": "Blood Pressure at 144 with Cholesterol Level at 195"
-                    }
-                ]
-            }
-        ]
-    },
     "scatterplot_with_outlier-identify_anomalies-innovation": {
         "meta": {
             "chartName": "scatterplot_with_outlier",
@@ -11620,7 +11126,7 @@
         "path": "gpt-prolific/scatterplot_with_outlier-innovation.png",
         "response": [
             {
-                "id": "response305",
+                "id": "response292",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11658,7 +11164,7 @@
         "path": "gpt-prolific/scatterplot_with_outlier-politics.png",
         "response": [
             {
-                "id": "response306",
+                "id": "response293",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11685,44 +11191,6 @@
             }
         ]
     },
-    "scatterplot_with_outlier-identify_anomalies-population_and_demography": {
-        "meta": {
-            "chartName": "scatterplot_with_outlier",
-            "context": "population_and_demography",
-            "task": "identify_anomalies"
-        },
-        "baseComponent": "visTask",
-        "instruction": "Which data point is an outlier in the scatterplot of GDP per Capita versus Population Size?",
-        "path": "gpt-prolific/scatterplot_with_outlier-population_and_demography.png",
-        "response": [
-            {
-                "id": "response307",
-                "prompt": "Your answer",
-                "required": true,
-                "location": "sidebar",
-                "type": "radio",
-                "correctAnswer": "(B) CityID 1 with a Population of 1,000,000",
-                "options": [
-                    {
-                        "label": "CityID 2 with a Population of 41,489",
-                        "value": "CityID 2 with a Population of 41,489"
-                    },
-                    {
-                        "label": "CityID 1 with a Population of 1,000,000",
-                        "value": "CityID 1 with a Population of 1,000,000"
-                    },
-                    {
-                        "label": "CityID 3 with a Population of 88,419",
-                        "value": "CityID 3 with a Population of 88,419"
-                    },
-                    {
-                        "label": "CityID 4 with a Population of 94,106",
-                        "value": "CityID 4 with a Population of 94,106"
-                    }
-                ]
-            }
-        ]
-    },
     "scatterplot_with_outlier-identify_anomalies-weather_and_climate": {
         "meta": {
             "chartName": "scatterplot_with_outlier",
@@ -11734,7 +11202,7 @@
         "path": "gpt-prolific/scatterplot_with_outlier-weather_and_climate.png",
         "response": [
             {
-                "id": "response308",
+                "id": "response294",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11772,7 +11240,7 @@
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
-                "id": "response309",
+                "id": "response295",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11810,7 +11278,7 @@
         "path": "gpt-prolific/stacked_area_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response310",
+                "id": "response296",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11848,7 +11316,7 @@
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response311",
+                "id": "response297",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11886,7 +11354,7 @@
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
-                "id": "response312",
+                "id": "response298",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11924,7 +11392,7 @@
         "path": "gpt-prolific/stacked_area_chart-innovation.png",
         "response": [
             {
-                "id": "response313",
+                "id": "response299",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -11962,7 +11430,7 @@
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
-                "id": "response314",
+                "id": "response300",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12000,7 +11468,7 @@
         "path": "gpt-prolific/stacked_area_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response315",
+                "id": "response301",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12038,7 +11506,7 @@
         "path": "gpt-prolific/stacked_area_chart-economy.png",
         "response": [
             {
-                "id": "response316",
+                "id": "response302",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12076,7 +11544,7 @@
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
-                "id": "response317",
+                "id": "response303",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12114,7 +11582,7 @@
         "path": "gpt-prolific/stacked_area_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response318",
+                "id": "response304",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12152,7 +11620,7 @@
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response319",
+                "id": "response305",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12190,7 +11658,7 @@
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
-                "id": "response320",
+                "id": "response306",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12228,7 +11696,7 @@
         "path": "gpt-prolific/stacked_area_chart-innovation.png",
         "response": [
             {
-                "id": "response321",
+                "id": "response307",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12266,7 +11734,7 @@
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
-                "id": "response322",
+                "id": "response308",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12304,7 +11772,7 @@
         "path": "gpt-prolific/stacked_area_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response323",
+                "id": "response309",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12342,7 +11810,7 @@
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
-                "id": "response324",
+                "id": "response310",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12380,7 +11848,7 @@
         "path": "gpt-prolific/stacked_area_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response325",
+                "id": "response311",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12418,7 +11886,7 @@
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response326",
+                "id": "response312",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12456,7 +11924,7 @@
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
-                "id": "response327",
+                "id": "response313",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12494,7 +11962,7 @@
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
-                "id": "response328",
+                "id": "response314",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12532,7 +12000,7 @@
         "path": "gpt-prolific/stacked_area_chart-economy.png",
         "response": [
             {
-                "id": "response329",
+                "id": "response315",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12570,7 +12038,7 @@
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
-                "id": "response330",
+                "id": "response316",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12608,7 +12076,7 @@
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response331",
+                "id": "response317",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12646,7 +12114,7 @@
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
-                "id": "response332",
+                "id": "response318",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12684,7 +12152,7 @@
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
-                "id": "response333",
+                "id": "response319",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12722,7 +12190,7 @@
         "path": "gpt-prolific/stacked_area_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response334",
+                "id": "response320",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12760,7 +12228,7 @@
         "path": "gpt-prolific/stacked_area_chart-economy.png",
         "response": [
             {
-                "id": "response335",
+                "id": "response321",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12798,7 +12266,7 @@
         "path": "gpt-prolific/stacked_area_chart-education.png",
         "response": [
             {
-                "id": "response336",
+                "id": "response322",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12836,7 +12304,7 @@
         "path": "gpt-prolific/stacked_area_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response337",
+                "id": "response323",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12874,7 +12342,7 @@
         "path": "gpt-prolific/stacked_area_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response338",
+                "id": "response324",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12912,7 +12380,7 @@
         "path": "gpt-prolific/stacked_area_chart-health.png",
         "response": [
             {
-                "id": "response339",
+                "id": "response325",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12950,7 +12418,7 @@
         "path": "gpt-prolific/stacked_area_chart-innovation.png",
         "response": [
             {
-                "id": "response340",
+                "id": "response326",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -12988,7 +12456,7 @@
         "path": "gpt-prolific/stacked_area_chart-politics.png",
         "response": [
             {
-                "id": "response341",
+                "id": "response327",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13026,7 +12494,7 @@
         "path": "gpt-prolific/stacked_bar_chart-economy.png",
         "response": [
             {
-                "id": "response342",
+                "id": "response328",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13064,7 +12532,7 @@
         "path": "gpt-prolific/stacked_bar_chart-education.png",
         "response": [
             {
-                "id": "response343",
+                "id": "response329",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13102,7 +12570,7 @@
         "path": "gpt-prolific/stacked_bar_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response344",
+                "id": "response330",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13140,7 +12608,7 @@
         "path": "gpt-prolific/stacked_bar_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response345",
+                "id": "response331",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13178,7 +12646,7 @@
         "path": "gpt-prolific/stacked_bar_chart-health.png",
         "response": [
             {
-                "id": "response346",
+                "id": "response332",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13216,7 +12684,7 @@
         "path": "gpt-prolific/stacked_bar_chart-innovation.png",
         "response": [
             {
-                "id": "response347",
+                "id": "response333",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13254,7 +12722,7 @@
         "path": "gpt-prolific/stacked_bar_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response348",
+                "id": "response334",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13292,7 +12760,7 @@
         "path": "gpt-prolific/stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response349",
+                "id": "response335",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13330,7 +12798,7 @@
         "path": "gpt-prolific/stacked_bar_chart-economy.png",
         "response": [
             {
-                "id": "response350",
+                "id": "response336",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13368,7 +12836,7 @@
         "path": "gpt-prolific/stacked_bar_chart-education.png",
         "response": [
             {
-                "id": "response351",
+                "id": "response337",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13406,7 +12874,7 @@
         "path": "gpt-prolific/stacked_bar_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response352",
+                "id": "response338",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13444,7 +12912,7 @@
         "path": "gpt-prolific/stacked_bar_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response353",
+                "id": "response339",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13482,7 +12950,7 @@
         "path": "gpt-prolific/stacked_bar_chart-health.png",
         "response": [
             {
-                "id": "response354",
+                "id": "response340",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13520,7 +12988,7 @@
         "path": "gpt-prolific/stacked_bar_chart-politics.png",
         "response": [
             {
-                "id": "response355",
+                "id": "response341",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13558,7 +13026,7 @@
         "path": "gpt-prolific/stacked_bar_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response356",
+                "id": "response342",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13596,7 +13064,7 @@
         "path": "gpt-prolific/stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response357",
+                "id": "response343",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13634,7 +13102,7 @@
         "path": "gpt-prolific/stacked_bar_chart-economy.png",
         "response": [
             {
-                "id": "response358",
+                "id": "response344",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13672,7 +13140,7 @@
         "path": "gpt-prolific/stacked_bar_chart-education.png",
         "response": [
             {
-                "id": "response359",
+                "id": "response345",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13710,7 +13178,7 @@
         "path": "gpt-prolific/stacked_bar_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response360",
+                "id": "response346",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13748,7 +13216,7 @@
         "path": "gpt-prolific/stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response361",
+                "id": "response347",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13786,7 +13254,7 @@
         "path": "gpt-prolific/stacked_bar_chart-economy.png",
         "response": [
             {
-                "id": "response362",
+                "id": "response348",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13824,7 +13292,7 @@
         "path": "gpt-prolific/stacked_bar_chart-education.png",
         "response": [
             {
-                "id": "response363",
+                "id": "response349",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13862,7 +13330,7 @@
         "path": "gpt-prolific/stacked_bar_chart-energy_and_environment.png",
         "response": [
             {
-                "id": "response364",
+                "id": "response350",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13900,7 +13368,7 @@
         "path": "gpt-prolific/stacked_bar_chart-food_and_agriculture.png",
         "response": [
             {
-                "id": "response365",
+                "id": "response351",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13938,7 +13406,7 @@
         "path": "gpt-prolific/stacked_bar_chart-health.png",
         "response": [
             {
-                "id": "response366",
+                "id": "response352",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -13976,7 +13444,7 @@
         "path": "gpt-prolific/stacked_bar_chart-innovation.png",
         "response": [
             {
-                "id": "response367",
+                "id": "response353",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14014,7 +13482,7 @@
         "path": "gpt-prolific/stacked_bar_chart-politics.png",
         "response": [
             {
-                "id": "response368",
+                "id": "response354",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14052,7 +13520,7 @@
         "path": "gpt-prolific/stacked_bar_chart-population_and_demography.png",
         "response": [
             {
-                "id": "response369",
+                "id": "response355",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14090,7 +13558,7 @@
         "path": "gpt-prolific/stacked_bar_chart-weather_and_climate.png",
         "response": [
             {
-                "id": "response370",
+                "id": "response356",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14128,7 +13596,7 @@
         "path": "gpt-prolific/tree_map-economy.png",
         "response": [
             {
-                "id": "response371",
+                "id": "response357",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14166,7 +13634,7 @@
         "path": "gpt-prolific/tree_map-education.png",
         "response": [
             {
-                "id": "response372",
+                "id": "response358",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14204,7 +13672,7 @@
         "path": "gpt-prolific/tree_map-food_and_agriculture.png",
         "response": [
             {
-                "id": "response373",
+                "id": "response359",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14242,7 +13710,7 @@
         "path": "gpt-prolific/tree_map-health.png",
         "response": [
             {
-                "id": "response374",
+                "id": "response360",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14280,7 +13748,7 @@
         "path": "gpt-prolific/tree_map-innovation.png",
         "response": [
             {
-                "id": "response375",
+                "id": "response361",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14318,7 +13786,7 @@
         "path": "gpt-prolific/tree_map-politics.png",
         "response": [
             {
-                "id": "response376",
+                "id": "response362",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14356,7 +13824,7 @@
         "path": "gpt-prolific/tree_map-economy.png",
         "response": [
             {
-                "id": "response377",
+                "id": "response363",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14394,7 +13862,7 @@
         "path": "gpt-prolific/tree_map-education.png",
         "response": [
             {
-                "id": "response378",
+                "id": "response364",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14432,7 +13900,7 @@
         "path": "gpt-prolific/tree_map-food_and_agriculture.png",
         "response": [
             {
-                "id": "response379",
+                "id": "response365",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14470,7 +13938,7 @@
         "path": "gpt-prolific/tree_map-health.png",
         "response": [
             {
-                "id": "response380",
+                "id": "response366",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14508,7 +13976,7 @@
         "path": "gpt-prolific/tree_map-innovation.png",
         "response": [
             {
-                "id": "response381",
+                "id": "response367",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14546,7 +14014,7 @@
         "path": "gpt-prolific/tree_map-economy.png",
         "response": [
             {
-                "id": "response382",
+                "id": "response368",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14584,7 +14052,7 @@
         "path": "gpt-prolific/tree_map-education.png",
         "response": [
             {
-                "id": "response383",
+                "id": "response369",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14622,7 +14090,7 @@
         "path": "gpt-prolific/tree_map-food_and_agriculture.png",
         "response": [
             {
-                "id": "response384",
+                "id": "response370",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14660,7 +14128,7 @@
         "path": "gpt-prolific/tree_map-health.png",
         "response": [
             {
-                "id": "response385",
+                "id": "response371",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14698,7 +14166,7 @@
         "path": "gpt-prolific/tree_map-innovation.png",
         "response": [
             {
-                "id": "response386",
+                "id": "response372",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14736,7 +14204,7 @@
         "path": "gpt-prolific/tree_map-politics.png",
         "response": [
             {
-                "id": "response387",
+                "id": "response373",
                 "prompt": "Your answer",
                 "required": true,
                 "location": "sidebar",
@@ -14925,7 +14393,6 @@
                             "line_chart-locate_value-health",
                             "line_chart-locate_value-politics",
                             "line_chart-locate_value-education",
-                            "line_chart-locate_value-innovation",
                             "line_chart-locate_value-population_and_demography",
                             "line_chart-locate_value-weather_and_climate",
                             "line_chart-locate_value-energy_and_environment"
@@ -15058,7 +14525,6 @@
                             "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-economy",
                             "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-food_and_agriculture",
                             "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-health",
-                            "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-politics",
                             "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-education",
                             "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-innovation",
                             "stacked_bar_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-population_and_demography",
@@ -15075,7 +14541,6 @@
                             "stacked_bar_chart-locate_value-health",
                             "stacked_bar_chart-locate_value-politics",
                             "stacked_bar_chart-locate_value-education",
-                            "stacked_bar_chart-locate_value-innovation",
                             "stacked_bar_chart-locate_value-population_and_demography",
                             "stacked_bar_chart-locate_value-weather_and_climate",
                             "stacked_bar_chart-locate_value-energy_and_environment"
@@ -15086,14 +14551,9 @@
                         "numSamples": 1,
                         "components": [
                             "stacked_bar_chart-make_comparisons-economy",
-                            "stacked_bar_chart-make_comparisons-food_and_agriculture",
-                            "stacked_bar_chart-make_comparisons-health",
-                            "stacked_bar_chart-make_comparisons-politics",
                             "stacked_bar_chart-make_comparisons-education",
-                            "stacked_bar_chart-make_comparisons-innovation",
                             "stacked_bar_chart-make_comparisons-population_and_demography",
-                            "stacked_bar_chart-make_comparisons-weather_and_climate",
-                            "stacked_bar_chart-make_comparisons-energy_and_environment"
+                            "stacked_bar_chart-make_comparisons-weather_and_climate"
                         ]
                     },
                     "at1",
@@ -15119,7 +14579,6 @@
                             "100_percent_stacked_bar_chart-locate_value-economy",
                             "100_percent_stacked_bar_chart-locate_value-food_and_agriculture",
                             "100_percent_stacked_bar_chart-locate_value-health",
-                            "100_percent_stacked_bar_chart-locate_value-politics",
                             "100_percent_stacked_bar_chart-locate_value-education",
                             "100_percent_stacked_bar_chart-locate_value-innovation",
                             "100_percent_stacked_bar_chart-locate_value-population_and_demography",
@@ -15134,12 +14593,8 @@
                             "100_percent_stacked_bar_chart-make_comparisons-economy",
                             "100_percent_stacked_bar_chart-make_comparisons-food_and_agriculture",
                             "100_percent_stacked_bar_chart-make_comparisons-health",
-                            "100_percent_stacked_bar_chart-make_comparisons-politics",
-                            "100_percent_stacked_bar_chart-make_comparisons-education",
                             "100_percent_stacked_bar_chart-make_comparisons-innovation",
-                            "100_percent_stacked_bar_chart-make_comparisons-population_and_demography",
-                            "100_percent_stacked_bar_chart-make_comparisons-weather_and_climate",
-                            "100_percent_stacked_bar_chart-make_comparisons-energy_and_environment"
+                            "100_percent_stacked_bar_chart-make_comparisons-weather_and_climate"
                         ]
                     },
                     {
@@ -15191,15 +14646,7 @@
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "histogram-retrieve_value-economy",
-                            "histogram-retrieve_value-food_and_agriculture",
-                            "histogram-retrieve_value-health",
-                            "histogram-retrieve_value-politics",
-                            "histogram-retrieve_value-education",
-                            "histogram-retrieve_value-innovation",
-                            "histogram-retrieve_value-population_and_demography",
-                            "histogram-retrieve_value-weather_and_climate",
-                            "histogram-retrieve_value-energy_and_environment"
+                            "histogram-retrieve_value-health"
                         ]
                     },
                     {
@@ -15207,11 +14654,8 @@
                         "numSamples": 1,
                         "components": [
                             "histogram-locate_value-economy",
-                            "histogram-locate_value-food_and_agriculture",
-                            "histogram-locate_value-health",
                             "histogram-locate_value-politics",
                             "histogram-locate_value-education",
-                            "histogram-locate_value-innovation",
                             "histogram-locate_value-population_and_demography",
                             "histogram-locate_value-weather_and_climate",
                             "histogram-locate_value-energy_and_environment"
@@ -15224,7 +14668,6 @@
                             "histogram-make_comparisons-economy",
                             "histogram-make_comparisons-food_and_agriculture",
                             "histogram-make_comparisons-health",
-                            "histogram-make_comparisons-politics",
                             "histogram-make_comparisons-education",
                             "histogram-make_comparisons-innovation",
                             "histogram-make_comparisons-population_and_demography",
@@ -15239,9 +14682,6 @@
                             "scatterplot-retrieve_value-economy",
                             "scatterplot-retrieve_value-food_and_agriculture",
                             "scatterplot-retrieve_value-health",
-                            "scatterplot-retrieve_value-politics",
-                            "scatterplot-retrieve_value-education",
-                            "scatterplot-retrieve_value-innovation",
                             "scatterplot-retrieve_value-population_and_demography",
                             "scatterplot-retrieve_value-weather_and_climate",
                             "scatterplot-retrieve_value-energy_and_environment"
@@ -15281,12 +14721,27 @@
                     {
                         "order": "random",
                         "numSamples": 1,
-                        "components": []
+                        "components": [
+                            "scatterplot_with_outlier-identify_anomalies-food_and_agriculture",
+                            "scatterplot_with_outlier-identify_anomalies-politics",
+                            "scatterplot_with_outlier-identify_anomalies-innovation",
+                            "scatterplot_with_outlier-identify_anomalies-weather_and_climate",
+                            "scatterplot_with_outlier-identify_anomalies-energy_and_environment"
+                        ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
-                        "components": []
+                        "components": [
+                            "scatterplot_with_cluster-identify_clusters-economy",
+                            "scatterplot_with_cluster-identify_clusters-food_and_agriculture",
+                            "scatterplot_with_cluster-identify_clusters-health",
+                            "scatterplot_with_cluster-identify_clusters-politics",
+                            "scatterplot_with_cluster-identify_clusters-education",
+                            "scatterplot_with_cluster-identify_clusters-innovation",
+                            "scatterplot_with_cluster-identify_clusters-population_and_demography",
+                            "scatterplot_with_cluster-identify_clusters-weather_and_climate"
+                        ]
                     },
                     {
                         "order": "random",
@@ -15298,7 +14753,6 @@
                             "scatterplot-describe_trend_or_correlation-politics",
                             "scatterplot-describe_trend_or_correlation-education",
                             "scatterplot-describe_trend_or_correlation-innovation",
-                            "scatterplot-describe_trend_or_correlation-population_and_demography",
                             "scatterplot-describe_trend_or_correlation-weather_and_climate",
                             "scatterplot-describe_trend_or_correlation-energy_and_environment"
                         ]
@@ -15311,9 +14765,6 @@
                             "scatterplot-make_comparisons-food_and_agriculture",
                             "scatterplot-make_comparisons-health",
                             "scatterplot-make_comparisons-politics",
-                            "scatterplot-make_comparisons-education",
-                            "scatterplot-make_comparisons-innovation",
-                            "scatterplot-make_comparisons-population_and_demography",
                             "scatterplot-make_comparisons-weather_and_climate",
                             "scatterplot-make_comparisons-energy_and_environment"
                         ]
@@ -15355,8 +14806,6 @@
                             "area_chart-identify_range-economy",
                             "area_chart-identify_range-food_and_agriculture",
                             "area_chart-identify_range-health",
-                            "area_chart-identify_range-politics",
-                            "area_chart-identify_range-education",
                             "area_chart-identify_range-innovation",
                             "area_chart-identify_range-population_and_demography",
                             "area_chart-identify_range-weather_and_climate",
@@ -15388,8 +14837,6 @@
                             "stacked_area_chart-retrieve_value-politics",
                             "stacked_area_chart-retrieve_value-education",
                             "stacked_area_chart-retrieve_value-innovation",
-                            "stacked_area_chart-retrieve_value-population_and_demography",
-                            "stacked_area_chart-retrieve_value-weather_and_climate",
                             "stacked_area_chart-retrieve_value-energy_and_environment"
                         ]
                     },
@@ -15404,7 +14851,6 @@
                             "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-education",
                             "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-innovation",
                             "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-population_and_demography",
-                            "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-weather_and_climate",
                             "stacked_area_chart-estimate_the_ratio_of_one_value_to_another_value_of_the_same_type-energy_and_environment"
                         ]
                     },
@@ -15412,14 +14858,10 @@
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "stacked_area_chart-locate_value-economy",
                             "stacked_area_chart-locate_value-food_and_agriculture",
                             "stacked_area_chart-locate_value-health",
                             "stacked_area_chart-locate_value-politics",
                             "stacked_area_chart-locate_value-education",
-                            "stacked_area_chart-locate_value-innovation",
-                            "stacked_area_chart-locate_value-population_and_demography",
-                            "stacked_area_chart-locate_value-weather_and_climate",
                             "stacked_area_chart-locate_value-energy_and_environment"
                         ]
                     },
@@ -15427,14 +14869,12 @@
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "stacked_area_chart-describe_trend_or_correlation-economy",
                             "stacked_area_chart-describe_trend_or_correlation-food_and_agriculture",
                             "stacked_area_chart-describe_trend_or_correlation-health",
                             "stacked_area_chart-describe_trend_or_correlation-politics",
                             "stacked_area_chart-describe_trend_or_correlation-education",
                             "stacked_area_chart-describe_trend_or_correlation-innovation",
                             "stacked_area_chart-describe_trend_or_correlation-population_and_demography",
-                            "stacked_area_chart-describe_trend_or_correlation-weather_and_climate",
                             "stacked_area_chart-describe_trend_or_correlation-energy_and_environment"
                         ]
                     },
@@ -15448,10 +14888,7 @@
                             "stacked_area_chart-make_comparisons-health",
                             "stacked_area_chart-make_comparisons-politics",
                             "stacked_area_chart-make_comparisons-education",
-                            "stacked_area_chart-make_comparisons-innovation",
-                            "stacked_area_chart-make_comparisons-population_and_demography",
-                            "stacked_area_chart-make_comparisons-weather_and_climate",
-                            "stacked_area_chart-make_comparisons-energy_and_environment"
+                            "stacked_area_chart-make_comparisons-population_and_demography"
                         ]
                     },
                     {
@@ -15461,9 +14898,7 @@
                             "bubble_chart-retrieve_value-economy",
                             "bubble_chart-retrieve_value-food_and_agriculture",
                             "bubble_chart-retrieve_value-health",
-                            "bubble_chart-retrieve_value-politics",
                             "bubble_chart-retrieve_value-education",
-                            "bubble_chart-retrieve_value-innovation",
                             "bubble_chart-retrieve_value-population_and_demography",
                             "bubble_chart-retrieve_value-weather_and_climate",
                             "bubble_chart-retrieve_value-energy_and_environment"
@@ -15490,8 +14925,6 @@
                         "components": [
                             "bubble_chart-identify_range-economy",
                             "bubble_chart-identify_range-food_and_agriculture",
-                            "bubble_chart-identify_range-health",
-                            "bubble_chart-identify_range-politics",
                             "bubble_chart-identify_range-education",
                             "bubble_chart-identify_range-innovation",
                             "bubble_chart-identify_range-population_and_demography",
@@ -15502,12 +14935,23 @@
                     {
                         "order": "random",
                         "numSamples": 1,
-                        "components": []
+                        "components": [
+                            "bubble_chart_with_outlier-identify_anomalies-economy",
+                            "bubble_chart_with_outlier-identify_anomalies-food_and_agriculture",
+                            "bubble_chart_with_outlier-identify_anomalies-education",
+                            "bubble_chart_with_outlier-identify_anomalies-innovation",
+                            "bubble_chart_with_outlier-identify_anomalies-population_and_demography",
+                            "bubble_chart_with_outlier-identify_anomalies-weather_and_climate",
+                            "bubble_chart_with_outlier-identify_anomalies-energy_and_environment"
+                        ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
-                        "components": []
+                        "components": [
+                            "bubble_chart_with_cluster-identify_clusters-innovation",
+                            "bubble_chart_with_cluster-identify_clusters-population_and_demography"
+                        ]
                     },
                     {
                         "order": "random",
@@ -15518,22 +14962,17 @@
                             "bubble_chart-describe_trend_or_correlation-health",
                             "bubble_chart-describe_trend_or_correlation-politics",
                             "bubble_chart-describe_trend_or_correlation-education",
-                            "bubble_chart-describe_trend_or_correlation-innovation",
-                            "bubble_chart-describe_trend_or_correlation-population_and_demography",
-                            "bubble_chart-describe_trend_or_correlation-weather_and_climate",
-                            "bubble_chart-describe_trend_or_correlation-energy_and_environment"
+                            "bubble_chart-describe_trend_or_correlation-population_and_demography"
                         ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "bubble_chart-make_comparisons-economy",
                             "bubble_chart-make_comparisons-food_and_agriculture",
                             "bubble_chart-make_comparisons-health",
                             "bubble_chart-make_comparisons-politics",
                             "bubble_chart-make_comparisons-education",
-                            "bubble_chart-make_comparisons-innovation",
                             "bubble_chart-make_comparisons-population_and_demography",
                             "bubble_chart-make_comparisons-weather_and_climate",
                             "bubble_chart-make_comparisons-energy_and_environment"
@@ -15549,22 +14988,17 @@
                             "choropleth_map-retrieve_value-politics",
                             "choropleth_map-retrieve_value-education",
                             "choropleth_map-retrieve_value-innovation",
-                            "choropleth_map-retrieve_value-population_and_demography",
-                            "choropleth_map-retrieve_value-weather_and_climate",
-                            "choropleth_map-retrieve_value-energy_and_environment"
+                            "choropleth_map-retrieve_value-weather_and_climate"
                         ]
                     },
                     {
                         "order": "random",
                         "numSamples": 1,
                         "components": [
-                            "choropleth_map-locate_value-economy",
                             "choropleth_map-locate_value-food_and_agriculture",
                             "choropleth_map-locate_value-health",
                             "choropleth_map-locate_value-politics",
                             "choropleth_map-locate_value-education",
-                            "choropleth_map-locate_value-innovation",
-                            "choropleth_map-locate_value-population_and_demography",
                             "choropleth_map-locate_value-weather_and_climate",
                             "choropleth_map-locate_value-energy_and_environment"
                         ]
@@ -15574,12 +15008,10 @@
                         "numSamples": 1,
                         "components": [
                             "choropleth_map-make_comparisons-economy",
-                            "choropleth_map-make_comparisons-food_and_agriculture",
                             "choropleth_map-make_comparisons-health",
                             "choropleth_map-make_comparisons-politics",
                             "choropleth_map-make_comparisons-education",
                             "choropleth_map-make_comparisons-innovation",
-                            "choropleth_map-make_comparisons-population_and_demography",
                             "choropleth_map-make_comparisons-weather_and_climate",
                             "choropleth_map-make_comparisons-energy_and_environment"
                         ]
@@ -15591,12 +15023,8 @@
                             "tree_map-locate_value-economy",
                             "tree_map-locate_value-food_and_agriculture",
                             "tree_map-locate_value-health",
-                            "tree_map-locate_value-politics",
                             "tree_map-locate_value-education",
-                            "tree_map-locate_value-innovation",
-                            "tree_map-locate_value-population_and_demography",
-                            "tree_map-locate_value-weather_and_climate",
-                            "tree_map-locate_value-energy_and_environment"
+                            "tree_map-locate_value-innovation"
                         ]
                     },
                     {
@@ -15608,10 +15036,7 @@
                             "tree_map-retrieve_value-health",
                             "tree_map-retrieve_value-politics",
                             "tree_map-retrieve_value-education",
-                            "tree_map-retrieve_value-innovation",
-                            "tree_map-retrieve_value-population_and_demography",
-                            "tree_map-retrieve_value-weather_and_climate",
-                            "tree_map-retrieve_value-energy_and_environment"
+                            "tree_map-retrieve_value-innovation"
                         ]
                     },
                     {
