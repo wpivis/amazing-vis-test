@@ -86,7 +86,7 @@
                         {
                             "label": "$39.72",
                             "value": "$39.72"
-                        },
+                        }
                          
                     ]
                 }
@@ -134,7 +134,7 @@
                         {
                             "label": "December",
                             "value": "December"
-                        },
+                        }
                          
                     ]
                 }
@@ -182,7 +182,7 @@
                         {
                             "label": "$37.04 - $60.95",
                             "value": "$37.04 - $60.95"
-                        },
+                        }
                          
                     ]
                 }
@@ -226,7 +226,7 @@
                         {
                             "label": "Staying",
                             "value": "Staying"
-                        },
+                        }
                          
                     ]
                 }
@@ -274,7 +274,7 @@
                         {
                             "label": "$45",
                             "value": "$45"
-                        },
+                        }
                          
                     ]
                 }
@@ -322,7 +322,7 @@
                         {
                             "label": "16 Mbps",
                             "value": "16 Mbps"
-                        },
+                        }
                          
                     ]
                 }
@@ -370,7 +370,7 @@
                         {
                             "label": "Vietnam",
                             "value": "Vietnam"
-                        },
+                        }
                          
                     ]
                 }
@@ -418,7 +418,7 @@
                         {
                             "label": "3.4 - 7.8 Mbps",
                             "value": "3.4 - 7.8 Mbps"
-                        },
+                        }
                          
                     ]
                 }
@@ -466,7 +466,7 @@
                         {
                             "label": "8 Countries",
                             "value": "8 Countries"
-                        },
+                        }
                          
                     ]
                 }
@@ -514,7 +514,7 @@
                         {
                             "label": "$35.4",
                             "value": "$35.4"
-                        },
+                        }
                          
                     ]
                 }
@@ -562,7 +562,7 @@
                         {
                             "label": "6 to 10",
                             "value": "6 to 10"
-                        },
+                        }
                          
                     ]
                 }
@@ -610,7 +610,7 @@
                         {
                             "label": "Washington D.C.",
                             "value": "Washington D.C."
-                        },
+                        }
                          
                     ]
                 }
@@ -650,7 +650,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -690,7 +690,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -738,7 +738,7 @@
                         {
                             "label": "62%",
                             "value": "62%"
-                        },
+                        }
                          
                     ]
                 }
@@ -786,7 +786,7 @@
                         {
                             "label": "Postgraduate study",
                             "value": "Postgraduate study"
-                        },
+                        }
                          
                     ]
                 }
@@ -826,7 +826,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -874,7 +874,7 @@
                         {
                             "label": "50%",
                             "value": "50%"
-                        },
+                        }
                          
                     ]
                 }
@@ -922,7 +922,7 @@
                         {
                             "label": "Others",
                             "value": "Others"
-                        },
+                        }
                          
                     ]
                 }
@@ -962,7 +962,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -1010,7 +1010,7 @@
                         {
                             "label": "240",
                             "value": "240"
-                        },
+                        }
                          
                     ]
                 }
@@ -1058,7 +1058,7 @@
                         {
                             "label": "4.8-5.0",
                             "value": "4.8-5.0"
-                        },
+                        }
                          
                     ]
                 }
@@ -1098,7 +1098,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -1146,7 +1146,7 @@
                         {
                             "label": "82.7kg",
                             "value": "82.7kg"
-                        },
+                        }
                          
                     ]
                 }
@@ -1194,7 +1194,7 @@
                         {
                             "label": "200cm",
                             "value": "200cm"
-                        },
+                        }
                          
                     ]
                 }
@@ -1242,7 +1242,7 @@
                         {
                             "label": "53.9 - 123.6kg",
                             "value": "53.9 - 123.6kg"
-                        },
+                        }
                          
                     ]
                 }
@@ -1290,7 +1290,7 @@
                         {
                             "label": "53.9 - 123.6kg",
                             "value": "53.9 - 123.6kg"
-                        },
+                        }
                          
                     ]
                 }
@@ -1309,7 +1309,7 @@
             "instruction": "What is the height for a person who lies outside the others the most?",
             "instructionLocation": "sidebar",
             "type": "image",
-            "path": "VLAT-full-randomized/VLAT7.png",
+            "path": "VLAT-full/VLAT7.png",
             "style": {
                 "width": "800px"
             },
@@ -1337,7 +1337,7 @@
                         {
                             "label": "197.1cm",
                             "value": "197.1cm"
-                        },
+                        }
                          
                     ]
                 }
@@ -1356,7 +1356,7 @@
             "instruction": "A group of males are gathered around the height of 176 cm and the weight of 70 kg.",
             "instructionLocation": "sidebar",
             "type": "image",
-            "path": "VLAT-full-randomized/VLAT7.png",
+            "path": "VLAT-full/VLAT7.png",
             "style": {
                 "width": "800px"
             },
@@ -1376,7 +1376,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -1416,7 +1416,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -1456,7 +1456,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -1504,7 +1504,7 @@
                         {
                             "label": "$5.2",
                             "value": "$5.2"
-                        },
+                        }
                          
                     ]
                 }
@@ -1552,7 +1552,7 @@
                         {
                             "label": "December 2014",
                             "value": "December 2014"
-                        },
+                        }
                          
                     ]
                 }
@@ -1600,7 +1600,7 @@
                         {
                             "label": "$4.6 - $6.1",
                             "value": "$4.6 - $6.1"
-                        },
+                        }
                          
                     ]
                 }
@@ -1644,7 +1644,7 @@
                         {
                             "label": "Staying",
                             "value": "Staying"
-                        },
+                        }
                          
                     ]
                 }
@@ -1692,7 +1692,7 @@
                         {
                             "label": "8000",
                             "value": "8000"
-                        },
+                        }
                          
                     ]
                 }
@@ -1740,7 +1740,7 @@
                         {
                             "label": "1 to 4",
                             "value": "1 to 4"
-                        },
+                        }
                          
                     ]
                 }
@@ -1788,7 +1788,7 @@
                         {
                             "label": "2014",
                             "value": "2014"
-                        },
+                        }
                          
                     ]
                 }
@@ -1832,7 +1832,7 @@
                         {
                             "label": "Staying",
                             "value": "Staying"
-                        },
+                        }
                          
                     ]
                 }
@@ -1872,7 +1872,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -1912,7 +1912,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -1960,7 +1960,7 @@
                         {
                             "label": "560km",
                             "value": "560km"
-                        },
+                        }
                          
                     ]
                 }
@@ -2008,7 +2008,7 @@
                         {
                             "label": "Shanghai",
                             "value": "Shanghai"
-                        },
+                        }
                          
                     ]
                 }
@@ -2056,7 +2056,7 @@
                         {
                             "label": "180 - 560 km",
                             "value": "180 - 560 km"
-                        },
+                        }
                          
                     ]
                 }
@@ -2075,7 +2075,7 @@
             "instruction": "Which city's metro system does lie outside the relationship between the total system length and the number of stations most?",
             "instructionLocation": "sidebar",
             "type": "image",
-            "path": "VLAT-full-randomized/VLAT10.png",
+            "path": "VLAT-full/VLAT10.png",
             "style": {
                 "width": "800px"
             },
@@ -2103,7 +2103,7 @@
                         {
                             "label": "London",
                             "value": "London"
-                        },
+                        }
                          
                     ]
                 }
@@ -2122,7 +2122,7 @@
             "instruction": "A group of the metro systems of the world has approximately 300 stations and around a 200 km system length.",
             "instructionLocation": "sidebar",
             "type": "image",
-            "path": "VLAT-full-randomized/VLAT10.png",
+            "path": "VLAT-full/VLAT10.png",
             "style": {
                 "width": "800px"
             },
@@ -2142,7 +2142,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -2182,7 +2182,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -2222,7 +2222,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -2270,7 +2270,7 @@
                         {
                             "label": "4.6 - 5.7%",
                             "value": "4.6 - 5.7%"
-                        },
+                        }
                          
                     ]
                 }
@@ -2318,7 +2318,7 @@
                         {
                             "label": "New York (NY)",
                             "value": "New York (NY)"
-                        },
+                        }
                          
                     ]
                 }
@@ -2358,7 +2358,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -2406,7 +2406,7 @@
                         {
                             "label": "Google",
                             "value": "Google"
-                        },
+                        }
                          
                     ]
                 }
@@ -2446,7 +2446,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -2465,7 +2465,7 @@
             "instruction": "Samsung is nested in the Financial category.",
             "instructionLocation": "sidebar",
             "type": "image",
-            "path": "VLAT-full-randomized/VLAT12.png",
+            "path": "VLAT-full/VLAT12.png",
             "style": {
                 "width": "800px"
             },
@@ -2485,7 +2485,7 @@
                         {
                             "label": "False",
                             "value": "False"
-                        },
+                        }
                          
                     ]
                 }
@@ -2530,7 +2530,7 @@
                         {
                             "label": "Rocket Science",
                             "value": "Rocket Science"
-                        },
+                        }
                          
                     ]
                 }
@@ -2574,7 +2574,7 @@
                         {
                             "label": "Photography",
                             "value": "Photography"
-                        },
+                        }
                          
                     ]
                 }
@@ -2618,7 +2618,7 @@
                         {
                             "label": "72",
                             "value": "72"
-                        },
+                        }
                          
                     ]
                 }
@@ -2626,65 +2626,70 @@
         }
     },
     "sequence": {
-        "order": "random",
+        "order": "fixed",
         "components": [
             "consent",
-            "q0",
-            "q1",
-            "q2",
-            "q3",
-            "q4",
-            "q5",
-            "q6",
-            "q7",
-            "q8",
-            "q9",
-            "q10",
-            "q11",
-            "q12",
-            "at1",
-            "q13",
-            "q14",
-            "q15",
-            "q16",
-            "q17",
-            "q18",
-            "q19",
-            "q20",
-            "q21",
-            "q22",
-            "q23",
-            "q24",
-            "at2",
-            "q25",
-            "q26",
-            "q27",
-            "q28",
-            "q29",
-            "q30",
-            "q31",
-            "q32",
-            "q33",
-            "q34",
-            "q35",
-            "q36",
-            "at3",
-            "q37",
-            "q38",
-            "q39",
-            "q40",
-            "q41",
-            "q42",
-            "q43",
-            "q44",
-            "q45",
-            "q46",
-            "q47",
-            "q48",
-            "q49",
-            "q50",
-            "q51",
-            "q52"
+            {
+                "order": "random",
+                "components": [
+                    "q0",
+                    "q1",
+                    "q2",
+                    "q3",
+                    "q4",
+                    "q5",
+                    "q6",
+                    "q7",
+                    "q8",
+                    "q9",
+                    "q10",
+                    "q11",
+                    "q12",
+                    "at1",
+                    "q13",
+                    "q14",
+                    "q15",
+                    "q16",
+                    "q17",
+                    "q18",
+                    "q19",
+                    "q20",
+                    "q21",
+                    "q22",
+                    "q23",
+                    "q24",
+                    "at2",
+                    "q25",
+                    "q26",
+                    "q27",
+                    "q28",
+                    "q29",
+                    "q30",
+                    "q31",
+                    "q32",
+                    "q33",
+                    "q34",
+                    "q35",
+                    "q36",
+                    "at3",
+                    "q37",
+                    "q38",
+                    "q39",
+                    "q40",
+                    "q41",
+                    "q42",
+                    "q43",
+                    "q44",
+                    "q45",
+                    "q46",
+                    "q47",
+                    "q48",
+                    "q49",
+                    "q50",
+                    "q51",
+                    "q52"
+                ]
+            }
         ]
     }
 }
