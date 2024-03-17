@@ -14367,7 +14367,7 @@
         "components": [
             "consent",
             {
-                "order": "fixed",
+                "order": "random",
                 "components": [
                     {
                         "order": "random",
