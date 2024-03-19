@@ -1321,6 +1321,7 @@
                     "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
+                    "correctAnswer": "175.3cm",
                     "options": [
                         {
                             "label": "167.4cm",
@@ -1368,6 +1369,7 @@
                     "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
+                    "correctAnswer": "True",
                     "options": [
                         {
                             "label": "True",
@@ -2087,6 +2089,7 @@
                     "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
+                    "correctAnswer": "New York City",
                     "options": [
                         {
                             "label": "Tokyo",
@@ -2134,6 +2137,7 @@
                     "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
+                    "correctAnswer": "False",
                     "options": [
                         {
                             "label": "True",
@@ -2477,6 +2481,7 @@
                     "prompt": "Your answer    ",
                     "required": true,
                     "location": "sidebar",
+                    "correctAnswer": "False",
                     "options": [
                         {
                             "label": "True",
